@@ -1,4 +1,4 @@
-# Virtual Labs Forum
+# Virtual Labs Engineers' Forum
 
 This is the central repository to post all the queries regarding any lab, integration process, 
 problems faced, general questions etc.
