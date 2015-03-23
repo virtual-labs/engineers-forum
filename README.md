@@ -9,7 +9,6 @@ You can even post answers and solutions to issues you have resolved on your own.
 
 Don't forget the golden words: Help thy neighbour!
 
-Lab hosted on Amazon were taken down as we had security breach on Amazon.
 
 
 
