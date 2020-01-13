@@ -6,10 +6,10 @@ labels: On-Boarding
 assignees: ''
 
 ---
-#### Note: Please fill the relevant information and mark the other fields as NA. Please do not remove or leave blank any fields.
 **Request Type**
   - [ ] update existing on-boarding form
 
+#### Note: Please fill the relevant information and mark the other fields as NA. Please do not remove or leave blank any fields.
 ## *Hosting Unit (Lab/Experiment) Details*
 1. **Name** : <!--A unique name to identify this hosting unit. This name will be used in the url of the landing page of this unit.-->
 1. **Repo URL**: <!--URL of a public Repo-->
