@@ -18,12 +18,12 @@ assignees: ''
     1. **Memory**: <512 MB>
     1. **Storage**: <1 GB>
     1. **Network**: <10 MBPS>
-    1. **DB**: <None>
     1. **Anything Else**:
 1. **Software Requirements**
     1. **OS Name and Version**:
     1. **Names and Versions of other software**:
     1. **Browser Plugins or other Software**:
+    1. **DB**: <None>
 1. **Build Command**: <!--Hosting team will use this command to build the sources-->
 
 ## *Repository Owner Details*
