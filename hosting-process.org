@@ -104,7 +104,6 @@
    responsible for ensuring that the hosting unit works as
    expected in their own specific testing environments.
 
-
 * Hosting Process
   Virtual Labs hosting process consists of two steps - 
   1. Request the onboarding of a hosting unit 
@@ -162,7 +161,7 @@
    hosting request.  All communication related to the
    hosting will be recorded on the raised hosting request.
 
-*** Hosting Request Lifecycle
+*** Lifecycle of a Hosting Request
     
     The hosting request will go through the following
     lifecycle:
@@ -190,7 +189,7 @@
     7.  Once the hosting is successful, the requester will
         be responsible for the verification of the hosted
         link.  If the hosting is not as expected, the
-        requester should change the status from *Hosted* to
+        requester should change the label from *Hosted* to
         *Reopened*. The requester will also need to specify
         if he/she would like to revert to the previous
         hosted image.
@@ -199,17 +198,59 @@
         hosting request initially. However, if the requester
         has specifically requested a revert, the previously
         hosted image will be restored and issue will be
-        labeled as *Reverted*.
+        labelled as *Reverted*.
     9.  If the requester wants to revert to any earlier
         branch/tag, a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will need to be
         raised to get the unit hosted.
     10. Requester will be responsible for closing a hosting
         request issue by changing the issue status from Open
         to Closed when the issue is labelled as *Hosted* or
-        *Reopened* or *Reverted* or *Not Approved*
-.  
+        *Reopened* or *Reverted* or *Not Approved*.
 
-* Hosting information 
+*** Labels & Status of a Hosting Request 
+
+    At any given time a hosting issue should be marked with
+    only one of the following labels. To change the label of
+    an issue, the current label of the issue should be
+    unchecked and the new label should be checked.
+
+    Hosted :  This label indicates that the hosting request
+    has been successful and the hosted url has been shared
+    in the hosting request issue. This label is used only by
+    the hosting team. 
+   
+    Failed : This label indicates that the hosting request
+    has not been successful. This label is used only by the
+    hosting team.
+
+    Reopened : This label is used by the requester to
+    indicate that the hosting url provided on a successful
+    hosting of the hosting unit is not passing the validation.
+   
+    Not Approved : This label indicates that the hosting
+    request issue raised by the requester was not approved
+    by the Repository Owner.  This label is used only by the
+    hosting team.
+    
+    Reverted :  This label indicates that the hosting request
+    has been successfully revert to the previous hosted
+    image. This label is used only by
+    the hosting team. 
+    
+    Apart from the above mentioned labels a hosting request
+    issue can either be in a closed or open status as
+    provided by GitHub. 
+
+    Open : This status indicates that a new hosting request
+    issue has been raised and is waiting for the services of
+    the hosting team. All issues are in this status when
+    they are created on GitHub.
+
+    Closed : This status indicates that a hosting request
+    has been serviced by the hosting team and is labelled as
+    *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
+
+* Central Hosting Data  
   The following information will be stored at a central
   place for a quick reference by the hosting team:
     1. Hosting unit name
@@ -247,7 +288,7 @@ The flow diagram depicting lifecycle of a hosting request is below:
   |      5. | Seeking approval of the repository owner      | Hosting team     |
   |         | if the request is raised by someone other     |                  |
   |         | than the repository owner.                    |                  |
-  |         | Labeling the hosting request issue as         |                  |
+  |         | Labelling the hosting request issue as        |                  |
   |         | *Not Approved* if the request is not          |                  |
   |         | approved by the repository owner              |                  |
   |---------+-----------------------------------------------+------------------|
@@ -257,26 +298,34 @@ The flow diagram depicting lifecycle of a hosting request is below:
   |      7. | Running the hosting process                   | Hosting team     |
   |---------+-----------------------------------------------+------------------|
   |      8. | Providing the hosted link to the              | Hosting team     |
-  |         | requester  and labeling the hosting           |                  |
+  |         | requester  and labelling the hosting          |                  |
   |         | request issue to *Hosted*                     |                  |
   |---------+-----------------------------------------------+------------------|
   |      9. | Providing the causes/nature  of failure       | Hosting team     |
-  |         | and labeling the hosting request issue to     |                  |
+  |         | and labelling the hosting request issue to    |                  |
   |         | *Failed*                                      |                  |
   |---------+-----------------------------------------------+------------------|
   |     10. | Validating the hosted code                    | Requester        |
   |---------+-----------------------------------------------+------------------|
-  |     11. | Labeling the hosting request issue as         | Requester        |
+  |     11. | Labelling the hosting request issue as        | Requester        |
   |         | *Reopened* if validation is unsuccessful      |                  |
   |---------+-----------------------------------------------+------------------|
   |     12. | Reverting the hosting unit to previous hosted | Hosting team     |
   |         | image if validation fails and                 |                  |
-  |         | labeling the issue as *Reverted*              |                  |
+  |         | labelling the issue as *Reverted*             |                  |
   |---------+-----------------------------------------------+------------------|
   |     13. | Changing the status to *Closed* if the        | Requester        |
   |         | request is labelled *Hosted* or *Reverted*    |                  |
   |         | or *Not Approved* or *Failed*                 |                  |
   |---------+-----------------------------------------------+------------------|
+
+* Conclusion 
+  This document highlights the hosting process of Virtual
+  Labs from on-boarding to hosting. It aims at collaborating
+  contributions of the developers across the open source
+  platform - GitHub. This streamlined process would help in
+  our strive for excellence in delivering high standard
+  labs.
 
 * Glossary
   - *Repository* : The distributed version control system - git is
@@ -286,8 +335,9 @@ The flow diagram depicting lifecycle of a hosting request is below:
     directory structure. The whole set of information in the
     repository may be duplicated on every user's system or may be
     maintained on a single server.
-  - *Virtual Labs* : Virtual Labs is an initiative by MHRD under
-    NMEICT. The objective is to make engineering education engaging,
-    enjoyable, immersive and online.
-  - *Hosting team*: IIITH experiment hosting team which provides
-    vlabs hosting service
+  - *Virtual Labs* : Virtual Labs is an initiative by MHRD
+    under NMEICT. The objective of this project is to make
+    engineering education engaging, enjoyable, immersive and
+    online.
+  - *Hosting team*: VLEAD at IIITH which provides Virtual
+    Labs hosting service
