@@ -1,19 +1,19 @@
 ---
-name: On-Boarding Request
-about: This issue contains an on-boarding request for a new set of experiments.
-title: On Boarding Request for <Hosting Unit Name>
-labels: On-Boarding
+name: Phase III On-Boarding Request
+about: This issue contains a new on-boarding request for a new set of Phase III experiments.
+  This issue type is exclusively applicable for Phase III experiments.
+title: ''
+labels: On-Boarding, Phase-3
 assignees: ''
 
 ---
 
-**Request Type**
-  - [ ] update existing hosting requirements
-
 #### Note: Please fill the relevant information and mark the other fields as NA. Please do not remove or leave blank any fields.
 ## *Hosting Unit (Lab/Experiment) Details*
 1. **Name** : <!--A unique name to identify this hosting unit. This name will be used in the url of the landing page of this unit.-->
-1. **Repo URL**: <!--URL of a public Repo-->
+1. **List of Experiments and their Repositories**: <!--URL of a public Repo-->
+| Sr.No.| Experiment Name | Experiment Repo |
+
 1. **Hardware Requirements**: Please change the defaults if needed.
     1. **CPU**: <1 core 2.4GHz>
     1. **Memory**: <512 MB>
