@@ -116,6 +116,8 @@
   engineers-forum. The issue will need to filled with the
   following pieces of information :
   
+  On-Boarding Request - 
+
   1. A non-conflicting name for the hosting unit.
   2. Repository URL for the hosting unit.
   3. A designated repository owner with the following details:
@@ -134,7 +136,7 @@
      b. Any additional software packages with minimum compatile versions
      c. Browser plugins required to view experiment
      d. DB
-
+  
   Repository owner will be reponsible for keeping the above
   information current and intimating the hosting team of any
   updates/changes as and when needed.
@@ -143,7 +145,6 @@
   information at a central location and making it available
   for all stakeholders.
  
-
 ** Hosting Process of hosting unit
    A repository owner/developer (requester ) will have to
    raise an issue of type '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' in the GitHub
@@ -151,6 +152,196 @@
    organisation for hosting of a hosting unit. The issue
    will need to filled with the following pieces of
    information :
+  
+   1. Repository URL
+   2. Branch/Tag to be deployed
+   3. Contact details of the repository owner
+   
+   A hosting request will be tied to this information.
+   This issue will be a single source of truth for that
+   hosting request.  All communication related to the
+   hosting will be recorded on the raised hosting request.
+
+*** Lifecycle of a Hosting Request
+    
+    The hosting request will go through the following
+    lifecycle:
+
+    1.  Requester will raise a hosting request issue by duly
+        filling in the details in the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'.
+    2.  If requester is not the repository owner, the
+        hosting team will seek approval from the repository
+        owner. This will be through the above created GitHub
+        hosting request issue.
+    3.  The hosting team will honour the hosting request
+        only on receiving the approval from repository
+        owner else will label the hosting request issue 
+        as *Not Approved* 
+    4.  On a successful hosting, the hosting team will add
+        the link of the newly hosted content to the hosting
+        request issue. They will also label the issue as
+        *Hosted*.
+    5.  However, on failure ( because of missing or
+        incorrect information or repository problems,), the
+        hosting team will label the issue as *Failed*.
+    6.  The requester will be responsible for fixing the
+        failed hosting bug and will need to raise a new
+        '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' to get the unit hosted.
+    7.  Once the hosting is successful, the requester will
+        be responsible for the verification of the hosted
+        link.  If the hosting is not as expected, the
+        requester should change the label from *Hosted* to
+        *Reopened*. The requester will also need to specify
+        if he/she would like to revert to the previous
+        hosted image.
+    8.  An issue with *Reopened* label will by default host
+        the repository and branch/tag as specified in the
+        hosting request initially. However, if the requester
+        has specifically requested a revert, the previously
+        hosted image will be restored and issue will be
+        labelled as *Reverted*.
+    9.  If the requester wants to revert to any earlier
+        branch/tag, a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will need to be
+        raised to get the unit hosted.
+    10. Requester will be responsible for closing a hosting
+        request issue by changing the issue status from Open
+        to Closed when the issue is labelled as *Hosted* or
+        *Reopened* or *Reverted* or *Not Approved*.
+
+*** Labels & Status of a Hosting Request 
+
+    At any given time a hosting issue should be marked with
+    only one of the following labels. To change the label of
+    an issue, the current label of the issue should be
+    unchecked and the new label should be checked.
+
+    Hosted :  This label indicates that the hosting request
+    has been successful and the hosted url has been shared
+    in the hosting request issue. This label is used only by
+    the hosting team. 
+   
+    Failed : This label indicates that the hosting request
+    has not been successful. This label is used only by the
+    hosting team.
+
+    Reopened : This label is used by the requester to
+    indicate that the hosting url provided on a successful
+    hosting of the hosting unit is not passing the validation.
+   
+    Not Approved : This label indicates that the hosting
+    request issue raised by the requester was not approved
+    by the Repository Owner.  This label is used only by the
+    hosting team.
+    
+    Reverted :  This label indicates that the hosting request
+    has been successfully revert to the previous hosted
+    image. This label is used only by
+    the hosting team. 
+    
+    Apart from the above mentioned labels a hosting request
+    issue can either be in a closed or open status as
+    provided by GitHub. 
+
+    Open : This status indicates that a new hosting request
+    issue has been raised and is waiting for the services of
+    the hosting team. All issues are in this status when
+    they are created on GitHub.
+
+    Closed : This status indicates that a hosting request
+    has been serviced by the hosting team and is labelled as
+    *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
+
+* Hosting Process for Phase III Experiment/Labs 
+  Keeping the deliverables/due date and the current hosting
+  model in mind, the following process will need to be
+  followed for getting a Lab hosted on AWS during the Phase
+  III of the Virtual Labs project ( ending on March 31st
+  2020).  
+
+  VLEAD proposes the following process for the hosting of
+  labs which have been developed with each experiment having
+  its own repository. 
+     
+  - Step 1 :: IIT B will need to raise an on-boarding
+              request for each lab to be hosted. This
+              onboarding request of type Phase III
+              On-Boarding Request and will contain
+              placeholders for the lab repository Name and
+              experiments names and their corresponding
+              repositories.  This will need to be filled by
+              IITB.
+      
+  - Step 2 :: As a response to this request, VLEAD will
+              create a lab repository, host all the
+              experiments and populate the lab repo with the
+              list of experiments and their hosted
+              urls. This lab repository will be shared with
+              IITB as a response to the on-boarding request.
+
+  - Step 3 :: IIT B will need to populate the lab repository
+              with the common lab information -
+              Introduction, Objective, Target Audience and
+              Course Alignment. These files will be present
+              in the lab repository and IITB will only need
+              to add the content to the respective
+              files. Once this is done IITB will need to
+              raise a Hosting Request.
+ 
+  - Step 4 :: On receiving the hosting request, VLEAD will
+              host the lab and share the hosted lab link.
+ 
+** On-Boarding process of Lab  
+   Each Phase III lab that needs to be hosted by the Virtual
+   Labs hosting team, must follow an onboarding process. The
+   repository owner of the lab will need to raise an issue
+   of type '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Phase III on-boarding request]]' in the
+   engineers-forum. The issue will need to filled with the
+   following pieces of information :
+
+   Phase 3 On-Boarding Request - This request is filled for
+   only Phase 3 labs to be delivered by March 2020.
+
+  1. A non-conflicting name for the lab to be hosted.
+  2. List of experiments in the lab and their corresponding
+     repository link
+  3. A designated repository owner with the following
+     details: 
+       a. Repository owner name 
+       b. Repository owner github id 
+       c. Repository owner email address
+       d. Repository owner phone
+  4. Hardware specification including:
+       a. CPU
+       b. Memory
+       c. Network bandwidth
+  5. Software environment specification including:
+       a. Host operating system with minimum compatible version
+       b. Any additional software packages with minimum compatile versions
+       c. Browser plugins required to view experiment
+       d. DB
+  
+  Repository owner will be reponsible for keeping the above
+  information current and intimating the hosting team of any
+  updates/changes as and when needed.
+
+  The hosting team on receiving this request, will create a
+  lab repository and share it with the requester. The
+  hosting team will also be responsible for hosting the
+  individual experiments and 
+
+  The hosting team will be responsible for storing the this
+  information at a central location and making it available
+  for all stakeholders.
+  
+** Hosting Process of Lab
+   Once the Lab repository is populated with relavant lab
+   information namely Introduction, Objective, Target
+   Audience and Course Alignment , a repository
+   owner/developer (requester ) will have to raise an issue
+   of type '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' in the GitHub repository
+   [[https://github.com/virtual-labs/engineers-forum][engineers-forum]] under Virtual-Labs organisation for
+   hosting of a lab. The issue will need to filled with the
+   following pieces of information :
   
    1. Repository URL
    2. Branch/Tag to be deployed
