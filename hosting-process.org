@@ -140,6 +140,10 @@
   Repository owner will be reponsible for keeping the above
   information current and intimating the hosting team of any
   updates/changes as and when needed.
+   
+  On receipt of an onboarding request the hosting team will
+  verify the data and acknowledge the same as part of the
+  request. 
 
   The hosting team will be responsible for storing the this
   information at a central location and making it available
@@ -169,41 +173,47 @@
 
     1.  Requester will raise a hosting request issue by duly
         filling in the details in the '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]'.
-    2.  If requester is not the repository owner, the
+    2.  The hosting team will attach the url of the
+        corresponding onboarding request to the hosting
+        request. If the onboarding request is not found ( by
+        searching on the repo url), then the hosting team
+        will add its findings and label the issue as
+        *Failed*.
+    3.  If requester is not the repository owner, the
         hosting team will seek approval from the repository
         owner. This will be through the above created GitHub
         hosting request issue.
-    3.  The hosting team will honour the hosting request
+    4.  The hosting team will honour the hosting request
         only on receiving the approval from repository
         owner else will label the hosting request issue 
         as *Not Approved* 
-    4.  On a successful hosting, the hosting team will add
+    5.  On a successful hosting, the hosting team will add
         the link of the newly hosted content to the hosting
         request issue. They will also label the issue as
         *Hosted*.
-    5.  However, on failure ( because of missing or
+    6.  However, on failure ( because of missing or
         incorrect information or repository problems,), the
         hosting team will label the issue as *Failed*.
-    6.  The requester will be responsible for fixing the
+    7.  The requester will be responsible for fixing the
         failed hosting bug and will need to raise a new
         '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' to get the unit hosted.
-    7.  Once the hosting is successful, the requester will
+    8.  Once the hosting is successful, the requester will
         be responsible for the verification of the hosted
         link.  If the hosting is not as expected, the
         requester should change the label from *Hosted* to
         *Reopened*. The requester will also need to specify
         if he/she would like to revert to the previous
         hosted image.
-    8.  An issue with *Reopened* label will by default host
+    9.  An issue with *Reopened* label will by default host
         the repository and branch/tag as specified in the
         hosting request initially. However, if the requester
         has specifically requested a revert, the previously
         hosted image will be restored and issue will be
         labelled as *Reverted*.
-    9.  If the requester wants to revert to any earlier
+    10.  If the requester wants to revert to any earlier
         branch/tag, a new '[[https://github.com/virtual-labs/engineers-forum/issues/new/choose][hosting request]]' will need to be
         raised to get the unit hosted.
-    10. Requester will be responsible for closing a hosting
+    11. Requester will be responsible for closing a hosting
         request issue by changing the issue status from Open
         to Closed when the issue is labelled as *Hosted* or
         *Reopened* or *Reverted* or *Not Approved*.
