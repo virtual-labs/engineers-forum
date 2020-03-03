@@ -12,7 +12,7 @@ assignees: ''
 
 #### Note: Please fill the relevant information and mark the other fields as NA. Please do not remove or leave blank any fields.
 ## *Hosting Unit (Lab/Experiment) Details*
-1. **Name** : <!--A unique name to identify this hosting unit. This name will be used in the url of the landing page of this unit.-->
+1. **Name of Respository** : <!--A unique name to identify this hosting unit. This name will be used in the url of the landing page of this unit.-->
 1. **Repo URL**: <!--URL of a public Repo-->
 1. **Hardware Requirements**: Please change the defaults if needed.
     1. **CPU**: <1 core 2.4GHz>
