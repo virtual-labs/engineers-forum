@@ -266,40 +266,59 @@
   model in mind, the following process will need to be
   followed for getting a Lab hosted on AWS during the Phase
   III of the Virtual Labs project ( ending on March 31st
-  2020).  
+  2020). This is as per many discussions with IITB and the
+  [[https://drive.google.com/open?id=1-ndJYbxXucCRkpL_JktI_46tUG5CJ9Dw][meeting]] on [2020-03-03 Tue].
 
-  VLEAD proposes the following process for the hosting of
-  labs which have been developed with each experiment having
-  its own repository. 
-     
-  - Step 1 :: IIT B will need to raise an on-boarding
-              request for each lab to be hosted. This
-              onboarding request of type Phase III
-              On-Boarding Request and will contain
-              placeholders for the lab repository Name and
-              experiments names and their corresponding
-              repositories.  This will need to be filled by
-              IITB.
-      
-  - Step 2 :: As a response to this request, VLEAD will
-              create a lab repository, host all the
-              experiments and populate the lab repo with the
-              list of experiments and their hosted
-              urls. This lab repository will be shared with
-              IITB as a response to the on-boarding request.
+  VLEAD and IITB will follow the process detailed below for
+  the hosting of labs which have been developed with each
+  experiment having its own repository.
 
-  - Step 3 :: IIT B will need to populate the lab repository
-              with the common lab information -
-              Introduction, Objective, Target Audience and
-              Course Alignment. These files will be present
-              in the lab repository and IITB will only need
-              to add the content to the respective
-              files. Once this is done IITB will need to
-              raise a Hosting Request.
- 
-  - Step 4 :: On receiving the hosting request, VLEAD will
-              host the lab and share the hosted lab link.
- 
+  - Step 1 :: IIITH will create lab repos for all the labs
+              that are ready ( marked in green) in the
+              200224_Deliverable_Status_Phase3 sheet shared
+              by IITB and also populate the lab urls in the
+              sheet.
+
+  - Step 2 :: IITB will raise an issue of type Phase 3
+              Onboarding [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]] and fill the lab name and
+              lab url ( as populated in the excel sheet by
+              IIITH) and attach the R0 of the lab.
+
+  - Step 3 :: IIITH will tag the head of the master branch
+              of all the experiments in that lab as
+              mentioned in the
+              200224_Deliverable_Status_Phase3 as v1.0.0
+
+  - Step 4 :: IIITH will populate the received Phase 3
+              Onboarding  [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]] with experiment details (
+              name, url, tag, branch and build command) and
+              Owner details and request for approval from
+              IITB . It will be assumed by IIITH that no
+              special hardware or software is required for
+              the running of the experiments.  IITB will
+              have to specially state if this is not the
+              case.
+
+  - Step 5 :: IITB will validate the above data and approve
+              the same on the received Phase 3 Onboarding
+              [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]] .
+
+  - Step 6 :: On approval from IITB , IIITH will populate
+              the lab landing page information
+              (Introduction, Objective, List of experiments,
+              target audience, course alignment ) from the
+              R0 shared by IITB in the Phase 3 Onboarding
+              [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]].
+
+  - Step 7 :: IIITH will host the lab and share the hosted
+              url link as part of the onboarding request
+              issue and seek approval from the github handle
+              of the owner of the lab ( as recorded in the
+              onboarding request)
+
+  - Step 8 :: On approval from the Lab owner, IIITH will
+              share the link with IIT Delhi.
+
 ** On-Boarding process of Lab  
    Each Phase III lab that needs to be hosted by the Virtual
    Labs hosting team, must follow an onboarding process. The
