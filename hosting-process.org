@@ -273,8 +273,8 @@
   the hosting of labs which have been developed with each
   experiment having its own repository.
 
-  - Step 1 :: IIITH will create lab repos for all the labs
-              that are ready ( marked in green) in the
+  - Step 1 :: IIITH will create lab repo for the lab
+              that is ready ( marked in green) in the
               200224_Deliverable_Status_Phase3 sheet shared
               by IITB and also populate the lab urls in the
               sheet.
@@ -303,9 +303,9 @@
               the same on the received Phase 3 Onboarding
               [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]] .
 
-  - Step 6 :: On approval from IITB , IIITH will populate
-              the lab landing page information
-              (Introduction, Objective, List of experiments,
+  - Step 6 :: On approval from IITB , IIITH will host all the 
+              experiments and populate the lab landing page 
+              information (Introduction, Objective, List of experiments,
               target audience, course alignment ) from the
               R0 shared by IITB in the Phase 3 Onboarding
               [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]].
