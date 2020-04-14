@@ -35,15 +35,47 @@
   facilitate reporting.
 * Audience
   The target audience for this document is the hosting team
-  at VLEAD, IIITH and all the lab authors and owners who
-  want to avail the hosting service provided by VLEAD, IIITH
-  team.
+  at CPE, IIITH and all the lab authors and owners who want
+  to avail the hosting service provided by Central Platform
+  Engineering Team (CPE), IIITH team.
 * Definitions and Pre-requisites
-  Vlabs hosting process will require certain prerequisites
-  to be met by the experiments that need to be hosted. The
-  following paragraphs define terminologies used during the
-  hosting process.
+  Virtual Labs hosting process will require certain
+  prerequisites to be met by the experiments that need to be
+  hosted. The following paragraphs define terminologies used
+  during the hosting process.
 
+** Hosting
+
+   Hosting is a service provided by the Central Platform
+   Engineering (CPE) which includes the following:
+
+   1. Providing infrastructure including all dependencies
+      required to run the Lab/Experiments as specified in
+      the Onboarding request of the hosting unit.
+   2. Ensuring round the clock availability of the
+      Lab/Experiments.
+   3. Ensuring that a minimum acceptable performance
+      criteria are met by the Lab/Experiments.
+
+   Following are not part of the hosting service:
+
+   1. Testing: The deployable code is a black box for the
+      CPE team. The CPE team is not responsible for testing
+      the deployments. The developer/owner of the
+      Lab/Experiment is responsible for confirming that the
+      Lab/Experiments are deployed and functioning as
+      intended. This confirmation is part of the hosting
+      process.
+   2. Implementation: The CPE team is not responsible for
+      any bug fixes or enhancements or implementation on the
+      Lab/Experiment. The developers should ensure that
+      their product is complete and functional before
+      raising a hosting request.
+   3. Approvals: The CPE team does not provide any approvals
+      regarding the completeness of the Lab/Experiment. The
+      developers are expected to have sought the necessary
+      approvals regarding completeness of the Lab/Experiment
+      before raising a hosting request.
 ** Hosting Unit
    Hosting unit is the code base/repository that will hosted
    in its enirety during the hosting process.  It will not
@@ -121,10 +153,8 @@
   1. A non-conflicting name for the hosting unit.
   2. Repository URL for the hosting unit.
   3. A designated repository owner with the following details:
-     a. Repository owner name
      b. Repository owner github id
      c. Repository owner email address
-     d. Repository owner phone
   4. The build command for the hosting unit along with the
      link to the build process documentation.
   5. Hardware specification including:
@@ -158,8 +188,10 @@
    information :
   
    1. Repository URL
-   2. Branch/Tag to be deployed
-   3. Contact details of the repository owner
+   2. Branch to be deployed
+   3. Tag to be deployed
+   4. Contact email address and github handle to be used in
+      cases of clarifications
    
    A hosting request will be tied to this information.
    This issue will be a single source of truth for that
@@ -225,25 +257,25 @@
     an issue, the current label of the issue should be
     unchecked and the new label should be checked.
 
-    Hosted :  This label indicates that the hosting request
+    *Hosted* :  This label indicates that the hosting request
     has been successful and the hosted url has been shared
     in the hosting request issue. This label is used only by
     the hosting team. 
    
-    Failed : This label indicates that the hosting request
+    *Failed* : This label indicates that the hosting request
     has not been successful. This label is used only by the
     hosting team.
 
-    Reopened : This label is used by the requester to
+    *Reopened* : This label is used by the requester to
     indicate that the hosting url provided on a successful
     hosting of the hosting unit is not passing the validation.
    
-    Not Approved : This label indicates that the hosting
+    *Not Approved* : This label indicates that the hosting
     request issue raised by the requester was not approved
     by the Repository Owner.  This label is used only by the
     hosting team.
     
-    Reverted :  This label indicates that the hosting request
+    *Reverted* :  This label indicates that the hosting request
     has been successfully revert to the previous hosted
     image. This label is used only by
     the hosting team. 
@@ -252,12 +284,12 @@
     issue can either be in a closed or open status as
     provided by GitHub. 
 
-    Open : This status indicates that a new hosting request
+    *Open* : This status indicates that a new hosting request
     issue has been raised and is waiting for the services of
     the hosting team. All issues are in this status when
     they are created on GitHub.
 
-    Closed : This status indicates that a hosting request
+    *Closed* : This status indicates that a hosting request
     has been serviced by the hosting team and is labelled as
     *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
 
@@ -328,6 +360,8 @@
     4. Previously hosted Branch/Tag
     5. Date/Time of hosting
 
+    Please follow the [[https://drive.google.com/open?id=1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc][link]] for the Central Hosting Data.
+
 * Flow Diagram of the Hosting Process
 
 The flow diagram depicting lifecycle of a hosting request is below:
@@ -387,6 +421,72 @@ The flow diagram depicting lifecycle of a hosting request is below:
   |         | request is labelled *Hosted* or *Reverted*    |                  |
   |         | or *Not Approved* or *Failed*                 |                  |
   |---------+-----------------------------------------------+------------------|
+
+* FAQ
+  
+  *Why should I use the Hosting Service?* 
+
+  To get more for nothing. Hosting Service provides you a
+  high-availability, high-performance deployment
+  environment. You do not have to spend time, money, people
+  or other resources to ensure that your website is
+  available to your target audience. You can also take
+  advantage of other services, like Analytics, provided by
+  the Central Platform Engineering team and monitor multiple
+  statistics about the users and usage patterns of your Lab.
+
+  *Do I get better website performance if I use Hosting Service?*
+   
+  Almost all the time. The CPE team works continuously to
+  improve the overall and individual Lab/Experiment
+  performance based on the Analytics data. You can compare
+  the performance of the Labs/Experiments deployed through
+  the hosting service to those deployed elsewhere. If you
+  use the Analytics service integration, the CPE team can
+  individually target your Lab/Experiment for better
+  performance.
+
+  *Does the CPE team help me improve my Lab performance?*
+ 
+   Yes. The CPE team continuously works to improve the
+  infrastructure in order to achieve best performance
+  results for your Lab. The CPE team does not improve your
+  code, however, it can provide you guidelines and
+  actionable performance improvement advice.
+
+  *Does Hosting Service add a UI to my webpages?*
+ 
+   No. Hosting service does not alter your code in any
+  way. As the developer, you are responsible for ensuring
+  that your Lab/Experiment is complete in all respects
+  before you request it to be hosted. Hosting service is
+  strictly limited to its stated objectives.
+
+  *How can I get Analytics for my experiments?*
+
+  By working with the CPE team. Analytics service is another
+  service provided by the CPE team. You can work with the
+  CPE team to integrate Analytics service into your
+  Labs. You can also get access to customized
+  dashboards/reports in order to monitor multiple statistics
+  about the users and usage patterns of your Lab.
+
+  *Does the CPE team test my Lab for correctness as part of
+  hosting?* 
+
+  No. It is not possible for the CPE team to test your Lab
+  because only you understand the right definition of
+  correctness for your Lab/Experiment. As part of hosting,
+  the CPE team ensures that your Lab is up and
+  accessible. You are responsible for ensuring the
+  completeness and correctness of your code and deployment.
+
+  *Will the CPE team tell me about broken links as part of
+  hosting?*
+
+  No. Your code is a complete blackbox for the CPE team. You
+  are responsible for ensuring the completeness and
+  correctness of your code and deployment.
 
 * Conclusion 
   This document highlights the hosting process of Virtual
