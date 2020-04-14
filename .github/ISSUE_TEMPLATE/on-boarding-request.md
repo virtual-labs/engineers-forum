@@ -28,10 +28,8 @@ assignees: ''
 1. **Build Command**: <!--Hosting team will use this command to build the sources-->
 
 ## *Repository Owner Details*
-1. **Name**:
 1. **GitHub Id**:
 1. **Email**:
-1. **Phone**:
 
 ## *Other Details*
  <!--Any there relevant details that the hosting team should be aware of-->
