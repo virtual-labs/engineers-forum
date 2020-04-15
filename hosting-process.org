@@ -153,8 +153,8 @@
   1. A non-conflicting name for the hosting unit.
   2. Repository URL for the hosting unit.
   3. A designated repository owner with the following details:
-     b. Repository owner github id
-     c. Repository owner email address
+     a. Repository owner github id
+     b. Repository owner email address
   4. The build command for the hosting unit along with the
      link to the build process documentation.
   5. Hardware specification including:
