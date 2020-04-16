@@ -13,8 +13,8 @@ Use this to request hosting of an already registered lab or experiment.   If the
 
 ####  Both fields are mandatory.
 
-1. **URL of Registration request issue** <!-- search
+1. **Registration request (url)**: <!-- search
    https://github.com/virtual-labs/engineers-forum/issues to
-   get the url of the issue -->
+   find the issue.  -->
 
 2. **Tag**: <!-- of the sources repository that you need built and hosted. -->
