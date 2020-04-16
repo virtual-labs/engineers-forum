@@ -1,6 +1,6 @@
 ---
 name: Phase III Registration Request
-about: Register an experiment or a set of experiment of phase III
+about: Register an experiment or a set of experiments of phase III
   This issue type is exclusively applicable for Phase III experiments.
 title: ''
 labels: Registration, Phase-3
