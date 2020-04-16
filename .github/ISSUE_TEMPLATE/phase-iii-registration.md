@@ -1,9 +1,9 @@
 ---
-name: Phase III On-Boarding Request
-about: This issue contains a new on-boarding request for a new set of Phase III experiments.
+name: Phase III Registration Request
+about: This issue contains a new registration request for a new set of Phase III experiments.
   This issue type is exclusively applicable for Phase III experiments.
 title: ''
-labels: On-Boarding, Phase-3
+labels: Registration, Phase-3
 assignees: ''
 
 ---

@@ -1,8 +1,8 @@
 ---
-name: On-Boarding Request
-about: This issue contains an on-boarding request for a new set of experiments.
+name: Registration Request
+about: This issue contains an registration request for a new set of experiments.
 title: On Boarding Request for <Hosting Unit Name>
-labels: On-Boarding
+labels: Registration
 assignees: ''
 
 ---
