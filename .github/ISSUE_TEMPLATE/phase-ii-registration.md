@@ -1,6 +1,6 @@
 ---
 name: Registration Request
-about: Register an experiment or a lab
+about: Register a lab of phase II
 title: Registration Request for <Hosting Unit Name>
 labels: Registration
 assignees: ''
