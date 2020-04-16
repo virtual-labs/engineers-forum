@@ -1,5 +1,5 @@
 ---
-name: Phase II Registration Request
+name: Phase II Lab Registration Request
 about: Register a lab of phase II
 title: Registration Request for <Hosting Unit Name>
 labels: Registration
