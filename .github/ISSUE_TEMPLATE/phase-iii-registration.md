@@ -1,5 +1,5 @@
 ---
-name: Phase III Experiment(s) Registration Request
+name: Phase III Lab/Experiment(s) Registration Request
 about: Register an experiment or a set of experiments of phase III
   This issue type is exclusively applicable for Phase III experiments.
 title: ''
