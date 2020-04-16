@@ -1,7 +1,7 @@
 ---
 name: Registration Request
 about: This issue contains an registration request for a new set of experiments.
-title: On Boarding Request for <Hosting Unit Name>
+title: Registration Request for <Hosting Unit Name>
 labels: Registration
 assignees: ''
 
