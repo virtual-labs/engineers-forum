@@ -16,6 +16,5 @@ request.*
 
 #### Note: All of the following request parameters are mandatory. Please do not remove or leave blank any fields.
 
-1. **Hosting Unit(Lab/Experiment) Name** :
-1. **Registration URL**: <!--URL of the registration request-->
+1. **Hosting Unit(Lab/Experiment) URL** :
 1. **Tag to be deployed**: <!--Tag of the hosting repo to be deployed. -->
