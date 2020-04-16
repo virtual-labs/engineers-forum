@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-## *Hosting Details*
-*The Request is taken up to deploy an already registered lab
-or an experiment.  If the lab or experiment is not
-registered, please do that by raising a registration
-request.*
+## *Hosting Request*
+Use this to request hosting of an already registered lab or experiment.   If the lab or experiment is not registered, please do that by raising a registration request.
 
 
-#### Note: All of the following request parameters are mandatory. Please do not remove or leave blank any fields.
+####  Both fields are mandatory.
 
-1. **Hosting Unit(Lab/Experiment) URL** :
-1. **Tag to be deployed**: <!--Tag of the hosting repo to be deployed. -->
+1. **URL of Registration request issue** <!-- search
+   https://github.com/virtual-labs/engineers-forum/issues to
+   get the url of the issue -->
+
+2. **Tag**: <!-- of the sources repository that you need built and hosted. -->

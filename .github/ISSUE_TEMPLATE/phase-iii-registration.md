@@ -8,8 +8,9 @@ assignees: ''
 
 ---
 
-#### Note: Please fill the relevant information and mark the other fields as NA. Please do not remove or leave blank any fields.
-## *Hosting Unit (Lab/Experiment) Details*
-1. **Repo URL**: <!--URL of a public Repo-->
-1. **List of Experiments and their Repositories**: <!--URL of a public Repo-->
-| Sr.No.| Experiment Name | Experiment Repo |
+## *Lab Registration Request*
+
+1. **Lab Repository**: <!-- url of the lab repository, which must be public -->
+
+1. **List of Experiments and Repositories**: <!-- repositories must be public -->
+| No.| Experiment Name | Experiment repository URL |
