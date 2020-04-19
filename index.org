@@ -5,17 +5,22 @@
 
 * Virtual Labs Hosting Community
 ** Virtual-Labs community
-The community of virtual labs are organized under the
-Github oganization called `[[https://github.com/virtual-labs][virtual-labs]]'.   
+[[https://vlab.co.in][Virtual Labs]] is a collection of online experiments in
+science and engineering.  It is currently being funded by
+the Govt. of India's Ministry of Human Resources and
+Development.  
+
+The labs are built by a large community of developers
+organized under the Github oganization `[[https://github.com/virtual-labs][virtual-labs]]'.
 
 ** How do I become part of the virtual labs community?
 
-Currently, we are only hosting labs that have been developed
-by the virtual labs development process being maintained at
-[[http://vlabs.iitb.ac.in/vlab/][IIT Bombay]].  
+Currently, only labs that have been developed using the
+virtual labs development process being maintained at [[http://vlabs.iitb.ac.in/vlab/][IIT
+Bombay]].
 
 If you wish to be part of the development community, please
-contact the virtual labs outreach division (TODO:  add link)
+contact the virtual labs outreach (TODO: add link)
 
 ** The Engineer's Forum
 The [[https://github.com/virtual-labs/engineers-forum][engineers-forum]] is a project under the [[https://github.com/virtual-labs][virtual-labs]]
@@ -35,9 +40,9 @@ the following
 
   3. The profile should include an email. 
 
-  4. The first time you register an experiment, you may
-     receive an email asking you to confirm your affiliation
-     to the college and other bona fides.
+  4. The first time you register an experiment or lab, you
+     may receive an email asking you to confirm your
+     affiliation to the college and other bona fides.
 
 If you are a team in a college working on virtual labs, we
 suggest that you create a separate user id or create a team
@@ -52,7 +57,7 @@ types of events:
  1. Request to Register an experiment (one time)
  2. Request hosting (multiple times)
  3. Request update of experiment attributes (multiple times)
- 4. Request decommissioning of the experiment (one time)
+ 4. Request deregistration of the experiment (one time)
 
 Each request is filed as an [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][issue]] on the [[https://github.com/virtual-labs/engineers-forum][engineers-forum]].
 
@@ -67,7 +72,7 @@ Each request is filed as an [[https://github.com/virtual-labs/engineers-forum/is
 
    1. Name of the Experiment
 
-   2. The owners of the experiment (by default the github
+   2. The owners of the experiment (by default, at least the github
 	  user-name filing the registration request).   
 
    3. The source code repository of the experiment.
@@ -78,8 +83,8 @@ Each request is filed as an [[https://github.com/virtual-labs/engineers-forum/is
    
 ** Owner(s) of an Experiment
    The github user-name(s) associated with the experiment.
-   Only owners of an experiment may request issue hosting
-   requests.
+   Only owners of an experiment may request issue requests
+   relating to the hosting lifecycle of an experiment.
 
 ** Source repository (Repo) of an Experiment
    An experiment's source code resides in a repository.  The
@@ -97,7 +102,6 @@ Each request is filed as an [[https://github.com/virtual-labs/engineers-forum/is
 
    A formal specification of the descriptor will be given
    presently. (TODO)
-
 
 
 
@@ -130,15 +134,15 @@ remaining fields.
 4. *Remove these existing owners*: [@user-id ...]
 5. *Update experiment repo url to*: 
 
-** Requesting the decommissioning of an experiment
-An experiment may be requested for  decommissioning if the
+** Requesting the deregistration of an experiment
+An experiment may be requested for deregistration if the
 owner no longer wishes to have the experiment as part of the
-virtual labs set of experiments.   A decommissioned
-experiment is presumably no longer maintained.  
+virtual labs set of experiments.  A deregistered experiment
+is presumably no longer maintained.
 
-Since an experiment is shared across labs, decommissioning
+Since an experiment is shared across labs, deregistration
 doesn't necessarily mean it will be disappear from the lab.
-However, any lab containing a decommissioned experiment will
+However, any lab containing a decegistered experiment will
 come with a warning saying that that experiment may not be
 reliably available anymore.
 
@@ -149,11 +153,10 @@ That repository may include experiments sources in it, or it
 may be point to other experiment repositories.  This
 facilitates sharing of experiments across labs.
 
-
 ** Lab Registration
 
-   The registration of an lab defines the lab as
-   a hostable entity and makes it available to the virtual-labs
+   The registration of a lab defines the lab as a hostable
+   entity and makes it available to the virtual-labs
    organization to host it.
 
    Information in the registration issue includes the
@@ -209,8 +212,6 @@ A lab is of two types:
       parameters (command, build directory, source
       directory, software dependencies, etc.)
 
- 
-
 A formal specification of the descriptor will be given
 presently. (TODO)
 
@@ -243,13 +244,12 @@ remaining fields.
 4. *Remove these existing owners*: [@user-id ...]
 5. *Update lab repo url to*: 
 
-** Requesting the decommissioning of a Lab
-An lab may be requested for decommissioning if its owner no
+** requesting the deregistration of a Lab
+An lab may be requested for deregistration if its owner no
 longer wishes to have the lab as part of the hosted virtual
-labs offerings.  A decommissioned lab is presumably no
-longer maintained.  A decommissioned lab will be flagged as
-`no longer maintained' on the main [[http:vlab.co.in][virtual labs landing
-page]].
+labs offerings.  A deregistered lab is presumably no longer
+maintained and will be flagged as `no longer maintained' on
+the main [[http:vlab.co.in][virtual labs landing page]].
 
 
 
