@@ -3,7 +3,7 @@ name: Phase III Lab/Experiment(s) OnBoarding Request
 about: Register an experiment or a set of experiments of phase III
   This issue type is exclusively applicable for Phase III experiments.
 title: ''
-labels: Onboarding, Phase-3
+labels: On-Boarding, Phase-3
 assignees: ''
 
 ---
