@@ -8,13 +8,25 @@ assignees: ''
 ---
 
 ## *Hosting Request*
-Use this to request hosting of an already registered lab or experiment.   If the lab or experiment is not registered, please do that by raising a registration request.
+Use this to request hosting of an already registered lab or
+experiment(s).  If the lab or experiment(s) is not
+registered, please do that by raising a registration
+request.
 
 
-####  Both fields are mandatory.
+####  All the three fields are mandatory.
 
-1. **Registration request (url)**: <!-- search
+<!-- Registration Request URL : search
    https://github.com/virtual-labs/engineers-forum/issues to
-   find the issue.  -->
+   find the issue pertaining to a specific registration -->
 
-2. **Tag**: <!-- of the sources repository that you need built and hosted. -->
+<!-- Repo URL: The sources to be hosted. -->
+
+<!-- Tag Id: The released version to be hosted. -->
+
+Fill these fields to request hosting. At least one row is
+mandatory.
+
+1. **Lab or Experiment(s) to be hosted**: <!-- repositories
+   must be registered -->
+| No.| Registration Request (URL) | Repo Url | Tag |
