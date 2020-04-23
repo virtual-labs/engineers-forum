@@ -12,9 +12,15 @@ assignees: ''
 Use this to register your lab for hosting or update the list
 of experiments in the lab.
 
-  - [ ] update existing hosting requirements, 
+1. **Name of the Application**: <!-- Name of the
+   application, the experiment or a lab name -->
 
-1. **Lab Repository**: <!-- url of the lab repository, which must be public -->
+1. **List of Owners of the Application**: <!-- List the
+   owners/gatekeepers of the sources.  -->
+| No.| Owner Name | email-id | github handle |
+
+1. **Lab/Experiment Repository**: <!-- url of the
+   lab/experiment repository, which must be public -->
 
 
 #### Optional
