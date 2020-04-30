@@ -16,7 +16,7 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 | S.No. | Lab Name                                           | Institute Name       | Repo Link | Hosted URL  |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|     1 | Population Ecology Virtual Lab I                   | AMRITA UNIVERSITY    | [[ https://github.com/Virtual-Labs/population-ecology-virtual-lab-i-au][Repo link]] | [[https://pev-au.vlabs.ac.in][Hosted link]] |
+|     1 | Population Ecology Virtual Lab I                   | AMRITA UNIVERSITY    | [[https://github.com/Virtual-Labs/population-ecology-virtual-lab-i-au][Repo link]] | [[https://pev-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |     2 | Population Ecology Virtual Lab II                  | AMRITA UNIVERSITY    | [[https://github.com/Virtual-Labs/population-ecology-virtual-lab-ii-au][Repo link]] | [[https://pevii-au.vlabs.ac.in][Hosted Link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
@@ -32,23 +32,23 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |     8 | Inorganic Chemistry Virtual Lab                    | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/inorganic-chemistry-virtual-lab][Repo link]] | [[https://icv-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|     9 | Biochemistry Virtual Lab I                         | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/biochemistry-virtual-lab-I][Repo link]] | [[https://biotech01.vlabs.ac.in][Hosted link]] |
+|     9 | Biochemistry Virtual Lab I                         | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/biochemistry-virtual-lab-I][Repo link]] | [[http://biotech01.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    10 | Molecular Biology Virtual Lab II                   | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/molecular-biology-virtual-lab-II][Repo link]] | [[https://mbvII-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    11 | Mechanics Virtual Lab (Pilot)                      | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/mechanics-virtual-lab-pilot][Repo link]] | [[ https://phy-sc22-au.vlabs.ac.in][Hosted link]] |
+|    11 | Mechanics Virtual Lab (Pilot)                      | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/mechanics-virtual-lab-pilot][Repo link]] | [[http://phy-sc22-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    12 | Physical Chemistry Virtual Lab                     | AMRITA UNIVERSITY    | [[ https://github.com/virtual-labs/physical-chemistry-virtual-lab][Repo link]] | [[ https://pcv-au.vlabs.ac.in][Hosted link]] |
+|    12 | Physical Chemistry Virtual Lab                     | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/physical-chemistry-virtual-lab][Repo link]] | [[https://pcv-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    13 | Advanced Analytical Chemistry Virtual Lab          | AMRITA UNIVERSITY    | [[ https://github.com/virtual-labs/advanced-analytical-chemistry-virtual-lab][Repo link]] | [[https://aacv-au.vlabs.ac.in][Hosted link]] |
+|    13 | Advanced Analytical Chemistry Virtual Lab          | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/advanced-analytical-chemistry-virtual-lab][Repo link]] | [[https://aacv-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    14 | Organic Chemistry Virtual Lab                      | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/organic-chemistry-virtual-lab][Repo link]] | [[https://ocv-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    15 | Advanced Mechanics Virtual Lab                     | AMRITA UNIVERSITY    | [[ https://github.com/virtual-labs/Advanced-Mechanics-Virtual-Lab][Repo link]] | [[https://amv-au.vlabs.ac.in][Hosted link]] |
+|    15 | Advanced Mechanics Virtual Lab                     | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Advanced-Mechanics-Virtual-Lab][Repo link]] | [[https://amv-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    16 | Harmonic Motion and Waves Virtual Lab              | AMRITA UNIVERSITY    | [[ https://github.com/virtual-labs/Harmonic-Motion-and-Waves-Virtual-Lab][Repo link]] | [[https://hmw-au.vlabs.ac.in][Hosted link]] |
+|    16 | Harmonic Motion and Waves Virtual Lab              | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Harmonic-Motion-and-Waves-Virtual-Lab][Repo link]] | [[https://hmw-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    17 | Modern Physics Virtual Lab                         | AMRITA UNIVERSITY    | [[ https://github.com/virtual-labs/Modern-Physics-Virtual-Lab][Repo link]] | [[https://mpv-au.vlabs.ac.in][Hosted link]] |
+|    17 | Modern Physics Virtual Lab                         | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Modern-Physics-Virtual-Lab][Repo link]] | [[https://mpv-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    18 | Laser Optics Virtual Lab                           | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Laser-Optics-Virtual-Lab][Repo link]] | [[lo-au.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
@@ -91,7 +91,7 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    37 | Magnetic Levitation Lab                            | IIT BOMBAY           | [[https://github.com/Virtual-Labs/maglev-iitb.git][Repo link]] | [[https://ml-iitb.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    38 | Satellite Image Processing Lab                     | IIT BOMBAY           | [[ https://github.com/Virtual-Labs/Virtual-Satellite-Image-Processing-and-Analysis-Laboratory][Repo link]] | [[https://civil11-iitb.vlabs.ac.in][Hosted link]] |
+|    38 | Satellite Image Processing Lab                     | IIT BOMBAY           | [[https://github.com/Virtual-Labs/Virtual-Satellite-Image-Processing-and-Analysis-Laboratory][Repo link]] | [[https://civil11-iitb.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    39 | Urban Transportation Systems planning Lab          | IIT BOMBAY           | [[https://github.com/Virtual-Labs/Urban-Transportation-Systems-planning-Lab-IITB][Repo link]] | [[https://civil13-iitb.vlabs.ac.in/][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
@@ -107,7 +107,7 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    45 | Engineering Electro-magnetics Lab                  | IIT DELHI            | [[https://github.com/Virtual-Labs/engineering-electro-magnetics-laboratory-iitd.git][Repo link]] | [[https://eem-iitd.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
-|    46 | Data Structures                                    | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/data-structures-iiith][Repo link]] | [[ https://cse01-iiith.vlabs.ac.in][Hosted link]] |
+|    46 | Data Structures                                    | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/data-structures-iiith][Repo link]] | [[https://cse01-iiith.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
 |    47 | Computer programming                               | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/computer-programming-responsive-iiith.git][Repo link]] | [[https://cse02-iiith.vlabs.ac.in][Hosted link]] |
 |-------+----------------------------------------------------+----------------------+-----------+-------------|
