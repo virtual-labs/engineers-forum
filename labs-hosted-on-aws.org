@@ -218,9 +218,9 @@ along with link to their repo containing their sources
 |-------+------------------------------+----------------+-----------+-------------|
 |     1 | Fluid Machinery Lab          | NIT SURATHKAL  | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
-|     2 | Data Structure lab -I        | IIITH          | [[https://gitlab.com/vlead-projects/experiments/ds/data-structures-lab-I][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] |
+|     2 | Data Structure lab -I        | IIITH          | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
-|     3 | Data Structure Lab - II      | IIITH          | [[https://gitlab.com/vlead-projects/experiments/ds/data-structures-lab-II][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] |
+|     3 | Data Structure Lab - II      | IIITH          | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
 |     4 | Marine Structures            | NITK           | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
