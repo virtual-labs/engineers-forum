@@ -216,7 +216,7 @@ along with link to their repo containing their sources
 |-------+------------------------------+----------------+-----------+-------------|
 | S.No. | Lab Name                     | Institute Name | Repo Link | Hosted URL  |
 |-------+------------------------------+----------------+-----------+-------------|
-|     1 | Fluid Machinery Lab          | NIT SURATHKAL  | [[https://github.com/Virtual-Labs/fluid-machinery-lab-nitk.git][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] |
+|     1 | Fluid Machinery Lab          | NIT SURATHKAL  | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
 |     2 | Data Structure lab -I        | IIITH          | [[https://gitlab.com/vlead-projects/experiments/ds/data-structures-lab-I][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
