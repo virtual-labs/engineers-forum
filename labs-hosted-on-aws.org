@@ -234,7 +234,7 @@ along with link to their repo containing their sources
 |-------+------------------------------+----------------+-----------+-------------|
 |     9 | Dynamics of Machine          | NIT SURATHKAL  | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
-|    10 | Digital Electronics          | IIT Roorke     | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] |
+|    10 | Digital Electronics          | IIT ROORKEE    | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] |
 |-------+------------------------------+----------------+-----------+-------------|
 
 ** Phase-III-Experiment- Public
@@ -451,5 +451,5 @@ along with link to their repo containing their sources
 |       |                             | comparator using logic gates                     |           |            |
 |-------+-----------------------------+--------------------------------------------------+-----------+------------|
 |-------+-----------------------------+--------------------------------------------------+-----------+------------|
-|     8 | Fluid Mechanics Lab         |                                                  |           |            |
+|     8 | Fluid Machinery Lab         |                                                  |           |            |
 |-------+-----------------------------+--------------------------------------------------+-----------+------------|
