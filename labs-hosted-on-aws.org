@@ -279,34 +279,35 @@ along with link to their repo containing their sources
 |-------+--------------------------+----------------------------------+-----------+-------------|
 |       |                          | Linked List                      | [[https://gitlab.com/vlead-projects/experiments/ds/linked-list][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/linked-lists/exp.html#Linked%2520List][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Poly-Arithmetic                  | [[https://gitlab.com/vlead-projects/experiments/ds/poly-arithmetic-summer-2019][Repo link]] |             |
+|       |                          | Poly-Arithmetic                  | [[https://gitlab.com/vlead-projects/experiments/ds/poly-arithmetic-summer-2019][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/polynomial-arithmetic/exp.html#Polynomial%2520Arithmetic][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
 |-------+--------------------------+----------------------------------+-----------+-------------|
 |     2 | Data Structures Lab - II | *Sorting*                        |           |             |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Selection-Sort                   | [[https://gitlab.com/vlead-projects/experiments/ds/selection-sort][Repo link]] |             |
+|       |                          | Selection-Sort                   | [[https://gitlab.com/vlead-projects/experiments/ds/selection-sort][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/selection-sort/exp.html#Selection%2520Sort%2520Experiment][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Radix-Sort                       | [[https://gitlab.com/vlead-projects/experiments/ds/radix-sort][Repo link]] |             |
+|       |                          | Radix-Sort                       | [[https://gitlab.com/vlead-projects/experiments/ds/radix-sort][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/radix-sort/exp.html#Radixsort][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
 |       |                          | *Graphs*                         |           |             |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Topological-Sort                 | [[https://gitlab.com/vlead-projects/experiments/ds/topological-sort][Repo link]] |             |
+|       |                          | Topological-Sort                 | [[https://gitlab.com/vlead-projects/experiments/ds/topological-sort][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/topological-sort/exp.html#Topological%2520Sort%2520Experiment][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Minimum-Spanning-Trees           | [[https://gitlab.com/vlead-projects/experiments/ds/minimum-spanning-trees][Repo link]] |             |
+|       |                          | Minimum-Spanning-Trees           | [[https://gitlab.com/vlead-projects/experiments/ds/minimum-spanning-trees][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/minimum-spanning-tree/exp.html#MST%2520Experiment][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Dijkstras                        | [[https://gitlab.com/vlead-projects/experiments/ds/dijkstras][Repo link]] |             |
+|       |                          | Dijkstras                        | [[https://gitlab.com/vlead-projects/experiments/ds/dijkstras][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/shortest-path/exp.html#Dijkstra's%2520Algorithm%2520Experiment][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
 |       |                          | *Search Trees*                   |           |             |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | 2-3-Tree                         | [[https://gitlab.com/vlead-projects/experiments/ds/2-3tree][Repo link]] |             |
+|       |                          | 2-3-Tree                         | [[https://gitlab.com/vlead-projects/experiments/ds/2-3tree][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/2-3-tree/exp.html#2-3%2520Tree][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Red-Black-Tree                   | [[https://gitlab.com/vlead-projects/experiments/ds/red-black-tree][Repo link]] |             |
+|       |                          | Red-Black-Tree                   | [[https://gitlab.com/vlead-projects/experiments/ds/red-black-tree][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/red-black-tree/exp.html#Red%2520Black%2520Tree%2520Experiment][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
 |       |                          | *Strings*                        |           |             |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Tries and Suffix Trees           | [[https://gitlab.com/vlead-projects/experiments/ds/tries-and-suffix-trees][Repo link]] |             |
+|       |                          | Tries and Suffix Trees           | [[https://gitlab.com/vlead-projects/experiments/ds/tries-and-suffix-trees][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/tries-suffix-trees/exp.html#Tries%2520and%2520Suffix%2520Experiment][Hosted link]] |
 |-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | KMP-Algorithm                    | [[https://gitlab.com/vlead-projects/experiments/ds/kmp-algorithm][Repo link]] |             |
+|       |                          | KMP-Algorithm                    | [[https://gitlab.com/vlead-projects/experiments/ds/kmp-algorithm][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/kmp-algorithm/exp.html#KMP%2520Algorithm%2520Module][Hosted link]] |
+|       |                          |                                  |           |             |
 |-------+--------------------------+----------------------------------+-----------+-------------|
 
 ** Phase-III-Experiment- Private
