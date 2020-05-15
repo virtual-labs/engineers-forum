@@ -351,6 +351,70 @@
   - Step 8 :: On approval from the Lab owner, IIITH will
               share the link with IIT Delhi.
 
+** Rehosting Process for Phase III Lab 
+
+   VLEAD and the institute requesting the rehosting of Phase
+   3 lab while changing the content of the lab will follow
+   the process detailed below- 
+   
+
+  - Step 1 :: Institute requesting rehosting will follow the
+              [[https://github.com/virtual-labs/engineers-forum/issues][link]] and locate the Phase III
+              Lab/Experiment(s) OnBoarding Request issue
+              corresponding to the lab that they  wish to
+              edit.
+
+  - Step 2 :: They will comment on the issue with the
+              content that they like to add to the lab
+              pages following the format - Lab Section
+              Name - New content
+
+  - Step 3 :: VLEAD's hosting engineer will host the lab with
+              the requested changes and share the link on
+              the same issue to seek approval from institute
+              requesting rehosting. 
+
+  - Step 4 :: Institute requesting rehosting will need to
+              test the hosted link and on their approval the
+              hosted link will be shared with IITD (to be
+              added to vlab.co.in).
+
+** Rehosting Process for Phase III Experiments 
+   
+   VLEAD and the institute requesting the rehosting of Phase
+   3 lab after changing the content of experiment will follow
+   the process detailed below-
+
+  - Step 1  :: Institute requesting rehosting will make the
+               necessary changes to the experiment content
+               in the experiment repository on GitLab ( IITB
+               server ) as per the process followed during
+               experiment development.  After they make the
+               changes to the experiment sources , they will
+               need to tag it.
+
+  - Step 2 ::  Then will then follow the [[https://github.com/virtual-labs/engineers-forum/issues][link]] and locate the
+               Phase III Lab/Experiment(s) OnBoarding
+               Request issue corresponding to the lab
+               containing the experiment that they wish to
+               rehost.
+
+  - Step 3 ::  They will comment on the same Phase III
+               Lab/Experiment(s) OnBoarding Request with the
+               following text "Request to rehost the
+               experiment <exp repo link> with the tag <tag
+               number>".  They  may include more than one
+               experiment ( belonging to the same lab)
+               rehosting request at a time.
+
+  - Step 4 ::  VLEAD's hosting engineer will host the
+               experiments and share the link on the same
+               issue to seek approval from them.
+
+  - Step 5 ::  Institute requesting rehosting will need to
+               test the hosted link and comment on the same
+               issue stating their approval.
+
 * Central Hosting Data  
   The following information will be stored at a central
   place for a quick reference by the hosting team:
