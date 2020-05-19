@@ -303,7 +303,9 @@
 
   VLEAD and IITB will follow the process detailed below for
   the hosting of labs which have been developed with each
-  experiment having its own repository.
+  experiment having its own repository.  All the Phase 3 
+  labs and experiments hosted on AWS will have a common UI
+  and report analytics at both lab and experiment level. 
 
   - Step 1 :: IIITH will create lab repo for the lab
               that is ready ( marked in green) in the
