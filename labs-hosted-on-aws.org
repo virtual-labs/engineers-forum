@@ -51,7 +51,7 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 |    17 | Modern Physics Virtual Lab                         | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Modern-Physics-Virtual-Lab][Repo link]] | [[https://mpv-au.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    18 | Laser Optics Virtual Lab                           | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Laser-Optics-Virtual-Lab][Repo link]] | [[lo-au.vlabs.ac.in][Hosted link]] | No         |
+|    18 | Laser Optics Virtual Lab                           | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Laser-Optics-Virtual-Lab][Repo link]] | [[https://lo-au.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 |    19 | Microbiology Virtual Lab I                         | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Microbiology-Virtual-Lab-I][Repo link]] | [[https://mvi-au.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
@@ -182,16 +182,16 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 |    82 | Virtual Lab for Mechanical Vibrations              | IIT GUWAHATI         | [[https://github.com/Virtual-Labs/virtual-lab-for-mechanical-vibrations-iitg.git][Repo link]] | [[https://mv-iitg.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    83 | Material Response to Micro Structural,             | IIIT KANPUR          | [[https://github.com/Virtual-Labs/material-response-to-micro-structural-mechanical-thermal-and-biological-stimuli-iitk][Repo link]] | [[https://mrmsmtbs-iitk.vlabs.ac.in][Hosted link]] | Yes        |
+|    83 | Material Response to Micro Structural,             | IIT KANPUR           | [[https://github.com/Virtual-Labs/material-response-to-micro-structural-mechanical-thermal-and-biological-stimuli-iitk][Repo link]] | [[https://mrmsmtbs-iitk.vlabs.ac.in][Hosted link]] | Yes        |
 |       | Mechanical, Thermal and Biological Stimuli         |                      |           |             |            |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    84 | Virtual Astrophysics Lab                           | IIIT KANPUR          | [[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk][Repo link]] | [[https://va-iitk.vlabs.ac.in][Hosted link]] | Yes        |
+|    84 | Virtual Astrophysics Lab                           | IIT KANPUR           | [[https://github.com/Virtual-Labs/virtual-astrophysics-lab-iitk][Repo link]] | [[https://va-iitk.vlabs.ac.in][Hosted link]] | Yes        |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    85 | Ultra fast Laser Spectroscopy Lab                  | IIIT KANPUR          | [[https://github.com/Virtual-Labs/ultra-fast-laser-spectroscopy-iitk][Repo link]] | [[https://ufls-iitk.vlabs.ac.in][Hosted link]] | Yes        |
+|    85 | Ultra fast Laser Spectroscopy Lab                  | IIT KANPUR           | [[https://github.com/Virtual-Labs/ultra-fast-laser-spectroscopy-iitk][Repo link]] | [[https://ufls-iitk.vlabs.ac.in][Hosted link]] | Yes        |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    86 | Virtual Lab Aerospace Engineering                  | IIIT KANPUR          | [[https://github.com/Virtual-Labs/virtual-lab-aerospace-engg-iitk][Repo link]] | [[https://vlae-iitk.vlabs.ac.in][Hosted link]] | No         |
+|    86 | Virtual Lab Aerospace Engineering                  | IIT KANPUR           | [[https://github.com/Virtual-Labs/virtual-lab-aerospace-engg-iitk][Repo link]] | [[https://vlae-iitk.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    87 | Virtual Combustion and Automization Lab            | IIIT KANPUR          | [[https://github.com/Virtual-Labs/virtual-combustion-and-automization-lab-iitk][Repo link]] | [[https://vcal-iitk.vlabs.ac.in][Hosted link]] | No         |
+|    87 | Virtual Combustion and Automization Lab            | IIT KANPUR           | [[https://github.com/Virtual-Labs/virtual-combustion-and-automization-lab-iitk][Repo link]] | [[https://vcal-iitk.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 |    88 | Bio-Medical Instrumentation Lab                    | IIT ROORKEE          | [[https://github.com/Virtual-Labs/bio-medical-instrumentation-lab-iitr][Repo link]] | [[https://bmi-iitr.vlabs.ac.in][Hosted link]] | No         |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
