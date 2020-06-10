@@ -112,7 +112,7 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 |    47 | Computer programming                               | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/computer-programming-responsive-iiith.git][Repo link]] | [[https://cse02-iiith.vlabs.ac.in][Hosted link]] | Yes        |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
-|    48 | DLD                                                | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/digital-logic-design-iiith][Repo link]] | [[cse15-iiith.vlabs.ac.in][Hosted link]] | Yes        |
+|    48 | DLD                                                | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/digital-logic-design-iiith][Repo link]] | [[http://cse15-iiith.vlabs.ac.in/][Hosted link]] | Yes        |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 |    49 | Image processing                                   | IIIT HYDERABAD       | [[https://github.com/Virtual-Labs/image-processing-iiith][Repo link]] | [[https://cse19-iiith.vlabs.ac.in][Hosted link]] | Yes        |
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
