@@ -238,7 +238,7 @@ along with link to their repo containing their sources
 |-------+-----------------------------+----------------+-----------+-------------+------------|
 |     8 | Transportation Engineering  | NIT SURATHKAL  | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | No         |
 |-------+-----------------------------+----------------+-----------+-------------+------------|
-|     9 | Dynamics of Machine         | NIT SURATHKAL  | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | No         |
+|     9 | Dynamics of Machine         | NIT SURATHKAL  | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes         |
 |-------+-----------------------------+----------------+-----------+-------------+------------|
 |    10 | Digital Electronics         | IIT ROORKEE    | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | No         |
 |-------+-----------------------------+----------------+-----------+-------------+------------|
