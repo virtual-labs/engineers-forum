@@ -218,31 +218,42 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 
 * Phase - III Labs
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-| S.No. | Lab Name                    | Institute Name | Repo Link | Hosted URL  | Linked on  |
-|       |                             |                |           |             | vlab.co.in |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     1 | Fluid Machinery Lab         | NIT SURATHKAL  | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] | Yes        |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     2 | Data Structure lab -I       | IIIT HYDERABAD | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] | Yes        |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     3 | Data Structure Lab - II     | IIIT HYDERABAD | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] | Yes        |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     4 | Marine Structures           | NIT SURATHKAL  | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] | No         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     5 | Environmental Engineering-1 | NIT SURATHKAL  | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] | No         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     6 | Environmental Engineering-2 | NIT SURATHKAL  | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] | No         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     7 | Mining Geology              | NIT SURATHKAL  | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] | No         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     8 | Transportation Engineering  | NIT SURATHKAL  | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | No         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|     9 | Dynamics of Machine         | NIT SURATHKAL  | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-|    10 | Digital Electronics         | IIT ROORKEE    | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | No         |
-|-------+-----------------------------+----------------+-----------+-------------+------------|
-
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+| S.No. | Lab Name                          | Institute Name | Repo Link | Hosted URL  | Linked on  |
+|       |                                   |                |           |             | vlab.co.in |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     1 | Fluid Machinery Lab               | NIT SURATHKAL  | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     2 | Data Structure lab -I             | IIIT HYDERABAD | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     3 | Data Structure Lab - II           | IIIT HYDERABAD | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     4 | Marine Structures                 | NIT SURATHKAL  | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     5 | Environmental Engineering-1       | NIT SURATHKAL  | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     6 | Environmental Engineering-2       | NIT SURATHKAL  | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     7 | Mining Geology                    | NIT SURATHKAL  | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     8 | Transportation Engineering        | NIT SURATHKAL  | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|     9 | Dynamics of Machine               | NIT SURATHKAL  | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    10 | Digital Electronics               | IIT ROORKEE    | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    11 | Basics of HTML                    | IIT DELHI      | [[https://github.com/virtual-labs/html-iitd/][Repo Link]] | [[http://html-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    12 | Electrical Machines (Simulation)  | IIT ROORKEE    | [[https://github.com/virtual-labs/electrical-machines-lab-iitr/][Repo Link]] | [[http://ems-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    13 | Analog Electronics                | IIT ROORKEE    | [[https://github.com/virtual-labs/analog-electronics-iitr][Repo Link]] | [[http://ae-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    14 | Digital Anthroplogy               | IIT GUWAHATI   | [[https://github.com/virtual-labs/digital-anthropology-iitg][Repo Link]] |             |            |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    15 | Basics of Physics                 | IIT KANPUR     | [[https://github.com/virtual-labs/basics-of-physics-iitk][Repo Link]] | [[http://bop-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|    16 | Electron Microscopy For Beginners | IIT KANPUR     | [[https://github.com/virtual-labs/electron-microscopy-iitk][Repo Link]] | [[http://emb-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+-----------------------------------+----------------+-----------+-------------+------------|
 ** Phase-III-Experiment- Public
 |-------+--------------------------+----------------------------------+-----------+-------------|
 | S.No. | Lab Name                 | Name of the experiment           | Repo Link | Hosted URL  |
