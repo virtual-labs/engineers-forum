@@ -12,8 +12,8 @@ Use this issue to get your lab and experiment repositories hosted on Virtual Lab
 
 Please provide item 1 for all the experiments of the lab
 
-1. **Hosting Unit **: <!-- repositories must be public -->
+1. **Hosting Unit**: <!-- repositories must be public -->
 | No.| Experiment Name | Experiment repository URL | Branch/Tag |
-2. **GitHub handle**:<!--GitHub handle of the developer -->
+2. **GitHub Handle**:<!--GitHub handle of the developer -->
 3. **Approved Proposal**:<!--Please attach the PDF of the Approved Proposal  to this issue -->
 
