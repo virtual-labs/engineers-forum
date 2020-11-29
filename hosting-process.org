@@ -364,7 +364,7 @@
               [[https://github.com/virtual-labs/engineers-forum/issues][link]] and locate the Phase III
               Lab/Experiment(s) OnBoarding Request issue
               corresponding to the lab that they  wish to
-              edit.
+              rehost.
 
   - Step 2 :: They will comment on the issue with the
               content that they like to add to the lab
@@ -416,6 +416,85 @@
   - Step 5 ::  Institute requesting rehosting will need to
                test the hosted link and comment on the same
                issue stating their approval.
+
+** Moving Phase 3 experiment repositories from IITB GitLab Server to virtual-labs Github organization 
+
+   VLEAD and the institute requesting the movement of Phase
+   3 experiment repositories from IITB Gitlab Server to virtual-labs 
+   GitHub organization will follow the process detailed below- 
+   
+
+  - Step 1 :: Institute requesting movement will raise an 
+              [[https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=phase-iii-experiment-repository-creation-request.md&title=][issue]] to request creation of experiment repositories for the lab. 
+              
+  - Step 2 :: They will fill the information requested for
+              on the issue and attach R0 ( proposal of the lab) 
+
+  - Step 3 :: VLEAD's hosting engineer will create experiment 
+              repositories for each of the experiment on the 
+              proposal on Github and share the links of the 
+              created repositories on the same issue.
+
+  - Step 4 :: Institute requesting movement will populate the 
+              dev branches of the created repositories with the 
+              source code of the experiments ( same phase 3 structure
+              as defined in the IIT B exp repos)  and unit test
+              the experiments locally.
+              
+  - Step 5 :: Institute requesting movement will merge the fully tested 
+              dev branch to testing branch. This will automatically 
+              deploy the experiment along with UI on GitHub pages for
+              testing the complete experiment.
+              The Institute requesting movement will receive an email 
+              about the success/failure of the deployment on the 
+              email id associated with the github handle provided 
+              in the issue.
+              
+  - Step 6 :: Institute requesting movement will then merge  from a fully
+               tested testing branch to the main branch and tag the commit. 
+               
+  - Step 7 :: Institute requesting rehosting will then follow the
+              [[https://github.com/virtual-labs/engineers-forum/issues][link]] 
+              and locate the Phase III Lab/Experiment(s) OnBoarding Request issue
+              corresponding to the lab that they  wish to rehost.  If such an 
+              issue does not exist they will create will raise an issue of type Phase 3
+              Onboarding [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]]. 
+              In the issue, for each experiment they will provide the 
+              Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of 
+              the lab to the issue if not already attached. 
+              
+  - Step 8 ::  VLEAD's hosting engineer will host the
+               experiments and the lab and share the link on the same
+               issue to seek approval from them.
+
+  - Step 9 ::  Institute requesting momement  will need to
+               test the hosted link and comment on the same
+               issue stating their approval.
+                           
+               
+** Creation of Experiment Repositories 
+               
+   Steps to be followed by VLEAD's Hosting Engineer
+
+
+   - Step 1 :: On receiving a [[https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=phase-iii-experiment-repository-                    creation-request.md&title=][request]] for creation of 
+               experiment repositories for the lab, VLEAD's hosting engineer 
+               will create the experiment(s) repository from the ph3-exp-template 
+               repository.
+               
+   - Step 2 :: VLEAD's hosting engineer will create two branches - dev and 
+               testing from the main branch in the created experiment repositories.
+              
+              
+   - Step 3 :: VLEAD's hosting engineer will add the Github Handle of the 
+               experiment developer provided in the request issue to the newly 
+               created experiment repository with maintainer access. 
+               VLEAD's hosting engineer will also add developer’s common email 
+               address to github notification center
+
+   - Step 4 :: VLEAD's hosting engineer will comment on the repository creation request 
+               providing the links to the created repositories. 
+               
 
 * Central Hosting Data  
   The following information will be stored at a central
