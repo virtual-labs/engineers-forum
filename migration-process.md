@@ -35,7 +35,7 @@
   Virtual Labs migration process will require certain
   prerequisites to be met by the experiments that need to be
   hosted. The following paragraphs define terminologies used
-  during the hosting process.
+  during the migration process.
 
 
 ## Migrating Phase 3 experiment repository sources to virtual-labs Github organization 
