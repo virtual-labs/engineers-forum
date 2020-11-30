@@ -390,10 +390,10 @@
   - Step 1  :: Institute requesting rehosting will make the
                necessary changes to the experiment content
                in the experiment repository on GitLab ( IITB
-               server ) as per the process followed during
-               experiment development.  After they make the
-               changes to the experiment sources , they will
-               need to tag it.
+               server ) or Github (virtual-labs organization) 
+               as per the process followed during experiment 
+               development.  After they make the changes to 
+               the experiment sources , they will need to tag it.
 
   - Step 2 ::  Then will then follow the [[https://github.com/virtual-labs/engineers-forum/issues][link]] and locate the
                Phase III Lab/Experiment(s) OnBoarding
