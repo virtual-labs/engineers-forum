@@ -1,4 +1,4 @@
-# Virtual Labs Hosting Process
+# Virtual Labs Experiment Migration Process
 
 ## Introduction
   Virtual Labs is a mission mode project initiated by the
@@ -15,9 +15,9 @@
 
 ## Purpose
   This document defines the experiment migration process 
-  that should be followed by the developers
-  of the lab while requesting the hosting of their lab on
-  AWS. The roles and responsibilities of the various parties
+  that should be followed by the developers of the lab while
+  requesting for creation of experiment repositories on github.
+  The roles and responsibilities of the various parties
   involved in the migration process is also discussed in
   detailed in the document.
 ## Motivation
