@@ -17,13 +17,12 @@ Use this to get your experiment repository created or updated on GitHub under Vi
 3. **Approved Proposal**:<!--Please upload the PDF of the approved proposal-->
 
 4. #### Primary GitHub Handle Details: <!--Please provide the Primary GitHub handle details to which write permissions need to be given and notifications need to be sent-->
-       ##### Name <!--Please provide the Name that the Primary GitHub Handle is associated with -->
-       
-       **GitHub Handle** <!--Please provide the email id that the Primary GitHub Handle is associated with -->
-       **Email id** <!--Please provide the email id that the Primary GitHub Handle is associated with -->
+   ##### Name: <!--Please provide the Name that the Primary GitHub Handle is associated with-->
+   ##### GitHub Handle:<!--Please provide the email id that the Primary GitHub Handle is associated with-->
+   ##### Email id** <!--Please provide the email id that the Primary GitHub Handle is associated with-->
 
-5. **Secondary GitHub Handle Details**:<!--Please provide the additional GitHub handle(s) to which write permissions need to be given-->
-       **Name** <!--Please provide the Name that the Secondary GitHub Handle is associated with -->
-       **GitHub Handle** <!--Please provide the email id that the Secondary GitHub Handle is associated with -->
-       **Email id** <!--Please provide the email id that the Secondary GitHub Handle is associated with -->
+5. #### Secondary GitHub Handle Details: <!--Please provide the additional GitHub handle(s) to which write permissions need to be given-->
+   ##### Name:<!--Please provide the Name that the Secondary GitHub Handle is associated with-->
+   ##### GitHub Handle:<!--Please provide the email id that the Secondary GitHub Handle is associated with-->
+   ##### Email id:<!--Please provide the email id that the Secondary GitHub Handle is associated with-->
 
