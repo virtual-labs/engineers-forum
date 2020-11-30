@@ -2,7 +2,7 @@
 name: Phase III Experiment Repository Creation Request
 about: Get your experiment repo created on GitHub under virtual labs organization.
 title: 'Experiment Repository Creation Request for <fill the lab name here>'
-labels: Phase-3
+labels: Phase-3, create experiment repos
 assignees: ''
 
 ---
