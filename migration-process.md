@@ -1,4 +1,4 @@
-# Virtual Labs Experiment Migration Process
+# Virtual Labs Experiment Repository Migration Process
 
 ## Introduction
   Virtual Labs is a mission mode project initiated by the
@@ -16,29 +16,25 @@
 ## Purpose
   This document defines the experiment migration process 
   that should be followed by the developers of the lab while
-  requesting for creation of experiment repositories on github.
+  migrating the source code to virtual-lab organization on GitHub.
   The roles and responsibilities of the various parties
-  involved in the migration process is also discussed in
+  involved in the migration process is discussed in
   detailed in the document.
+  
 ## Motivation
-  A well defined migration process will help maintain a
-  consistent user experience and enable experiment-authors
-  to focus on the content. Consolidated information 
-  regarding all the deployments will also facilitate 
-  reporting.
+   Migrating the source code of the experiments to virtual-labs 
+   organization on Github will help maintain a single, consolidated, 
+   common, open source version controlled lab and experiment
+   repositories.
+   
 ## Audience
   The target audience for this document is the hosting team
   at CPE, IIITH and all the lab authors and owners who want
   to avail the migration service provided by Central Platform
   Engineering Team (CPE), IIITH team.
-## Definitions and Pre-requisites
-  Virtual Labs migration process will require certain
-  prerequisites to be met by the experiments that need to be
-  hosted. The following paragraphs define terminologies used
-  during the migration process.
+  
 
-
-## Migrating Phase 3 experiment repository sources to virtual-labs Github organization 
+## Migrating Phase 3 experiment repository sources to virtual-labs GitHub organization 
 
    VLEAD and the institute requesting the migration of Phase
    3 experiment repository sources to virtual-labs 
@@ -72,5 +68,5 @@
 
 
 ## Conclusion 
-  This document highlights the migration process of experiments to GitHub Virtual Labs organization. It aims at collaborating contributions of the developers across the open source platform - GitHub.
+  This document highlights the process to be followed while migrating experiments source code to virtual-labs organization on GitHub. It aims at collaborating contributions of the developers across the open source platform - GitHub.
 
