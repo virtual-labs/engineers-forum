@@ -20,6 +20,6 @@ Fill this field to list the experiments that the lab should include
 
 #### Optional
 
-1. **Lab Repository**: <!-- url of the lab repository, which must be public -->
+1. **Lab Repository url**: <!-- url of the lab repository, which must be public -->
 
 
