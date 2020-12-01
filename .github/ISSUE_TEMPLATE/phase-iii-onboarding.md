@@ -21,5 +21,6 @@ Fill this field to list the experiments that the lab should include
 #### Optional
 
 1. **Lab Repository url**: <!-- url of the lab repository, which must be public -->
+2. **Course Alignment** <!-- fill the courses of institutes that the lab aligns to --> 
 
 
