@@ -49,10 +49,10 @@
       &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will create experiment repositories for each of the experiment on the proposal on Github and share the links of the created repositories on the same issue.
 
   - Step 4 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will populate the dev branches of the created repositories with the source code of the experiments and unit test the experiments locally.
+      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will populate the dev branches of the created repositories with the source code of the experiments and unit test the experiments locally. Institure requesting migration should **not** delete gh-pages branch. This is required for automatically deploying the experiment along with UI on GitHub pages for testing the complete experiment . They should also not delete .github directory and the LICENSE file. 
               
   - Step 5 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will merge the fully tested dev branch to testing branch. This will automatically deploy the experiment along with UI on GitHub pages for testing the complete experiment. The Institute requesting movement will receive an email about the success/failure of the deployment on the email id associated with the github handle provided in the issue.
+      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will merge the fully tested dev branch to testing branch. This will automatically deploy the experiment along with UI on GitHub pages for testing the complete experiment. The Institute requesting movement will receive an email about the success/failure of the deployment on the email id associated with the primary github handle provided in the issue.  
               
   - Step 6 :</br>
       &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will then merge  from a fully tested testing branch to the main branch and tag the commit. 
