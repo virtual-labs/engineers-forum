@@ -137,19 +137,19 @@ VLEAD and IITB will follow the process detailed below for the hosting of labs wh
   &nbsp;&nbsp;&nbsp;&nbsp; IIITH will create lab repo for the lab that is ready ( marked in green) in the 200224_Deliverable_Status_Phase3 sheet shared by IITB and also populate the lab urls in the sheet.
 
   - Step 2 :
-   &nbsp;&nbsp;&nbsp;&nbsp; IITB will raise an issue of type Phase 3 Onboarding [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]] and fill the lab name and lab url ( as populated in the excel sheet by IIITH) and attach the R0 of the lab.
+   &nbsp;&nbsp;&nbsp;&nbsp; IITB will raise an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) and fill the lab name and lab url ( as populated in the excel sheet by IIITH) and attach the R0 of the lab.
 
   - Step 3 :
    &nbsp;&nbsp;&nbsp;&nbsp; IIITH will tag the head of the master branch of all the experiments in that lab as mentioned in the 200224_Deliverable_Status_Phase3 as v1.0.0
 
   - Step 4 :
-  &nbsp;&nbsp;&nbsp;&nbsp; IIITH will populate the received Phase 3 Onboarding  [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]] with experiment details ( name, url, tag, branch and build command) and Owner details and request for approval from IITB . It will be assumed by IIITH that no special hardware or software is required for the running of the experiments.  IITB will have to specially state if this is not the case.
+  &nbsp;&nbsp;&nbsp;&nbsp; IIITH will populate the received Phase 3 Onboarding  [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) with experiment details ( name, url, tag, branch and build command) and Owner details and request for approval from IITB . It will be assumed by IIITH that no special hardware or software is required for the running of the experiments.  IITB will have to specially state if this is not the case.
 
   - Step 5 :
    &nbsp;&nbsp;&nbsp;&nbsp; IITB will validate the above data and approve the same on the received Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) .
 
   - Step 6 :
-   &nbsp;&nbsp;&nbsp;&nbsp; On approval from IITB , IIITH will host all the experiments and populate the lab landing page information (Introduction, Objective, List of experiments, target audience, course alignment ) from the R0 shared by IITB in the Phase 3 Onboarding [[https://github.com/virtual-labs/engineers-forum/issues/new/choose][Request]].
+   &nbsp;&nbsp;&nbsp;&nbsp; On approval from IITB , IIITH will host all the experiments and populate the lab landing page information (Introduction, Objective, List of experiments, target audience, course alignment ) from the R0 shared by IITB in the Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose).
 
   - Step 7 :
   &nbsp;&nbsp;&nbsp;&nbsp; IIITH will host the lab and share the hosted url link as part of the onboarding request issue and seek approval from the github handle of the owner of the lab ( as recorded in the onboarding request)
