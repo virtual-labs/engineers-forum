@@ -41,7 +41,7 @@
    GitHub organization will follow the process detailed below- 
    
   - Step 1 : </br>
-      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting movement will raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=phase-iii-experiment-repository-creation-request.md&title=) to request creation of experiment repositories for the lab. 
+      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting movement will raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request creation of experiment repositories for the lab. 
   - Step 2 :</br>
       &nbsp;&nbsp;&nbsp;&nbsp; They will fill the information requested for on the issue and attach R0 ( proposal of the lab) 
 
