@@ -12,7 +12,7 @@ Use this to request hosting of a Phase 2 lab.
 
 ####  Both fields are mandatory.
 
-1. **Lab Sources url**: <!-- search
+1. **Lab Repo URL**: <!-- search
    https://github.com/virtual-labs/engineers-forum/issues to
    find the issue.  -->
 
