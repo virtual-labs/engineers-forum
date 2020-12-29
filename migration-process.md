@@ -58,10 +58,10 @@
       &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will then merge  from a fully tested testing branch to the main branch and tag the commit. 
                
   - Step 7 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they  wish to rehost.  If such an issue does not exist they will create will raise an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose). In the issue, for each experiment they will provide the Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of the lab to the issue if not already attached. 
+      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they  wish to rehost.  If such an issue does not exist they will create an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose). In the issue, for each experiment they will provide the Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of the lab to the issue if not already attached. 
               
   - Step 8 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will host the experiments and the lab and share the link on the same issue to seek approval from them.
+      &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will host the experiments and the lab and share the hosted link on the same issue to seek approval from the institute requesting migration. 
 
   - Step 9 :</br>
       &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration  will need to test the hosted link and comment on the same issue stating their approval.
