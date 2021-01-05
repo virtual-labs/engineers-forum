@@ -31,9 +31,9 @@
    at CPE, and IIITH.
 
 ## General Responsibilities and processes
-   General responsibilities include the understanding of hosting 
-   engineer role, On-Boarding process, creation of Experiment 
-   Repositories, and watching GitHub engineers forum for requests.
+   General responsibilities include the understanding of hosting responsibilities,
+   On-Boarding process, creation of Experiment Repositories, and monitoring 
+   GitHub engineers forum for requests.
 
 ### On-Boarding process of hosting unit 
    - Each hosting unit that needs to be hosted by the Virtual Labs hosting team, must follow an onboarding process. The repository owner of the hosting unit will need to raise an issue of type '[onboarding request](https://github.com/virtual-labs/engineers-forum/issues/new/)' in the engineers-forum. The issue will need to fill with the following pieces of information :
@@ -45,17 +45,6 @@
   3. A designated repository owner with the following details: </br>
      a. Repository owner github id</br>
      b. Repository owner email address </br>
-  4. The build command for the hosting unit along with the </br>
-     link to the build process documentation. </br>
-  5. Hardware specification including: </br>
-     a. CPU </br>
-     b. Memory</br>
-     c. Network bandwidth</br>
-  6. Software environment specification including:</br>
-     a. Host operating system with minimum compatible version</br>
-     b. Any additional software packages with minimum compatile versions</br>
-     c. Browser plugins required to view experiment</br>
-     d. DB</br>
   
   The repository owner will be responsible for keeping the above information current and intimating the hosting team of any updates/changes as and when needed.
    
@@ -72,7 +61,7 @@
    3. Tag to be deployed
    4. Contact email address and GitHub handle to be used in cases of clarifications
    
-   A hosting request will be tied to this information. This issue will be a single source of truth for that hosting request.  All communication related to the hosting will be recorded on the raised hosting request.
+   A hosting/onboarding request will be tied to this information. This issue will be a single source of truth for that hosting request.  All communication related to the hosting will be recorded on the raised hosting/onboarding request.
 
 
 ### Instructions to Host a Lab with Experiments
@@ -216,7 +205,7 @@ Lab Name: Should be same in the JSON file, GitHub repo name, and in /var/www/htm
 
 Phase: Should be the number that the lab belongs to Phase 3 or so
 	
-Deploy: This Should be true if we are hosting a lab and exp or only a lab. If we want to host the only exp then it should be false
+Deploy: This should be true if we are hosting a lab and exp or only a lab. If we want to host the only exp then it should be false
 	
 College Name(Institute Name): Update from the R0 file (which is given in the request for hosting issue)
 
