@@ -117,23 +117,17 @@
 
 ### Experiment Repository Creation Request
 
-   Steps to be followed by VLEAD's Hosting Engineer
+ Steps to be followed by VLEAD's Hosting Engineer
 
-   - Step 1 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; On receiving a [request](https://github.com/virtual-labs/engineers-forum/issues) for creation of experiment repositories for the lab, VLEAD's hosting engineer will create the experiment(s) repository from the [ph3-exp-template](https://github.com/virtual-labs/ph3-exp-template) repository.
-               
-   - Step 2 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will create two branches - dev and testing from the main branch in the created experiment repositories.
-              
-              
-   - Step 3 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will add the Github Handle of the developer provided in the request issue to the newly created experiment repository with maintainer access. VLEAD's hosting engineer will also add the developer’s common email address to the GitHub notification center.
-   
-   Add the about and link 
+- Step 1: On receiving a [request](https://github.com/virtual-labs/engineers-forum/issues) for creation of experiment repositories for the lab, VLEAD's hosting engineer should the experiment(s) repository from the [ph3-exp-template](https://github.com/virtual-labs/ph3-exp-template) repository.
 
-   - Step 4 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will comment on the repository creation request providing the links to the created repositories. 
+- Step 2: VLEAD's hosting engineer should create two branches - dev and testing from the main branch in the created experiment repositories.
 
+- Step 3: VLEAD's hosting engineer should add the Github Handle of the developer provided in the request issue to the newly created experiment repository with maintainer access. VLEAD's hosting engineer should also add the developer’s common email address to the GitHub notification center.
+
+- Step 4: VLEAD's hosting engineer should add about section and GitHub pages link to the experiment
+
+- Step 5: VLEAD's hosting engineer should comment on the repository creation request providing the links to the created repositories.
 
 
 ### Monitoring of GitHub 
