@@ -2,14 +2,7 @@
 
 ## Introduction
    Virtual Labs is a mission mode project initiated by the
-   Ministry of Human Resources and Development (MHRD). The
-   objective of this project is to provide a laboratory
-   learning experience to the students who do not have access
-   to adequate laboratory infrastructure, currently, there are
-   around 90 labs developed by various institutes in the
-   consortium.  A streamlined software development life cycle
-   process followed for the development of these labs ensures
-   high-quality labs. This document defines various
+   Ministry of Human Resources and Development (MHRD). The objective of this project is to provide a laboratory learning experience to the students who do not have access to adequate laboratory infrastructure, currently, there are around 90 labs developed by various institutes in the consortium.  A streamlined software development life cycle process followed for the development of these labs ensures high-quality labs. This document defines various
    duties to be followed by the hosting engineer of the 
    Virtual Labs project.
 
@@ -32,32 +25,98 @@
 
 ## General Responsibilities and processes
    General responsibilities include the understanding of hosting responsibilities,
-   On-Boarding/hosting of labs/experimenst, creation of Experiment Repositories, and monitoring 
+   On-Boarding/hosting of labs/experiments, creation of Experiment Repositories, and monitoring 
    GitHub engineers forum for requests.
 
 ### Hosting of Labs/ Experiments
-1. When a request ( issue) of type X, Y or Z is made on engineeer's forum then  
-the hosting engineer has to do the following to host a lab
-  a. Make sure that all information is complete 
-       repo source links
-       tag 
-       If not comment on the issue asking for clarification 
-  b. Host the lab as per the process defined ( add the link )
-  c. Perform a prelimnary test and ask for approval from requester
-  
-  ### Rehosting of Labs/ Experiments
-1. When a request ( issue) of type X, Y or Z is made on engineeer's forum then  
-the hosting engineer has to do the following to rehost an already hosted lab
-  a. Make sure that all information is complete 
-       repo source links
-       tag 
-       If not comment on the issue asking for clarification 
-  b. Host the lab as per the process defined ( add the link )
-  c. Perform a prelimnary test and ask for approval from requester
-  
-  
-  
-  ### Creating of Experiment Repositories
+1. When a request of type [Phase II Rehosting Request](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Hosting%2C+Phase-2&template=phase-ii-hosting-request.md&title=Hosting%2FRehosting+Request+for+%3CLab+Name%3E), [Phase III Lab/Experiment(s) OnBoarding Request](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=On-Boarding%2C+Phase-3&template=phase-iii-onboarding.md&title=Phase+III+Lab%2FExperiment%28s%29+OnBoarding+Request+for+%3Cfill+your+lab+name+here%3E), or [Experiment Repository Creation Request](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) is raised on engineer's forum then the hosting engineer has to do the following to host a unit.
+
+
+### Phase II Rehosting Request
+ When an issue of phase II rehosting request is raised, the hosting engineer has to do the following,
+
+- Step 1: Go to the [issue](https://github.com/virtual-labs/engineers-forum/issues) in the [engineers forum](https://github.com/virtual-labs/engineers-forum)
+
+- Step 2: Check for the tag and branch as mentioned the issue
+
+- Step 3: If the mentioned tag and branch exist then go to step 4, else comment on the same issue regarding the tag and branch
+
+- Step 4: Copy the sources on the server and rehost in their respective server
+
+- Step 5: After rehosting, perform a build verification test by visiting the hosted URL
+
+- Step 6: If the build verification test is passed then go to step 7 else rebuild and rehost on the server
+
+- Step 7: Acknowledge the rehosting request by sharing the rehosting details on the [issue](https://github.com/virtual-labs/engineers-forum/issues)
+
+- Step 8: Finally fill the [hosting info sheet](https://docs.google.com/spreadsheets/d/1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc/edit#gid=1738859394) on google sheets
+
+### Phase III Lab/Experiment(s) OnBoarding Request
+
+ When an issue of phase III lab/experiment(s) onboarding request or rehosting request is raised, the hosting engineer has to do the following,
+
+
+#### Phase III OnBoarding(Hosting) Request
+ When an issue of phase III hosting request is raised, the hosting engineer has to do the following,
+
+- Step 1: Create a lab repository on [GitHub Virtual Labs](https://github.com/virtual-labs/) organization
+
+- Step 2: Clone the lab repository along with [Phase-3-Lab-Template](https://github.com/virtual-labs/ph3-lab-mgmt) on the server
+
+- Step 3: After cloning the repo the hosting engineer should go through the [README](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/README.org) file of [Phase-3-Lab-Template repository](https://github.com/virtual-labs/ph3-lab-mgmt)
+
+- Step 4: Run the following command to initialize a lab descriptor file that contains all the required fields, without any values. In the below command <path/to/lab/repo> should be replaced with the actual path to the local lab repository mentioned in the first step.
+
+    ``` npm run labgen -- init <path/to/lab/repo> ```
+
+- Step 5: Fill the lab descriptor file by following [this document](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/lab-descriptor-instructions.md)
+
+- Step 6: Confirm the obtained information by commenting on the exp name with the link, tag, and branch and repo owner details on the issue asking for approval. [Use this as referal](https://github.com/virtual-labs/engineers-forum/issues/569#issuecomment-618197675).
+
+- Step 7: If the developer approves the data provided then go to step 8
+
+- Step 8: Host lab and experiments. From the Phase-3-Lab-Template repository, run the following. This will copy the lab pages to /var/www/html/<lab-name>, then builds and copy experiments listed in the lab-descriptor to /var/www/html/lab-name/exp
+    
+    ``` npm run labgen -- deploy <path/to/lab/repo> ```
+
+- Step 9:  After hosting, perform a build verification test by visiting the hosted URL
+
+- Step 10: If the build verification test is passed then go to step 11 else rebuild and rehost
+
+- Step 11: Acknowledge the hosting request by sharing the hosting details on the issue
+
+- Step 12: Finally fill the [hosting info sheet](https://docs.google.com/spreadsheets/d/1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc/edit#gid=129834454)
+
+
+#### Phase III Rehosting Request
+
+ When an issue of phase III rehosting request is raised, the hosting engineer has to do the following,
+
+- Step 1: Go to the [issue](https://github.com/virtual-labs/engineers-forum/issues) in the [engineers forum](https://github.com/virtual-labs/engineers-forum)
+
+- Step 2: Check for the tag and branch as mentioned the issue
+
+- Step 3: If the mentioned tag and branch exist then go to step 4, else comment on the same issue regarding the tag and branch
+
+- Step 4: Update the lab descriptor file with correct tags
+
+- Step 5: From the Phase-3-Lab-Template repository, run the following. This will generate the lab pages using the verified lab-descriptor.json from the lab repository and push the generated content to the server 
+   
+   ```  npm run labgen -- deploy <path/to/lab/repo> ``` 
+
+- Step 6: Unit will be rehosted after successful completion of step 5
+
+- Step 7: After rehosting, perform a build verification test by visiting the hosted URL
+
+- Step 8: If the build verification test is passed then go to step 9 else rebuild and rehost on the server
+
+- Step 9: Acknowledge the rehosting request by sharing the rehosting details on the [issue](https://github.com/virtual-labs/engineers-forum/issues)
+
+- Step 10: Finally fill the [hosting info sheet](https://docs.google.com/spreadsheets/d/1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc/edit#gid=129834454)
+
+
+### Experiment Repository Creation Request
+
    Steps to be followed by VLEAD's Hosting Engineer
 
    - Step 1 : </br>
@@ -76,6 +135,7 @@ the hosting engineer has to do the following to rehost an already hosted lab
    &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will comment on the repository creation request providing the links to the created repositories. 
 
 
+
 ### Monitoring of GitHub 
 1. Hosting Requests
 2. Repo Creation requests
@@ -83,306 +143,6 @@ the hosting engineer has to do the following to rehost an already hosted lab
 4. Rehosting Requests
 
 
-
-## Process to be followed for hosting of labs  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### On-Boarding process of hosting unit 
-   - Each hosting unit that needs to be hosted by the Virtual Labs hosting team, must follow an onboarding process. The repository owner of the hosting unit will need to raise an issue of type '[onboarding request](https://github.com/virtual-labs/engineers-forum/issues/new/)' in the engineers-forum. The issue will need to fill with the following pieces of information :
-  
-   <strong>On-Boarding Request</strong> - 
-
-  1. A non-conflicting name for the hosting unit. </br>
-  2. Repository URL for the hosting unit.</br>
-  3. A designated repository owner with the following details: </br>
-     a. Repository owner github id</br>
-     b. Repository owner email address </br>
-  
-  The repository owner will be responsible for keeping the above information current and intimating the hosting team of any updates/changes as and when needed.
-   
-  On receipt of an onboarding request, the hosting team will verify the data and acknowledge the same as part of the request. 
-
-  The hosting team will be responsible for storing this information at a central location and making it available for all stakeholders.
- 
-### Hosting Process of hosting unit
-   A repository owner/developer (requester ) will have to
-   raise an issue of type '[hosting request](https://github.com/virtual-labs/engineers-forum/issues/new/choose)' in the GitHub repository [engineers-forum](https://github.com/virtual-labs/engineers-forum) under Virtual-Labs organization for hosting of a hosting unit. The issue will need to fill with the following pieces of information:
-  
-   1. Repository URL
-   2. Branch to be deployed
-   3. Tag to be deployed
-   4. Contact email address and GitHub handle to be used in cases of clarifications
-   
-   A hosting/onboarding request will be tied to this information. This issue will be a single source of truth for that hosting request.  All communication related to the hosting will be recorded on the raised hosting/onboarding request.
-
-
-### Instructions to Host a Lab with Experiments
-  In this section, we will discuss hosting a Lab with Experiments.
-
-  - Step 1: Create a new lab entry by following the instruction given here.  
-  - Step 1:
-     Clone [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) on the server.
-     
-  - Step 2:
-     Go through the [README](https://github.com/virtual-labs/Phase-3-Lab-Template/blob/master/README.org) file of [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) repository.
-
-  - Step 3:
-  Run the following command to initialize a lab descriptor file that contains all the required fields, without any values. In the below command <path/to/lab/repo> should be replaced with the actual path to the local lab repository mentioned in the first step.
-	       
-	     ` npm run labgen -- init <path/to/lab/repo> `
-	   
-
-  - Step 4:
-  Fill all the values in the <path/to/lab/repo>/lab-descriptor.json file generated above by taking data from the R0 file and create a pull-request to get the lab-descriptor approved. Make sure to follow the instruction described here. 
-
-  - Step 5:
-  After getting approval from the legitimate authority, generate lab, and build experiments.
-
-  - Step 6: 
-  From the Phase-3-Lab-Template repository, run the following. This will generate the lab pages using the verified lab-descriptor.json from the lab repository and push the generated content to the remote.
-	      
-	      ` npm run labgen -- generate <path/to/lab/repo> `
-	      
-
-  - Step 7: Finally host lab and experiments. From the Phase-3-Lab-Template repository, run the following. This will copy the lab pages to /var/www/html/<lab-name>, then builds and copy experiments listed in the lab-descriptor to /var/www/html/<lab-name>/<exp>.
-	     
-	     ` npm run labgen -- deploy <path/to/lab/repo> `
-
-- Step 9 : Perform the post hosting checks as listed here.  
-	     
-
-### Commencing the (re)hosting request 
-
-   VLEAD and the institute requesting the rehosting of Phase 3 lab while changing the content of the lab will follow the process detailed below- 
-   
-
-  - Step 1: 
-  Institute requesting rehosting will follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they wish to edit.
-
-  - Step 2: They will comment on the issue with the content that they like to add to the lab pages following the format - Lab Section Name - New content
-
-  - Step 3: VLEAD's hosting engineer will host the lab with the requested changes and share the link on the same issue to seek approval from the institute requesting rehosting. 
-
-  - Step 4: Institute requesting rehosting will need to test the hosted link and on their approval, the hosted link will be shared with IITD (to be added to vlab.co.in).
-
-### (Re)Hosting Lab and Experiments
-  In this section, we will discuss (re)hosting a Lab and Experiments.
-
-  - Step 1: Check for [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) and lab repo on the server.
-
-  - Step 2: Look for the content to be updated(ie., lab or experiments).
-
-  - Step 3:
-   Change the lab-descriptor.json according to the request - like it has fields like 'deployLab' under lab name and 'deploy' under experiment. When these fields are set to true, the only particular lab and/or experiment will be deployed.
-
-  - Step 4: 
-  Mark the values as true or false in the <path/to/lab/repo>/lab-descriptor.json file(present in the lab repo) and create a pull-request to get the lab-descriptor approved.
-
-  - Step 5: 
-  generate lab, and build experiments. After getting approval from the legitimate authority, 
-
-  - Step 6: 
-   run the following command From the Phase-3-Lab-Template repository, This will generate the lab pages using the verified lab-descriptor.json from the lab repository and push the generated content to the remote.
-	      
-	     `npm run labgen -- generate <path/to/lab/repo>`
-	      
-  - Step 7: 
-  Finally host lab and experiments. From the Phase-3-Lab-Template repository, run the following. This will copy the lab pages to /var/www/html/<lab-name>, then builds and copy experiments listed in the lab-descriptor to /var/www/html/<lab-name>/<exp>.
-	      
-	      ` npm run labgen -- deploy <path/to/lab/repo>`
-
-Posting hosting test 
-
-
-
-### Steps for creating a new lab entry(Phase 3)
-- Build and deploy sources to correct path i.e., (/var/www/html/example-lab) {Hosting Engineer}
-- Check for example-lab and sources at /var/www/html/example-lab/ {Hosting Engineer}
-- If step 1 and step 2 are true then go to step 4 else go to step 1 {Hosting Engineer}
-- Hosting Engineer needs to raise a request to System Engineer
-- Add entry to virtual host file in apache configuration(Phase3) {Systems Engineer}
-- Reload the apache server {Systems Engineer}
-- Add entry to ALB {Raj}
-- Finally, add entry in DNS server {Systems Engineer}
-- Reload DNS server {Systems Engineer}
-
-#### NOTE
-- Do not add entries without sources as it will create duplicate data in analytics.
-- When modifying entries, try modifying before 9:00 AM or after 5:00 PM, it will give buffer time if something goes wrong and won't affect live users.
-
-### Post Hosting Tasks
-- In this section, we will look at the tasks to be done after hosting
-  a unit,
-- <strong> Task I - Testing </strong>
-  - A quick SMOKE TEST to be performed on the hosted unit. We will
-    talk about this in the next section.
-- <strong>Task II - Updating hosting request</strong>
-  - After successfully hosting a unit, go to the hosting request and
-    update the request with the following:
-    + Hosted URL
-    + Branch
-    + Tag 
-    + Approval
-
-- <strong>Task III - Updating central hosting sheet</strong> 
-  - Final task would be to update the [central hosting sheet](https://docs.google.com/spreadsheets/d/1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc/edit#gid=129834454) with the
-    following:
-    + Hosted URL
-    + Current Tag
-    + Previous Tag
-    + Hosting request date
-    + Hosting Date
-    + Link to Hosting Request
-    + Requester
-    + Status(Approval)
-    + Number of Experiment
-    + Added to analytics server 
-
-## Instructions to fill the lab-descriptor while hosting
-   The following are the instructions to fill or update the lab-descriptor.json file which is used to host a lab. Make Sure that everything in the JSON file is updated correctly before sending it for verification and hosting
-
-#### Section I - Lab
-	
-   1. Name: Should be Discipline name  
-   2. Link: - Crosscheck the discipline link from vlab.co.in and update correctly
-   		<strong>- Discipline Should be in the following format:</strong>
-			- Mechanical Engineering
-			- Computer Science and Engineering
-			- Electronics and Communication Engineering
-			- Electrical Engineering
-			- Civil Engineering
-			- Chemical Sciences
-			- Biotechnology and Biomedical Engineering
-			- Physical Sciences
-			- Chemical Engineering
-			- Humanity
-			- Metallurgical and Materials Engineering
-			- Design Engineering
-			- Aerospace Engineering
-
-Lab Name: Should be same in the JSON file, GitHub repo name, and in /var/www/html/
-
-Phase: Should be the number that the lab belongs to Phase 3 or so
-	
-Deploy: This should be true if we are hosting a lab and exp or only a lab. If we want to host the only exp then it should be false
-	
-College Name(Institute Name): Update from the R0 file (which is given in the request for hosting issue)
-
-The following are the supported institutes and their ids (to be given in the URL along with the lab id. Ex:- cse01-iiith) 
-
-- <strong> Institute Names and their Id’s:</strong>
-
-	- IIITHyderabad - iiith
-	- Amrita - au
-		- IIT Delhi -iitd
-		- IIT Kanpur - iitk
-		- IIT Guwahati - iitg
-		- IIT Roorkee - iitr
-		- IIT Bombay - iitb
-		- COEP -coep
-		- Dayalbagh - dei 
-		- IIT Kharagpur - iitkgp
-		- NIT Karnataka -nitk
-
-	Base URL: Crosscheck the lab domain in the reverse proxy and update correctly in the JSON
-	
-	Introduction: from R0 file 
-
-#### Section II - Experiment
-	
-   1. Name: experiment name from R0 file
-   2. Short Name: it should be in small letters and not more than 4 words or can give exp repo name from GitLab (if it has only 4 words)
-   3. Repo: give the experiment repo URL from GitLab
-   4. Tag: for every request for hosting, a repo should have a new tag
-   5. Deploy: This should be true if we are hosting a lab and exp or only exp. If we want to host the only lab then it should be false
-
-
-#### Section III 
-   Target Audience, Objective, and Courses Alignment: Should be updated from the R0 file.
-
-   - <strong>Recommendations</strong>
-
-   - Condition 1: if we get a hosting request to update only the lab content, then a hosting person should host only the lab but not the content of the experiments. In the JSON file, deployLab should be true in the lab section, and deploy should be false in the experiments section.
-
-   - Condition 2:  if we get a hosting request to update only the experiment content, then a hosting person should host only the experiments but not the lab. In the JSON file, deployLab should be false in the lab section, and deploy should be true in the experiments section.
-	
-   - Condition 3: If the lab is hosted multiple times with spelling mistakes or so, then the multiple labs will be created in the analytics and we will lose the lab/experiments usage.
-
-   - Condition 4: After hosting the lab, test it thoroughly compared with analytics data.
-
-#### Sample JSON file
-```
-{
-  "broadArea": {
-    "name": "Electronics and Communication Engineering",
-    "link": "http://www.vlab.co.in/broad-area-electronics-and-communications"
-  },
-  "lab": "Digital Electronics IITR",
-  "phase": 3,
-  "collegeName": "IITR",
-  "baseUrl": "de-iitr.vlabs.ac.in",
-  "introduction": "Welcome to the Digital Electronics Lab",
-  "experiments": [
-    {
-      "name": "Verification and interpretation of truth table for AND, OR, NOT, NAND, NOR, Ex-OR, Ex-NOR gates",
-      "short-name": "truth-table-gates",
-      "repo": "https://github.com/virtual-labs/exp-truth-table-gates-iitr",
-      "tag": "v1.0.0",
-      "deploy": true
-    },
-    {
-      "name": "Construction of half and full adder using XOR and NAND gates and verification of its operation",
-      "short-name": "half-full-adder",
-      "repo": "https://github.com/virtual-labs/exp-half-full-adder-iitr",
-      "tag": "v1.0.0",
-      "deploy": true
-    },
-    {
-      "name": "Verify the truth table of one bit and two bit comparator using logic gates",
-      "short-name": "comparator-using-logic-gates",
-      "repo": "https://github.com/virtual-labs/exp-comparator-using-logic-gates-iitr",
-      "tag": "v1.0.0",
-      "deploy": true
-    }
-  ],
-  "targetAudience": {
-    "UG": ["B. Tech./ B.E in Electronics and Communications"],
-    "PG": [
-      "MS/Ph. D. Beginners in Electronics and Communications and related topics"
-    ]
-  },
-  "objective": "To learn and understand the basic concepts of digital electronics.",
-  "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
-    "universities": [
-      "Uttarakhand Technical University Uttarakhand",
-      "Himachal Pradesh Technical University Himachal Pradesh",
-      "Central Library, H.N.B.Garhwal University Uttarakhand",
-      "I. K. Gujral Punjab Technical University Punjab",
-      "Graphic Era University, Dehradun Uttarakhand",
-      "Quantum University Uttarakhand",
-      "Bhagwant University, Ajmer Rajasthan",
-      "Dr. A.P.J. Abdul Kalam Technical University, Lucknow, Uttar Pradesh Uttar Pradesh"
-    ]
-  }
-}
-```
 
 ### Lifecycle of a Hosting Request
     
@@ -400,91 +160,14 @@ The following are the supported institutes and their ids (to be given in the URL
    10.  If the requester wants to revert to an earlier branch/tag, a new '[hosting request](https://github.com/virtual-labs/engineers-forum/issues/new/choose)' will need to be raised to get the unit hosted.
    11. Requester will be responsible for closing a hosting request issue by changing the issue status from Open to Closed when the issue is labeled as *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
 
-### Labels & Status of a Hosting Request 
 
-   At any given time a hosting issue should be marked with only one of the following labels. To change the label of an issue, the current label of the issue should be unchecked and the new label should be checked.
+## Important documents
+ The hosting engineer should have good knowledge of the following documents. (*Mandatory) 
 
-   *Hosted*:  This label indicates that the hosting request has been successful and the hosted URL has been shared in the hosting request issue. This label is used only by the hosting team. 
-   
-   *Failed*: This label indicates that the hosting request has not been successful. This label is used only by the hosting team.
+- 1. Hosting-process-ph3 - https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/hosting-process-ph3.org
 
-   *Reopened*: This label is used by the requester to indicate that the hosting URL provided on the successful hosting of the hosting unit is not passing the validation.
-   
-   *Not Approved*: This label indicates that the hosting request issue raised by the requester was not approved by the Repository Owner.  This label is used only by the hosting team.
-    
-   *Reverted*:  This label indicates that the hosting request has been successfully reverted to the previous hosted image. This label is used only by the hosting team. 
-    
-   Apart from the above-mentioned labels, a hosting request issue can either be in a closed or open status as provided by GitHub. 
+- 2. Hosting-process - https://github.com/virtual-labs/engineers-forum/blob/master/hosting-process.org
 
-   *Open*: This status indicates that a new hosting request issue has been raised and is waiting for the services of the hosting team. All issues are in this status when they are created on GitHub.
+- 3. lab-descriptor - https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/lab-descriptor.org
 
-   *Closed*: This status indicates that a hosting request has been serviced by the hosting team and is labeled as *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
-
-
-
-
-
-## Process to be followed for OnBoarding Request 
-   VLEAD and the requesting institute follow the process detailed below for hosting labs which have been developed with each experiment having its repository. All  Phase 3 and above labs and experiments hosted on AWS will have a common UI  and report analytics at both lab and experiment level. 
-
-  - Step 1 :
-   &nbsp;&nbsp;&nbsp;&nbsp; IIITH will create lab repo for the lab that is ready ( marked in green) in the 200224_Deliverable_Status_Phase3 sheet shared by IITB and also populate the lab URLs in the sheet.
-
-  - Step 2 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Requesting institute will raise an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) and fill the lab name and lab URL ( as populated in the excel sheet by IIITH) and attach the R0 of the lab.
-
-  - Step 3 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Requesting institute will tag the head of the master branch of all the experiments in that lab as mentioned in the 200224_Deliverable_Status_Phase3 as v1.0.0.
-
-  - Step 4 :
-   &nbsp;&nbsp;&nbsp;&nbsp; IIITH will populate the received Phase 3 Onboarding  [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) with experiment details ( name, URL, tag, branch and build command) and Owner details and request for approval from the requesting institute. It will be assumed by IIITH that no special hardware or software is required for the running of the experiments. The requesting institute will have to specially state if this is not the case.
-
-  - Step 5 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Requesting institute will validate the above data and approve the same on the received Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) .
-
-  - Step 6 :
-   &nbsp;&nbsp;&nbsp;&nbsp; On approval from the requesting institute, IIITH will host all the experiments and populate the lab landing page information (Introduction, Objective, List of experiments, target audience, course alignment ) from the R0 shared by IITB in the Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose).
-
-  - Step 7 :
-   &nbsp;&nbsp;&nbsp;&nbsp; IIITH will host the lab and share the hosted URL link as part of the onboarding request issue and seek approval from the GitHub handle of the owner of the lab ( as recorded in the onboarding request)
-
-  - Step 8 :
-   &nbsp;&nbsp;&nbsp;&nbsp; On approval from the Lab owner, IIITH will share the link with IIT Delhi.
-
-
-### Rehosting Process for Phase III Lab 
-   VLEAD and the institute requesting the rehosting of Phase
-   3 lab while changing the content of the lab will follow
-   the process detailed below- 
-   
-
-  - Step 1 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they wish to rehost.
-
-  - Step 2 :
-   &nbsp;&nbsp;&nbsp;&nbsp; They will comment on the issue with the content that they like to add to the lab pages following the format - Lab Section Name - New content
-
-  - Step 3 :
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will host the lab with the requested changes and share the link on the same issue to seek approval from the institute requesting rehosting. 
-
-  - Step 4 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will need to test the hosted link and on their approval, the hosted link will be shared with IITD (to be added to vlab.co.in).
-
-
-### Rehosting Process for Phase III Experiments    
-   VLEAD and the institute requesting the rehosting of Phase 3 lab after changing the content of the experiment will follow the process detailed below-
-
-  - Step 1  :
-   &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will make the necessary changes to the experiment content in the experiment repository on Github (virtual-labs organization) or GitLab (IITB server) as per the process followed during experiment development.  After they make the changes to the experiment sources, they will need to tag them.
-
-  - Step 2 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab containing the experiment that they wish to rehost.
-
-  - Step 3 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting will comment on the same Phase III Lab/Experiment(s) OnBoarding Request with the following text "Request to rehost the experiment <exp repo link> with the tag <tag number>". Institute requesting may include more than one experiment ( belonging to the same lab) rehosting request at a time.
-
-  - Step 4 :
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will host the experiments and share the link on the same issue to seek approval from them.
-
-  - Step 5 :
-   &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will need to test the hosted link and comment on the same issue stating their approval.
+- 4. migration-process - https://github.com/virtual-labs/engineers-forum/blob/master/migration-process.md
