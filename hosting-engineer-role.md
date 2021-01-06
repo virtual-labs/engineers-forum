@@ -32,8 +32,76 @@
 
 ## General Responsibilities and processes
    General responsibilities include the understanding of hosting responsibilities,
-   On-Boarding process, creation of Experiment Repositories, and monitoring 
+   On-Boarding/hosting of labs/experimenst, creation of Experiment Repositories, and monitoring 
    GitHub engineers forum for requests.
+
+### Hosting of Labs/ Experiments
+1. When a request ( issue) of type X, Y or Z is made on engineeer's forum then  
+the hosting engineer has to do the following to host a lab
+  a. Make sure that all information is complete 
+       repo source links
+       tag 
+       If not comment on the issue asking for clarification 
+  b. Host the lab as per the process defined ( add the link )
+  c. Perform a prelimnary test and ask for approval from requester
+  
+  ### Rehosting of Labs/ Experiments
+1. When a request ( issue) of type X, Y or Z is made on engineeer's forum then  
+the hosting engineer has to do the following to rehost an already hosted lab
+  a. Make sure that all information is complete 
+       repo source links
+       tag 
+       If not comment on the issue asking for clarification 
+  b. Host the lab as per the process defined ( add the link )
+  c. Perform a prelimnary test and ask for approval from requester
+  
+  
+  
+  ### Creating of Experiment Repositories
+   Steps to be followed by VLEAD's Hosting Engineer
+
+   - Step 1 : </br>
+   &nbsp;&nbsp;&nbsp;&nbsp; On receiving a [request](https://github.com/virtual-labs/engineers-forum/issues) for creation of experiment repositories for the lab, VLEAD's hosting engineer will create the experiment(s) repository from the [ph3-exp-template](https://github.com/virtual-labs/ph3-exp-template) repository.
+               
+   - Step 2 : </br>
+   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will create two branches - dev and testing from the main branch in the created experiment repositories.
+              
+              
+   - Step 3 : </br>
+   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will add the Github Handle of the developer provided in the request issue to the newly created experiment repository with maintainer access. VLEAD's hosting engineer will also add the developer’s common email address to the GitHub notification center.
+   
+   Add the about and link 
+
+   - Step 4 : </br>
+   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will comment on the repository creation request providing the links to the created repositories. 
+
+
+### Monitoring of GitHub 
+1. Hosting Requests
+2. Repo Creation requests
+3. Permission issues 
+4. Rehosting Requests
+
+
+
+## Process to be followed for hosting of labs  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### On-Boarding process of hosting unit 
    - Each hosting unit that needs to be hosted by the Virtual Labs hosting team, must follow an onboarding process. The repository owner of the hosting unit will need to raise an issue of type '[onboarding request](https://github.com/virtual-labs/engineers-forum/issues/new/)' in the engineers-forum. The issue will need to fill with the following pieces of information :
@@ -67,11 +135,12 @@
 ### Instructions to Host a Lab with Experiments
   In this section, we will discuss hosting a Lab with Experiments.
 
+  - Step 1: Create a new lab entry by following the instruction given here.  
   - Step 1:
-     [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) to be cloned initially on the server.
-
+     Clone [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) on the server.
+     
   - Step 2:
-     After cloning the repo the hosting person should go through the [README](https://github.com/virtual-labs/Phase-3-Lab-Template/blob/master/README.org) file of [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) repository.
+     Go through the [README](https://github.com/virtual-labs/Phase-3-Lab-Template/blob/master/README.org) file of [Phase-3-Lab-Template](https://github.com/virtual-labs/Phase-3-Lab-Template) repository.
 
   - Step 3:
   Run the following command to initialize a lab descriptor file that contains all the required fields, without any values. In the below command <path/to/lab/repo> should be replaced with the actual path to the local lab repository mentioned in the first step.
@@ -80,7 +149,7 @@
 	   
 
   - Step 4:
-  Fill all the values in the <path/to/lab/repo>/lab-descriptor.json file generated above by taking data from the R0 file and create a pull-request to get the lab-descriptor approved.
+  Fill all the values in the <path/to/lab/repo>/lab-descriptor.json file generated above by taking data from the R0 file and create a pull-request to get the lab-descriptor approved. Make sure to follow the instruction described here. 
 
   - Step 5:
   After getting approval from the legitimate authority, generate lab, and build experiments.
@@ -94,6 +163,8 @@
   - Step 7: Finally host lab and experiments. From the Phase-3-Lab-Template repository, run the following. This will copy the lab pages to /var/www/html/<lab-name>, then builds and copy experiments listed in the lab-descriptor to /var/www/html/<lab-name>/<exp>.
 	     
 	     ` npm run labgen -- deploy <path/to/lab/repo> `
+
+- Step 9 : Perform the post hosting checks as listed here.  
 	     
 
 ### Commencing the (re)hosting request 
@@ -118,16 +189,16 @@
   - Step 2: Look for the content to be updated(ie., lab or experiments).
 
   - Step 3:
-   lab-descriptor.json has fields like 'deployLab' under lab name and 'deploy' under experiment. When these fields are set to true, the particular lab or experiment will be deployed.
+   Change the lab-descriptor.json according to the request - like it has fields like 'deployLab' under lab name and 'deploy' under experiment. When these fields are set to true, the only particular lab and/or experiment will be deployed.
 
   - Step 4: 
   Mark the values as true or false in the <path/to/lab/repo>/lab-descriptor.json file(present in the lab repo) and create a pull-request to get the lab-descriptor approved.
 
   - Step 5: 
-  After getting approval from the legitimate authority, generate lab, and build experiments.
+  generate lab, and build experiments. After getting approval from the legitimate authority, 
 
   - Step 6: 
-  From the Phase-3-Lab-Template repository, run the following. This will generate the lab pages using the verified lab-descriptor.json from the lab repository and push the generated content to the remote.
+   run the following command From the Phase-3-Lab-Template repository, This will generate the lab pages using the verified lab-descriptor.json from the lab repository and push the generated content to the remote.
 	      
 	     `npm run labgen -- generate <path/to/lab/repo>`
 	      
@@ -135,6 +206,10 @@
   Finally host lab and experiments. From the Phase-3-Lab-Template repository, run the following. This will copy the lab pages to /var/www/html/<lab-name>, then builds and copy experiments listed in the lab-descriptor to /var/www/html/<lab-name>/<exp>.
 	      
 	      ` npm run labgen -- deploy <path/to/lab/repo>`
+
+Posting hosting test 
+
+
 
 ### Steps for creating a new lab entry(Phase 3)
 - Build and deploy sources to correct path i.e., (/var/www/html/example-lab) {Hosting Engineer}
@@ -179,7 +254,7 @@
     + Number of Experiment
     + Added to analytics server 
 
-### Instructions to fill the lab-descriptor while hosting
+## Instructions to fill the lab-descriptor while hosting
    The following are the instructions to fill or update the lab-descriptor.json file which is used to host a lab. Make Sure that everything in the JSON file is updated correctly before sending it for verification and hosting
 
 #### Section I - Lab
@@ -346,21 +421,7 @@ The following are the supported institutes and their ids (to be given in the URL
    *Closed*: This status indicates that a hosting request has been serviced by the hosting team and is labeled as *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
 
 
-## Process to be followed for creating of Experiment Repositories
-   Steps to be followed by VLEAD's Hosting Engineer
 
-   - Step 1 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; On receiving a [request](https://github.com/virtual-labs/engineers-forum/issues) for creation of experiment repositories for the lab, VLEAD's hosting engineer will create the experiment(s) repository from the [ph3-exp-template](https://github.com/virtual-labs/ph3-exp-template) repository.
-               
-   - Step 2 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will create two branches - dev and testing from the main branch in the created experiment repositories.
-              
-              
-   - Step 3 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will add the Github Handle of the developer provided in the request issue to the newly created experiment repository with maintainer access. VLEAD's hosting engineer will also add the developer’s common email address to the GitHub notification center.
-
-   - Step 4 : </br>
-   &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will comment on the repository creation request providing the links to the created repositories. 
 
 
 ## Process to be followed for OnBoarding Request 
