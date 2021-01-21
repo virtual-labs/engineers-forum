@@ -113,8 +113,8 @@
    separated by dots. The changes to these numbers represent
    the following:
     1. MAJOR: A change incompatible with previous versions.
-    2. MINOR: A backwords compatible new feature.
-    3. PATCH: A backwords compatible bug fix.
+    2. MINOR: A backwards compatible new feature.
+    3. PATCH: A backwards compatible bug fix.
    All Virtual Labs hosting request should specify a tag.
 
 ** Build Process
