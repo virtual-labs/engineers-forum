@@ -154,6 +154,120 @@
    10.  If the requester wants to revert to an earlier branch/tag, a new '[hosting request](https://github.com/virtual-labs/engineers-forum/issues/new/choose)' will need to be raised to get the unit hosted.
    11. Requester will be responsible for closing a hosting request issue by changing the issue status from Open to Closed when the issue is labeled as *Hosted* or *Reopened* or *Reverted* or *Not Approved*.
 
+## Instructions to fill the lab-descriptor while hosting
+The following are the instructions to fill or update the lab-descriptor.json file which is used to host a lab. Make Sure that everything in the JSON file is updated correctly before sending it for verification and hosting
+
+### Section I - Lab
+Name: Should be Discipline name
+
+Link: - Crosscheck the discipline link from vlab.co.in and update correctly - Discipline Should be in the following format: - Mechanical Engineering - Computer Science and Engineering - Electronics and Communication Engineering - Electrical Engineering - Civil Engineering - Chemical Sciences - Biotechnology and Biomedical Engineering - Physical Sciences - Chemical Engineering - Humanity - Metallurgical and Materials Engineering - Design Engineering - Aerospace Engineering
+
+Lab Name: Should be same in the JSON file, GitHub repo name, and in /var/www/html/
+
+Phase: Mention 2 for phase 2 labs, 3 for phase labs and 4 for phase 4 labs
+
+Deploy: This should be true if we are hosting a lab and exp or only a lab. If we want to host the only exp then it should be false
+
+College Name(Institute Name): Update from the R0 file (which is given in the request for hosting issue) Double check college name as analytics is depended on it
+
+The following are the supported institutes and their ids (to be given in the URL along with the lab id. Ex:- cse01-iiith)
+
+#### Institute Names and their Id’s:
+
+- [x] IIITHyderabad - iiith
+- [x] Amrita - au
+- [x] IIT Delhi - iitd
+- [x] IIT Kanpur - iitk
+- [x] IIT Guwahati - iitg
+- [x] IIT Roorkee - iitr
+- [x] IIT Bombay - iitb
+- [x] COEP - coep
+- [x] Dayalbagh - dlbg
+- [x] IIT Kharagpur - iitkgp
+- [x] NIT Karnataka -nitk
+
+Base URL: Crosscheck the lab domain in the reverse proxy and update correctly in the JSON
+
+Introduction: from R0 file
+
+### Section II - Experiment
+1. Name: Experiment name from R0 file
+2. Short Name: Short name should be in small letters and not more than 4 words or can give exp repo name from GitLab (if it has only 4 words)
+3. Repo: Give the experiment repo URL from GitHub or GitLab
+4. Tag: For every request of hosting, the repo should have a new tag
+5. Deploy: This should be true if we are hosting a lab and exp or only exp. If we want to host the only lab then it should be false
+
+### Section III
+Target Audience, Objective, and Courses Alignment: Should be updated from the R0 file.
+
+ - Recommendations
+
+ - Condition 1: if we get a hosting request to update only the lab content, then a hosting person should host only the lab but not the content of the experiments. In the JSON file, deployLab should be true in the lab section, and deploy should be false in the experiments section.
+
+ - Condition 2: if we get a hosting request to update only the experiment content, then a hosting person should host only the experiments but not the lab. In the JSON file, deployLab should be false in the lab section, and deploy should be true in the experiments section.
+
+ - Condition 3: If the lab is hosted multiple times with spelling mistakes or so, then the multiple labs will be created in the analytics and we will lose the lab/experiments usage.
+
+ - Condition 4: After hosting the lab, test it thoroughly compared with analytics data.
+
+#### Sample JSON file
+
+``` {
+  "broadArea": {
+    "name": "Electronics and Communication Engineering",
+    "link": "http://www.vlab.co.in/broad-area-electronics-and-communications"
+  },
+  "lab": "Digital Electronics IITR",
+  "phase": 3,
+  "collegeName": "IITR",
+  "baseUrl": "de-iitr.vlabs.ac.in",
+  "introduction": "Welcome to the Digital Electronics Lab",
+  "experiments": [
+    {
+      "name": "Verification and interpretation of truth table for AND, OR, NOT, NAND, NOR, Ex-OR, Ex-NOR gates",
+      "short-name": "truth-table-gates",
+      "repo": "https://github.com/virtual-labs/exp-truth-table-gates-iitr",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Construction of half and full adder using XOR and NAND gates and verification of its operation",
+      "short-name": "half-full-adder",
+      "repo": "https://github.com/virtual-labs/exp-half-full-adder-iitr",
+      "tag": "v1.0.0",
+      "deploy": true
+    },
+    {
+      "name": "Verify the truth table of one bit and two bit comparator using logic gates",
+      "short-name": "comparator-using-logic-gates",
+      "repo": "https://github.com/virtual-labs/exp-comparator-using-logic-gates-iitr",
+      "tag": "v1.0.0",
+      "deploy": true
+    }
+  ],
+  "targetAudience": {
+    "UG": ["B. Tech./ B.E in Electronics and Communications"],
+    "PG": [
+      "MS/Ph. D. Beginners in Electronics and Communications and related topics"
+    ]
+  },
+  "objective": "To learn and understand the basic concepts of digital electronics.",
+  "courseAlignment": {
+    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "universities": [
+      "Uttarakhand Technical University Uttarakhand",
+      "Himachal Pradesh Technical University Himachal Pradesh",
+      "Central Library, H.N.B.Garhwal University Uttarakhand",
+      "I. K. Gujral Punjab Technical University Punjab",
+      "Graphic Era University, Dehradun Uttarakhand",
+      "Quantum University Uttarakhand",
+      "Bhagwant University, Ajmer Rajasthan",
+      "Dr. A.P.J. Abdul Kalam Technical University, Lucknow, Uttar Pradesh Uttar Pradesh"
+    ]
+  }
+}
+```
+
 
 ## Important documents
  The hosting engineer should have good knowledge of the following documents. (*Mandatory) 
