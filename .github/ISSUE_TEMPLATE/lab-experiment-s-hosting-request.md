@@ -15,5 +15,8 @@ Please provide item 1 for all the experiments of the lab
 1. **Hosting Unit**: <!-- repositories must be public -->
 | No.| Experiment Name | Experiment repository URL | Branch/Tag |
 2. **GitHub Handle**:<!--GitHub handle of the developer -->
-3. **Approved Proposal**:<!--Please attach the PDF of the Approved Proposal  to this issue -->
+3. **Virtual Lab Phase**:<!--Please type 2 if the lab was developed during Virtual Labs Phase 2 OR type 3 if the lab was developed during Virtual Labs Phase 3 -->
+4. **Existing Hosted URL  **:<!--Please provide the hosted URL link if it is an existing hosted Phase 2 Lab -->
+5. **Approved Proposal**:<!--Please attach the PDF of the Approved Proposal to this issue if it is a Phase 3 Lab -->
+
 
