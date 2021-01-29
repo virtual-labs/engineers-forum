@@ -2,7 +2,7 @@
 name: Lab/Experiment(s) Hosting Request
 about: Get your experiment hosted on Virtual Labs.
 title: 'Lab/Experiment Hosting Request for  '
-labels: Phase-3
+labels: Phase-3 
 assignees: ''
 
 ---
