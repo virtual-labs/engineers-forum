@@ -316,71 +316,35 @@ The flow diagram depicting lifecycle of a hosting request is below:
 | --- | --- | --- |
 | 1. | Raising an On-Boarding Request | Repository owner |
 | 2. | Tagging the hosting unit release in the | Requester |
-|
- | master branch while raising hosting request |
- |
+|    | master branch while raising hosting request  
 | 3. | Testing the application before | Requester |
-|
- | making hosting request |
- |
+|    | making hosting request ||
 | 4. | Raising the hosting request and | Requester |
-|
- | providing all required information |
- |
+|    | providing all required information | |
 | 5. | Seeking approval of the repository owner | Hosting team |
-|
- | if the request is raised by someone other |
- |
-|
- | than the repository owner. |
- |
-|
- | Labelling the hosting request issue as |
- |
-|
- | **Not Approved** if the request is not |
- |
-|
- | approved by the repository owner |
- |
+|    | if the request is raised by someone other |
+|    | than the repository owner. |
+|    | Labelling the hosting request issue as |
+|    | **Not Approved** if the request is not |
+|    | approved by the repository owner |
 | 6. | Validating the information provided in the | Hosting team |
-|
- | hosting and on-boarding request |
- |
+|    | hosting and on-boarding request | |
 | 7. | Running the hosting process | Hosting team |
 | 8. | Providing the hosted link to the | Hosting team |
-|
- | requester and labelling the hosting |
- |
-|
- | request issue to **Hosted** |
- |
+|    | requester and labelling the hosting | |
+|    | request issue to **Hosted** | |
 | 9. | Providing the causes/nature of failure | Hosting team |
-|
- | and labelling the hosting request issue to |
- |
-|
- | **Failed** |
- |
+|    | and labelling the hosting request issue to | |
+|    | **Failed** | |
 | 10. | Validating the hosted code | Requester |
 | 11. | Labelling the hosting request issue as | Requester |
-|
- | **Reopened** if validation is unsuccessful |
- |
+|    | **Reopened** if validation is unsuccessful | |
 | 12. | Reverting the hosting unit to previous hosted | Hosting team |
-|
- | image if validation fails and |
- |
-|
- | labelling the issue as **Reverted** |
- |
+|    | image if validation fails and | |
+| | labelling the issue as **Reverted** | |
 | 13. | Changing the status to **Closed** if the | Requester |
-|
- | request is labelled **Hosted** or **Reverted** |
- |
-|
- | or **Not Approved** or **Failed** |
- |
+| | request is labelled **Hosted** or **Reverted** | |
+| | or **Not Approved** or **Failed** | |
 
 #
 # **FAQ**
