@@ -1,7 +1,7 @@
 
 # **Virtual Labs Hosting Process**
 
-## **Introduction**
+## Introduction
 
 Virtual Labs is a mission mode project initiated by the Ministry of Human Resources and Development (MHRD). The objective of this project is to provide laboratory learning experience to the students who do not have access to adequate laboratory infrastructure. Currently there are around 90 labs developed by various institutes in the consortium. A streamlined software development life cycle process followed for the development of these labs ensures high quality labs. This document defines the hosting process to be followed by the developers (open source community) of the Virtual Labs project.
 
@@ -29,7 +29,7 @@ Hosting is a service provided by the Central Platform Engineering (CPE) which in
 2. Ensuring round the clock availability of the Lab/Experiments.
 3. Ensuring that a minimum acceptable performance criteria are met by the Lab/Experiments.
 
-Following are not part of the hosting service:
+Following are **not** part of the hosting service:
 
 1. Testing: The deployable code is a black box for the CPE team. The CPE team is not responsible for testing the deployments. The developer/owner of the Lab/Experiment is responsible for confirming that the Lab/Experiments are deployed and functioning as intended. This confirmation is part of the hosting process.
 2. Implementation: The CPE team is not responsible for any bug fixes or enhancements or implementation on the Lab/Experiment. The developers should ensure that their product is complete and functional before raising a hosting request.
