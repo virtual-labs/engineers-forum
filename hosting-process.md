@@ -1,27 +1,27 @@
 
-# **Virtual Labs Hosting Process**
+# Virtual Labs Hosting Process
 
 ## Introduction
 
 Virtual Labs is a mission mode project initiated by the Ministry of Human Resources and Development (MHRD). The objective of this project is to provide laboratory learning experience to the students who do not have access to adequate laboratory infrastructure. Currently there are around 90 labs developed by various institutes in the consortium. A streamlined software development life cycle process followed for the development of these labs ensures high quality labs. This document defines the hosting process to be followed by the developers (open source community) of the Virtual Labs project.
 
-## **Purpose**
+## Purpose
 
 This document defines the experiment on-boarding and hosting process that should be followed by the developers of the lab while requesting the hosting of their lab on AWS. The roles and responsibilities of the various parties involved in the hosting process is also discussed in detailed in the document.
 
-## **Motivation**
+## Motivation
 
 A well defined experiment hosting and on-boarding process will help maintain a consistent user experience and enable experiment-authors to focus on the content. Consolidated information regarding all the deployments will also facilitate reporting.
 
-## **Audience**
+## Audience
 
 The target audience for this document is the hosting team at CPE, IIITH and all the lab authors and owners who want to avail the hosting service provided by Central Platform Engineering Team (CPE), IIITH team.
 
-## **Definitions and Pre-requisites**
+## Definitions and Pre-requisites
 
 Virtual Labs hosting process will require certain pre-requisites to be met by the experiments that need to be hosted. The following paragraphs define terminologies used during the hosting process.
 
-## **Hosting**
+## Hosting
 
 Hosting is a service provided by the Central Platform Engineering (CPE) which includes the following:
 
@@ -35,21 +35,21 @@ Following are **not** part of the hosting service:
 2. Implementation: The CPE team is not responsible for any bug fixes or enhancements or implementation on the Lab/Experiment. The developers should ensure that their product is complete and functional before raising a hosting request.
 3. Approvals: The CPE team does not provide any approvals regarding the completeness of the Lab/Experiment. The developers are expected to have sought the necessary approvals regarding completeness of the Lab/Experiment before raising a hosting request.
 
-## **Hosting Unit**
+## Hosting Unit
 
 Hosting unit is the code base/repository that will hosted in its enirety during the hosting process. It will not be possible for a part of a hosting unit to be hosted separately. A hosting unit will correspond to one public repository.A hosting unit could be a stand alone experiment or could be a lab consisting of a set of related experiments.
 
-## **Repository Owner**
+## Repository Owner
 
 Each repository, corresponding to a hosting unit, will have one designated primary owner. This owner will be the single entity responsible for all the code that resides in the repository. The owner will also be the final approval authority for a hosting request. The owner should ensure that the master branch of the repository only contains the code that needs to be hosted. The latest code in the master branch should represent the hosted experiment.
 
 The primary repository owner does not have to be a person. It may be any uniquely identifiable entity. From the perpective of Virtual Labs hosting team, this entity will the single point of contact for all clarifications. The hosting team will not be responsible for any confusions arising due to shared accessibility of the repo owner entity.
 
-## **Requester**
+## Requester
 
 A repository owner or a developer who raises a hosting request.
 
-## **Tags**
+## Tags
 
 The repository owner will be responsible for tagging each merge to the master branch. The owner will have to follow [Semantic Versioning](https://semver.org/) . In short, each version is a combination of three numbers (MAJOR.MINOR.PATCH) separated by dots. The changes to these numbers represent the following:
 
@@ -59,22 +59,22 @@ The repository owner will be responsible for tagging each merge to the master br
 
 All Virtual Labs hosting request should specify a tag.
 
-## **Build Process**
+## Build Process
 
 Each hosting unit should have a well defined build process. The hosting team will treat the build process as a black box action. This action will be triggerred to generate the artifacts to deploy. The repository owner should ensure that the build process is well documented and functioning as desired before raising a hosting request.
 
-## **Testing**
+## Testing
 
 The hosting process will result in a deployment with an accessible url. The responsibility of testing the deployments will lie with the repository owner. The hosting team will be responsible for providing the link to the deployment. The hosting team will not provide any testing environment. The repository owner will be responsible for ensuring that the hosting unit works as expected in their own specific testing environments.
 
-## **Hosting Process**
+## Hosting Process
 
 Virtual Labs hosting process consists of two steps -
 
 1. Request the onboarding of a hosting unit
 2. Request the hosting of hosting unit
 
-## **On-Boarding process of hosting unit**
+## On-Boarding process of hosting unit
 
 Each hosting unit that needs to be hosted by the Virtual Labs hosting team, must follow an onboarding process. The repository owner of the hosting unit will need to raise an issue of type [on-boarding request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) in the engineers-forum. The issue will need to filled with the following pieces of information :
 
@@ -93,7 +93,7 @@ On receipt of an onboarding request the hosting team will verify the data and ac
 
 The hosting team will be responsible for storing the this information at a central location and making it available for all stakeholders.
 
-## **Hosting Process of hosting unit**
+## Hosting Process of hosting unit
 
 A repository owner/developer (requester ) will have to raise an issue of type [hosting request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) in the GitHub repository [engineers-forum](https://github.com/virtual-labs/engineers-forum) under Virtual-Labs organisation for hosting of a hosting unit. The issue will need to filled with the following pieces of information :
 
@@ -104,7 +104,7 @@ A repository owner/developer (requester ) will have to raise an issue of type [h
 
 A hosting request will be tied to this information. This issue will be a single source of truth for that hosting request. All communication related to the hosting will be recorded on the raised hosting request.
 
-### **Lifecycle of a Hosting Request**
+### Lifecycle of a Hosting Request
 
 The hosting request will go through the following lifecycle:
 
@@ -120,7 +120,7 @@ The hosting request will go through the following lifecycle:
 10. If the requester wants to revert to any earlier branch/tag, a new [hosting request](https://github.com/virtual-labs/engineers-forum/issues/new/choose) will need to be raised to get the unit hosted.
 11. Requester will be responsible for closing a hosting request issue by changing the issue status from Open to Closed when the issue is labelled as **Hosted** or **Reopened** or **Reverted** or **Not Approved**.
 
-### **Labels &amp; Status of a Hosting Request**
+### Labels &amp; Status of a Hosting Request
 
 At any given time a hosting issue should be marked with only one of the following labels. To change the label of an issue, the current label of the issue should be unchecked and the new label should be checked.
 
@@ -140,7 +140,7 @@ Apart from the above mentioned labels a hosting request issue can either be in a
 
 **Closed** : This status indicates that a hosting request has been serviced by the hosting team and is labelled as **Hosted** or **Reopened** or **Reverted** or **Not Approved**.
 
-# **Hosting Process for Phase III Experiment/Labs**
+# Hosting Process for Phase III Experiment/Labs
 
 Keeping the deliverables/due date and the current hosting model in mind, the following process will need to be followed for getting a Lab hosted on AWS during the Phase III of the Virtual Labs project ( ending on March 31st 2020). This is as per many discussions with IITB and the [meeting](https://drive.google.com/open?id=1-ndJYbxXucCRkpL_JktI_46tUG5CJ9Dw) on [2020-03-03 Tue].
 
@@ -178,7 +178,7 @@ Step 8
 
 On approval from the Lab owner, IIITH will share the link with IIT Delhi.
 
-## **Rehosting Process for Phase III Lab**
+## Rehosting Process for Phase III Lab
 
 VLEAD and the institute requesting the rehosting of Phase 3 lab while changing the content of the lab will follow the process detailed below-
 
@@ -198,7 +198,7 @@ VLEAD's hosting engineer will host the lab with the requested changes and share 
 
 Institute requesting rehosting will need to test the hosted link and on their approval the hosted link will be shared with IITD (to be added to vlab.co.in).
 
-## **Rehosting Process for Phase III Experiments**
+## Rehosting Process for Phase III Experiments
 
 VLEAD and the institute requesting the rehosting of Phase 3 lab after changing the content of experiment will follow the process detailed below-
 
@@ -222,7 +222,7 @@ VLEAD's hosting engineer will host the experiments and share the link on the sam
 
 Institute requesting rehosting will need to test the hosted link and comment on the same issue stating their approval.
 
-## **Moving Phase 3 experiment repositories from IITB GitLab Server to virtual-labs Github organization**
+## Moving Phase 3 experiment repositories from IITB GitLab Server to virtual-labs Github organization
 
 VLEAD and the institute requesting the movement of Phase 3 experiment repositories from IITB Gitlab Server to virtual-labs GitHub organization will follow the process detailed below-
 
@@ -262,7 +262,7 @@ VLEAD's hosting engineer will host the experiments and the lab and share the lin
 
 Institute requesting momement will need to test the hosted link and comment on the same issue stating their approval.
 
-## **Creation of Experiment Repositories**
+## Creation of Experiment Repositories
 
 Steps to be followed by VLEAD's Hosting Engineer
 
@@ -282,7 +282,7 @@ VLEAD's hosting engineer will add the Github Handle of the experiment developer 
 
 VLEAD's hosting engineer will comment on the repository creation request providing the links to the created repositories.
 
-## **Central Hosting Data**
+## Central Hosting Data
 
 The following information will be stored at a central place for a quick reference by the hosting team:
 
@@ -294,7 +294,7 @@ The following information will be stored at a central place for a quick referenc
 
 Please follow the [link](https://drive.google.com/open?id=1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc) for the Central Hosting Data.
 
-## **Flow Diagram of the Hosting Process**
+## Flow Diagram of the Hosting Process
 
 The flow diagram depicting lifecycle of a hosting request is below:
 
@@ -336,7 +336,7 @@ The flow diagram depicting lifecycle of a hosting request is below:
 | | request is labelled **Hosted** or **Reverted** | |
 | | or **Not Approved** or **Failed** | |
 
-## **FAQ**
+## FAQ
 
 **Why should I use the Hosting Service?**
 
@@ -366,11 +366,11 @@ No. It is not possible for the CPE team to test your Lab because only you unders
 
 No. Your code is a complete blackbox for the CPE team. You are responsible for ensuring the completeness and correctness of your code and deployment.
 
-## **Conclusion**
+## Conclusion
 
 This document highlights the hosting process of Virtual Labs from on-boarding to hosting. It aims at collaborating contributions of the developers across the open source platform - GitHub. This streamlined process would help in our strive for excellence in delivering high standard labs.
 
-## **Glossary**
+## Glossary
 
 - **Repository** : The distributed version control system - git is used here. Every time the term repository or repo is used, it refers to a git repository. A repository is an on-disk data structure which stores metadata for a set of files and/or directory structure. The whole set of information in the repository may be duplicated on every user&#39;s system or may be maintained on a single server.
 - **Virtual Labs** : Virtual Labs is an initiative by MHRD under NMEICT. The objective of this project is to make engineering education engaging, enjoyable, immersive and online.
