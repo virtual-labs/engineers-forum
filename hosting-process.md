@@ -140,7 +140,6 @@ Apart from the above mentioned labels a hosting request issue can either be in a
 
 **Closed** : This status indicates that a hosting request has been serviced by the hosting team and is labelled as **Hosted** or **Reopened** or **Reverted** or **Not Approved**.
 
-#
 # **Hosting Process for Phase III Experiment/Labs**
 
 Keeping the deliverables/due date and the current hosting model in mind, the following process will need to be followed for getting a Lab hosted on AWS during the Phase III of the Virtual Labs project ( ending on March 31st 2020). This is as per many discussions with IITB and the [meeting](https://drive.google.com/open?id=1-ndJYbxXucCRkpL_JktI_46tUG5CJ9Dw) on [2020-03-03 Tue].
@@ -253,7 +252,7 @@ Institute requesting movement will then merge from a fully tested testing branch
 
 **Step 7**
 
-Institute requesting rehosting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they wish to rehost. If such an issue does not exist they will create will raise an issue of type Phase 3 Onboarding[Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose). In the issue, for each experiment they will provide the Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of the lab to the issue if not already attached.
+Institute requesting rehosting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they wish to rehost. If such an issue does not exist they will create will raise an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose). In the issue, for each experiment they will provide the Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of the lab to the issue if not already attached.
 
 **Step 8**
 
