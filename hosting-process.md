@@ -19,7 +19,7 @@ The target audience for this document is the hosting team at CPE, IIITH and all 
 
 ## **Definitions and Pre-requisites**
 
-Virtual Labs hosting process will require certain prerequisites to be met by the experiments that need to be hosted. The following paragraphs define terminologies used during the hosting process.
+Virtual Labs hosting process will require certain pre-requisites to be met by the experiments that need to be hosted. The following paragraphs define terminologies used during the hosting process.
 
 ## **Hosting**
 
@@ -41,9 +41,9 @@ Hosting unit is the code base/repository that will hosted in its enirety during 
 
 ## **Repository Owner**
 
-Each repository, corresponding to a hosting unit, will have one designated owner. The owner will be the single entity responsible for all the code that resides in the repository. The owner will also be the final approval authority for a hosting request. The owner should ensure that the master branch of the repository only contains the code that needs to be hosted. The latest code in the master branch should represent the hosted experiment.
+Each repository, corresponding to a hosting unit, will have one designated primary owner. This owner will be the single entity responsible for all the code that resides in the repository. The owner will also be the final approval authority for a hosting request. The owner should ensure that the master branch of the repository only contains the code that needs to be hosted. The latest code in the master branch should represent the hosted experiment.
 
-The repository owner does not have to be a person. It may be any uniquely identifiable entity. From the perpective of Virtual Labs hosting team, this entity will the single point of contact for all clarifications. The hosting team will not be responsible for any confusions arising due to shared accessibility of the repo owner entity.
+The primary repository owner does not have to be a person. It may be any uniquely identifiable entity. From the perpective of Virtual Labs hosting team, this entity will the single point of contact for all clarifications. The hosting team will not be responsible for any confusions arising due to shared accessibility of the repo owner entity.
 
 ## **Requester**
 
