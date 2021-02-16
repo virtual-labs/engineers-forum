@@ -43,10 +43,10 @@
   - Step 1 : </br>
       &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting movement will raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request creation of experiment repositories for the lab. 
   - Step 2 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; They will fill the information requested for on the issue and attach R0 ( proposal of the lab) 
+      &nbsp;&nbsp;&nbsp;&nbsp; They will fill the information requested for on the issue and attach R0 ( proposal of the lab) [sample](https://github.com/virtual-labs/engineers-forum/issues/673)
 
   - Step 3 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will create experiment repositories for each of the experiment on the proposal on Github and share the links of the created repositories on the same issue.
+      &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will create experiment repositories for each of the experiment on the proposal on Github and share the links of the created repositories on the same issue. [sample(https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300)
 
   - Step 4 :</br>
       &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will populate the dev branches of the created repositories with the source code of the experiments and unit test the experiments locally. Institure requesting migration should **not** delete gh-pages branch. This is required for automatically deploying the experiment along with UI on GitHub pages for testing the complete experiment . They should also not delete .github directory and the LICENSE file. 
@@ -58,13 +58,13 @@
       &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration will then merge  from a fully tested testing branch to the main branch and tag the commit. 
                
   - Step 7 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they  wish to rehost.  If such an issue does not exist they will create an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose). In the issue, for each experiment they will provide the Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of the lab to the issue if not already attached. 
+      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting rehosting will then follow the [link](https://github.com/virtual-labs/engineers-forum/issues) and locate the Phase III Lab/Experiment(s) OnBoarding Request issue corresponding to the lab that they  wish to rehost.  If such an issue does not exist they will create an issue of type Phase 3 Onboarding [Request](https://github.com/virtual-labs/engineers-forum/issues/new/choose). In the issue, for each experiment they will provide the Experiment Name|Experiment Source Repo link|Tag . They will also attach the R0 of the lab to the issue if not already attached. [sample](https://github.com/virtual-labs/engineers-forum/issues/671#issue-807196760)
               
   - Step 8 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will host the experiments and the lab and share the hosted link on the same issue to seek approval from the institute requesting migration. 
+      &nbsp;&nbsp;&nbsp;&nbsp; VLEAD's hosting engineer will host the experiments and the lab and share the hosted link on the same issue to seek approval from the institute requesting migration. [sample](https://github.com/virtual-labs/engineers-forum/issues/671#issuecomment-778174806)
 
   - Step 9 :</br>
-      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration  will need to test the hosted link and comment on the same issue stating their approval.
+      &nbsp;&nbsp;&nbsp;&nbsp; Institute requesting migration  will need to test the hosted link and comment on the same issue stating their approval.[sample](https://github.com/virtual-labs/engineers-forum/issues/671#issuecomment-778738228)
 
 
 ## Conclusion 
