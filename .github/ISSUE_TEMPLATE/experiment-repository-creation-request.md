@@ -1,7 +1,7 @@
 ---
 name: Experiment Repository Creation Request
 about: Get your experiment repo created on GitHub under virtual labs organization.
-title: 'Experiment Repository Creation Request for <fill the lab name here>'
+title: Experiment Repository Creation Request for <fill the lab name here>
 labels: Phase-3, create experiment repos
 assignees: ''
 
@@ -27,4 +27,3 @@ Use this to get your experiment repository created or updated on GitHub under Vi
    ##### Name:<!--Please provide the Name that the Secondary GitHub Handle is associated with-->
    ##### GitHub Handle:<!--Please provide the email id that the Secondary GitHub Handle is associated with-->
    ##### Email id:<!--Please provide the email id that the Secondary GitHub Handle is associated with-->
-

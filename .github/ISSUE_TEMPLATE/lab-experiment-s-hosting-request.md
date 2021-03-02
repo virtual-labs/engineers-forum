@@ -2,7 +2,7 @@
 name: Lab/Experiment(s) Hosting Request
 about: Get your experiment hosted on Virtual Labs.
 title: 'Lab/Experiment Hosting Request for  '
-labels: Phase-3 
+labels: Phase-3
 assignees: ''
 
 ---
@@ -18,5 +18,3 @@ Please provide item 1 for all the experiments of the lab
 3. **Virtual Lab Phase**:<!--Please type 2 if the lab was developed during Virtual Labs Phase 2 OR type 3 if the lab was developed during Virtual Labs Phase 3 -->
 4. **Existing Hosted URL**:<!--Please provide the hosted URL link if it is an existing hosted Phase 2 Lab -->
 5. **Approved Proposal**:<!--Please attach the PDF of the Approved Proposal to this issue for a Phase 3 and beyond Lab -->
-
-

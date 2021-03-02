@@ -1,6 +1,6 @@
 ---
 name: Phase II Hosting/Rehosting Request
-about: Make a hosting/rehosting request for a Phase 2 lab 
+about: Make a hosting/rehosting request for a Phase 2 lab
 title: Hosting/Rehosting Request for <Lab Name>
 labels: Hosting, Phase-2
 assignees: ''
