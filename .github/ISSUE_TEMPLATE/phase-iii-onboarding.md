@@ -21,6 +21,9 @@ of experiments in the lab.
 | No.| Experiment Name | Experiment repository URL | Branch | Tag
 
 #### Optional
-
 1. **Lab Repository url**: <!-- url of the lab repository, which must be public -->
-2. **Course Alignment**: <!-- fill the courses of institutes that the lab aligns to -->
+2. **Introduction**: <!-- fill the lab introduction content -->
+3. **Objective**: <!-- fill the lab objective content -->
+4. **Course Alignment**: <!-- fill the courses of institutes that the lab aligns to -->
+5. **Target Audience**: <!-- fill the target audience that the lab caters to -->
+
