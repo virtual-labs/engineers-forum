@@ -170,7 +170,7 @@ Deploy: This should be true if we are hosting a lab and exp or only a lab. If we
 
 College Name(Institute Name): Update from the R0 file (which is given in the request for hosting issue) Double check college name as analytics is depended on it
 
-The following are the supported institutes and their ids (to be given in the URL along with the lab id. Ex:- cse01-iiith)
+The following are the supported institutes and their ids (to be given in the lab id. Ex:- cse01-iiith)
 
 #### Institute Names and their Id’s:
 
@@ -186,7 +186,23 @@ The following are the supported institutes and their ids (to be given in the URL
 - [x] IIT Kharagpur - iitkgp
 - [x] NIT Karnataka -nitk
 
+The following are the supported institutes and their URL (Ex:- xyz-iiith)
+#### Institute Names and their URL 
+
+- [x] IIITHyderabad - iiith
+- [x] Amrita - amrt
+- [x] IIT Delhi - iitd
+- [x] IIT Kanpur - iitk
+- [x] IIT Guwahati - iitg
+- [x] IIT Roorkee - iitr
+- [x] IIT Bombay - iitb
+- [x] COEP - coep
+- [x] Dayalbagh - dei
+- [x] IIT Kharagpur - iitkgp
+- [x] NIT Karnataka -nitk
+
 Base URL: Crosscheck the lab domain in the reverse proxy and update correctly in the JSON
+
 
 Introduction: from R0 file
 
@@ -208,7 +224,9 @@ Target Audience, Objective, and Courses Alignment: Should be updated from the R0
 
  - Condition 3: If the lab is hosted multiple times with spelling mistakes or so, then the multiple labs will be created in the analytics and we will lose the lab/experiments usage.
 
- - Condition 4: After hosting the lab, test it thoroughly compared with analytics data.
+ - Condition 4: if we find the lab name conflicting with the other lab then we should contact the requesting institute and request to review/change the lab name.
+
+ - Condition 5: After hosting the lab, test it thoroughly compared with analytics data.
 
 #### Sample JSON file
 
@@ -218,6 +236,7 @@ Target Audience, Objective, and Courses Alignment: Should be updated from the R0
     "link": "http://www.vlab.co.in/broad-area-electronics-and-communications"
   },
   "lab": "Digital Electronics IITR",
+  "display_lab_name": "Digital Electronics 1",
   "phase": 3,
   "collegeName": "IITR",
   "baseUrl": "de-iitr.vlabs.ac.in",
