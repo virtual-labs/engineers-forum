@@ -26,4 +26,3 @@ of experiments in the lab.
 3. **Objective**: <!-- fill the lab objective content -->
 4. **Course Alignment**: <!-- fill the courses of institutes that the lab aligns to -->
 5. **Target Audience**: <!-- fill the target audience that the lab caters to -->
-
