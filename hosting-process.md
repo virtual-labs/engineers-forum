@@ -336,6 +336,26 @@ The flow diagram depicting lifecycle of a hosting request is below:
 | | request is labelled **Hosted** or **Reverted** | |
 | | or **Not Approved** or **Failed** | |
 
+
+### Repository Creation of a Service
+Steps to be followed by VLEAD's Hosting Engineer while creating a service repository
+
+**Step 1**
+On receiving a [request](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=&template=service-repository-creation-request.md&title=Service+Repository+Creation+Request) for creation of service repository, VLEAD's hosting engineer will create the service repository from the svc-template repository.
+
+**Step 2**
+VLEAD's hosting engineer will create two branches - dev and testing from the main branch in the created service repository.
+
+**Step 3**
+VLEAD's hosting engineer will add the Github Handle of the developer provided in the request issue to the newly created service repository with maintainer access.
+
+**Step 4**
+VLEAD's hosting engineer will comment on the repository creation request providing the links to the created repositories.
+
+
+### Hosting a service
+Steps to be followed by VLEAD's Hosting Engineer while hosting a service
+
 ## FAQ
 
 **Why should I use the Hosting Service?**
