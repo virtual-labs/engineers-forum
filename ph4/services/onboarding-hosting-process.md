@@ -3,6 +3,7 @@ Title: Virtual Labs On-Boarding & Hosting Process
 Author: CPE Team
 Date: 9th Feb, 2022
 Phase: IV
+
 ---
 
 # Virtual Labs On-Boarding & Hosting Process
@@ -64,14 +65,14 @@ The hosting process will result in a deployment with an accessible url. The resp
 ## On-boarding
 
 ### Objectives 
-Offer centralized organization and uniform repository structure
+Offer centralised organisation and uniform repository structure
 
 ### Pre-requisites 
 
 The on-boarding process will require the following prerequisites to be met :
 
-Approved lab proposal in pdf format
-Primary Repository Owner details 
+1. Approved lab proposal in pdf format
+2. Primary Repository Owner details 
 
 ### Process  
 
