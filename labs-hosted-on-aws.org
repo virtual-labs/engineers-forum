@@ -264,11 +264,11 @@ along with link to their repo containing their sources
 |-------+-----------------------------------+----------------+-----------+-------------+------------|
 |    16 | Electron Microscopy For Beginners | IIT KANPUR     | [[https://github.com/virtual-labs/electron-microscopy-iitk][Repo Link]] | [[http://emb-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
 |-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    17 | Digital Applications | IIT Bombay     | [[https://github.com/virtual-labs/digital-applications-pvgcoet-iitb][Repo Link]] | [[http://da-iitb.vlabs.ac.in/][Hosted link]] |           |
+|    17 | Digital Applications              | IIT Bombay     | [[https://github.com/virtual-labs/digital-applications-pvgcoet-iitb][Repo Link]] | [[http://da-iitb.vlabs.ac.in/][Hosted link]] |            |
 |-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    18 | Digital Logic Design using Gates | IIT Bombay     | [[https://github.com/virtual-labs/dld-using-gates-iitb][Repo Link]] | [[http://dldg-iitb.vlabs.ac.in/][Hosted link]] |           |
+|    18 | Digital Logic Design using Gates  | IIT Bombay     | [[https://github.com/virtual-labs/dld-using-gates-iitb][Repo Link]] | [[http://dldg-iitb.vlabs.ac.in/][Hosted link]] |            |
 |-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    19 | Digital Logic Design | IIT Bombay     | [[https://github.com/virtual-labs/dld-pvgcoet-iitb][Repo Link]] | [[http://dld-iitb.vlabs.ac.in/][Hosted link]] |           |
+|    19 | Digital Logic Design              | IIT Bombay     | [[https://github.com/virtual-labs/dld-pvgcoet-iitb][Repo Link]] | [[http://dld-iitb.vlabs.ac.in/][Hosted link]] |            |
 |-------+-----------------------------------+----------------+-----------+-------------+------------|
 
 
