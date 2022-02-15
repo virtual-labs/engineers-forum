@@ -9,8 +9,8 @@
 #+OPTIONS: ^:nil
 
 * Introduction
-This document lists all the labs hosted on the central cloud ( AWS)
-along with link to their repo containing their sources
+  This document lists all the labs hosted on the [[https://docs.google.com/spreadsheets/d/1WXJA_1QkLg-5S0YYBRKyhEXwOgTSbKvm972Fy-thCUc/edit#gid=129834454][central cloud]] ( AWS) and [[https://datastudio.google.com/u/0/reporting/1bVjKkAw-e617LmNE1v_WPdIByVRz2waa/page/IKsQB][analytics]]
+along with link to their repo containing their sources.  
 
 * Phase-II
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
@@ -228,276 +228,106 @@ along with link to their repo containing their sources
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 
 * Phase - III Labs
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-| S.No. | Lab Name                          | Institute Name | Repo Link | Hosted URL  | Linked on  |
-|       |                                   |                |           |             | vlab.co.in |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     1 | Fluid Machinery Lab               | NIT SURATHKAL  | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     2 | Data Structure lab -I             | IIIT HYDERABAD | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     3 | Data Structure Lab - II           | IIIT HYDERABAD | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     4 | Marine Structures                 | NIT SURATHKAL  | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     5 | Environmental Engineering-1       | NIT SURATHKAL  | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     6 | Environmental Engineering-2       | NIT SURATHKAL  | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     7 | Mining Geology                    | NIT SURATHKAL  | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     8 | Transportation Engineering        | NIT SURATHKAL  | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|     9 | Dynamics of Machine               | NIT SURATHKAL  | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    10 | Digital Electronics               | IIT ROORKEE    | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    11 | Basics of HTML                    | IIT DELHI      | [[https://github.com/virtual-labs/html-iitd/][Repo Link]] | [[http://html-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    12 | Electrical Machines (Simulation)  | IIT ROORKEE    | [[https://github.com/virtual-labs/electrical-machines-lab-iitr/][Repo Link]] | [[http://ems-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    13 | Analog Electronics                | IIT ROORKEE    | [[https://github.com/virtual-labs/analog-electronics-iitr][Repo Link]] | [[http://ae-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    14 | Digital Anthroplogy               | IIT GUWAHATI   | [[https://github.com/virtual-labs/digital-anthropology-iitg][Repo Link]] |             |            |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    15 | Basics of Physics                 | IIT KANPUR     | [[https://github.com/virtual-labs/basics-of-physics-iitk][Repo Link]] | [[http://bop-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    16 | Electron Microscopy For Beginners | IIT KANPUR     | [[https://github.com/virtual-labs/electron-microscopy-iitk][Repo Link]] | [[http://emb-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    17 | Digital Applications              | IIT Bombay     | [[https://github.com/virtual-labs/digital-applications-pvgcoet-iitb][Repo Link]] | [[http://da-iitb.vlabs.ac.in/][Hosted link]] |            |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    18 | Digital Logic Design using Gates  | IIT Bombay     | [[https://github.com/virtual-labs/dld-using-gates-iitb][Repo Link]] | [[http://dldg-iitb.vlabs.ac.in/][Hosted link]] |            |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
-|    19 | Digital Logic Design              | IIT Bombay     | [[https://github.com/virtual-labs/dld-pvgcoet-iitb][Repo Link]] | [[http://dld-iitb.vlabs.ac.in/][Hosted link]] |            |
-|-------+-----------------------------------+----------------+-----------+-------------+------------|
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+| S.No. | Lab Name                                                            | Institute Name       | Repo Link | Hosted URL  | Linked on  |
+|       |                                                                     |                      |           |             | vlab.co.in |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     1 | Data Structure lab -I                                               | IIIT HYDERABAD       | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     2 | Data Structure Lab - II                                             | IIIT HYDERABAD       | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     3 | Fluid Machinery Lab                                                 | NIT SURATHKAL        | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     4 | Marine Structures                                                   | NIT SURATHKAL        | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     5 | Environmental Engineering-1                                         | NIT SURATHKAL        | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     6 | Environmental Engineering-2                                         | NIT SURATHKAL        | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     7 | Mining Geology                                                      | NIT SURATHKAL        | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     8 | Transportation Engineering                                          | NIT SURATHKAL        | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|     9 | Dynamics of Machine                                                 | NIT SURATHKAL        | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    10 | Basics of HTML                                                      | IIT DELHI            | [[https://github.com/virtual-labs/html-iitd/][Repo Link]] | [[http://html-iitd.vlabs.ac.in/][Hosted link]] | No         |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    11 | Core Java Programming                                               | IIT DELHI            | [[https://github.com/virtual-labs/core-java-programming-iitd/][Repo Link]] | [[ https://java-iitd.vlabs.ac.in/][Hosted link]] | No         |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    12 | Concrete Structures                                                 | IIT DELHI            | [[https://github.com/virtual-labs/concrete-structures-iitd/releases/][Repo Link]] | [[ https://cs-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    13 | Waves and Vibration Transmission in Periodic Structures             | IIT DELHI            | [[https://github.com/virtual-labs/lab-waves-and-vibration-transmission-in-periodic-structures-iitd][Repo Link]] | [[https://wvtps-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    14 | Digital Electronics                                                 | IIT ROORKEE          | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    15 | Electrical Machines (Simulation)                                    | IIT ROORKEE          | [[https://github.com/virtual-labs/lab-electrical-machines-iitr/][Repo Link]] | [[http://ems-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    16 | Analog Electronics                                                  | IIT ROORKEE          | [[https://github.com/virtual-labs/analog-electronics-iitr][Repo Link]] | [[http://ae-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    17 | Digital Anthroplogy                                                 | IIT GUWAHATI         | [[https://github.com/virtual-labs/digital-anthropology-iitg][Repo Link]] | [[https://da-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    18 | Creative Design, Prototyping & Experiential Lab                     | IIT GUWAHATI         | [[https://github.com/virtual-labs/creative-design-prototyping-experiential-iitg][Repo Link]] | [[https://cpe-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    19 | Digital Electronics                                                 | IIT GUWAHATI         | [[https://github.com/virtual-labs/digital-electronics-iitg][Repo Link]] | [[https://de-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    20 | Basics of Physics                                                   | IIT KANPUR           | [[https://github.com/virtual-labs/basics-of-physics-iitk][Repo Link]] | [[http://bop-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    21 | Electron Microscopy For Beginners                                   | IIT KANPUR           | [[https://github.com/virtual-labs/electron-microscopy-iitk][Repo Link]] | [[http://emb-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    22 | Python Programming Lab                                              | IIT KANPUR           | [[https://github.com/virtual-labs/lab-python-programming-iitk/][Repo Link]] | [[https://python-iitk.vlabs.ac.in/ ][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    23 | Digital Applications                                                | IIT Bombay           | [[https://github.com/virtual-labs/digital-applications-pvgcoet-iitb][Repo Link]] | [[http://da-iitb.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    24 | Digital Logic Design ( Logic Gates & Mux-Demux )                    | IIT Bombay           | [[https://github.com/virtual-labs/digital-logic-design-iitb][Repo Link]] | [[http://dld-iitb.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    25 | 3D Printer Virtual Simulation Lab                                   | DAYALBAGH UNIVERSITY | [[ https://github.com/virtual-labs/lab-3d-printing-virtual-simulations-lab-dei][Repo List]] | [[http://3dp-dei.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    26 | Process Loop Component for Current and Pneumatic Converters         | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-current-and-pneumatic-converters-coep/][Repo Link]] | [[https://plcip-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    27 | Process Loop Component for High Low Selector and Alarm Annunciators | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-high-low-selector-and-alarm-annunciator-coep/][Repo Link]] | [[https://plchla-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    28 | Process Loop Component for Transmitter and Tank Applications        | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-transmitter-and-tank-applications-coep/][Repo Link]] | [[https://plctt-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    29 | Process Loop Component and Control Valve for Different Applications | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-and-control-valve-for-different-applications-coep/][Repo Link]] | [[https://plccom-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    30 | Basics of Pneumatic Components                                      | COE PUNE             | [[https://github.com/virtual-labs/basics-of-pneumatic-components-coep/][Repo Link]] | [[https://pc-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    31 | Bioinformatics and Data Science in Biotechnology Lab repository     | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Bioinformatics-and-Data-Science-in-Biotechnology-au/][Repo Link]] | [[https://bds-au.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|    32 | Biosignal Processing and Analysis                                   | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Biosignal-Processing-and-Analysis-au/][Repo Link]] | [[https://bpa-au.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+
+
 
 
 ** Phase-III-Experiment- Public
-|-------+--------------------------+----------------------------------+-----------+-------------|
-| S.No. | Lab Name                 | Name of the experiment           | Repo Link | Hosted URL  |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|     1 | Data Structures Lab - I  | *Sorting*                        |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Bubble-Sort                      | [[https://gitlab.com/vlead-projects/experiments/ds/bubble-sort][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/bubble-sort/exp.html#Bubble%2520Sort%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Merge-Sort                       | [[https://gitlab.com/vlead-projects/experiments/ds/mergesort-winter][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/merge-sort/exp.html#Merge%2520Sort][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Heap sort                        | [[https://gitlab.com/vlead-projects/experiments/ds/heap-sort][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/heap-sort/exp.html#Heapsort][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Quick-Sort                       | [[https://gitlab.com/vlead-projects/experiments/ds/quicksort-summer-2019][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/quick-sort/exp.html#Quick%2520Sort%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Graphs*                         |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Depth-First-Search               | [[https://gitlab.com/vlead-projects/experiments/ds/depth-first-search][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/depth-first-search/exp.html#Depth%2520First%2520Traversal][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Breadth-First-Search             | [[https://gitlab.com/vlead-projects/experiments/ds/breadth-first-search][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/breadth-first-search/exp.html#Breadth%2520First%2520Search][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Trees*                          |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Tree-Traversal                   | [[https://gitlab.com/vlead-projects/experiments/ds/tree-traversal][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/tree-traversal/exp.html#Tree%2520Traversal][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Binary-Search-Trees              | [[https://gitlab.com/vlead-projects/experiments/ds/binary-search-trees][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/binary-search-tree/exp.html#Binary%2520Search%2520Tree%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Stacks and Queues*              |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Stacks and Queues                | [[https://gitlab.com/vlead-projects/experiments/ds/stacks-and-queues][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/stacks-and-queues/exp.html#Stacks%2520and%2520Queues][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Infix to Postfix                 | [[https://gitlab.com/vlead-projects/experiments/ds/infix-to-postfix][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/infix-to%2520postfix/exp.html#Infix%2520and%2520Postfix][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Searching*                      |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Unsorted arrays vs Binary search | [[https://gitlab.com/vlead-projects/experiments/ds/unsorted-arrays-vs-binary-search][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/unsorted-arrays/exp.html#Unsorted%2520Arrays%2520vs%2520Binary%2520Search][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Hash-Tables                      | [[https://gitlab.com/vlead-projects/experiments/ds/hash-tables][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/hashtables/exp.html#Hash%2520Tables%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Linked Lists*                   |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Linked List                      | [[https://gitlab.com/vlead-projects/experiments/ds/linked-list][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/linked-lists/exp.html#Linked%2520List][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Poly-Arithmetic                  | [[https://gitlab.com/vlead-projects/experiments/ds/poly-arithmetic-summer-2019][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/polynomial-arithmetic/exp.html#Polynomial%2520Arithmetic][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|     2 | Data Structures Lab - II | *Sorting*                        |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Selection-Sort                   | [[https://gitlab.com/vlead-projects/experiments/ds/selection-sort][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/selection-sort/exp.html#Selection%2520Sort%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Radix-Sort                       | [[https://gitlab.com/vlead-projects/experiments/ds/radix-sort][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/radix-sort/exp.html#Radixsort][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Graphs*                         |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Topological-Sort                 | [[https://gitlab.com/vlead-projects/experiments/ds/topological-sort][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/topological-sort/exp.html#Topological%2520Sort%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Minimum-Spanning-Trees           | [[https://gitlab.com/vlead-projects/experiments/ds/minimum-spanning-trees][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/minimum-spanning-tree/exp.html#MST%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Dijkstras                        | [[https://gitlab.com/vlead-projects/experiments/ds/dijkstras][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/shortest-path/exp.html#Dijkstra's%2520Algorithm%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Search Trees*                   |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | 2-3-Tree                         | [[https://gitlab.com/vlead-projects/experiments/ds/2-3tree][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/2-3-tree/exp.html#2-3%2520Tree][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Red-Black-Tree                   | [[https://gitlab.com/vlead-projects/experiments/ds/red-black-tree][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/red-black-tree/exp.html#Red%2520Black%2520Tree%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | *Strings*                        |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | Tries and Suffix Trees           | [[https://gitlab.com/vlead-projects/experiments/ds/tries-and-suffix-trees][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/tries-suffix-trees/exp.html#Tries%2520and%2520Suffix%2520Experiment][Hosted link]] |
-|-------+--------------------------+----------------------------------+-----------+-------------|
-|       |                          | KMP-Algorithm                    | [[https://gitlab.com/vlead-projects/experiments/ds/kmp-algorithm][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/kmp-algorithm/exp.html#KMP%2520Algorithm%2520Module][Hosted link]] |
-|       |                          |                                  |           |             |
-|-------+--------------------------+----------------------------------+-----------+-------------|
+|-------+--------------------------+-----------+-------------+
+| S.No. | Lab Name                 | Repo Link | Hosted URL  |
+|-------+--------------------------+-----------+-------------+
+|     1 | Data Structures Lab - I  | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] |
+|-------+--------------------------+-----------+-------------+
+|     2 | Data Structures Lab - II | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] |
+|-------+--------------------------+-----------+-------------+
+
 
 ** Phase-III-Experiment- Private
 
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-| S.No. | Lab Name                    | Name of the experiment                           | Repo Link | Hosted URL  |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     1 | Marine Structures           | Wave Attenuation in pile based breakwater        | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/wave-attenuation-in-pile-based-breakwater-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/pile-based-breakwater/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Wave attenuation in Vegetation                   | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/wave-attenuation-in-vegetation-based-breakwater-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/vegetation-based-breakwater/][Hosted link]] |
-|       |                             | Based Breakwater                                 |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Slump test                                       | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/slump-test-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/slump-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Concrete mix design                              | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/concrete-mix-design-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/concrete-mix-design/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Specific Gravity of Cement and Aggregates        | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/specific-gravity-of-cement-and-aggregates-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/cement-and-aggregates/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Fineness Modulus of Aggregates                   | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/fineness-modulus-of-cement-and-aggregates-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/fineness-modulus-of-aggregates/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Standard Consistency and Initial Setting         | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/marine-structures-nitk/standard-consistency-and-initial-setting-time-of-cement-nitk][Repo link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/exp/time-of-cement/][Hosted link]] |
-|       |                             | Time of Cement                                   |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     2 | Environmental Engineering   | Determination of TS,TDS and TSS in water         | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-of-ts-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-ts/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Alkalinity in water             | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-of-hardness-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-alkalinity/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Hardness in water               | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-of-hardness-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-hardness/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Chloride in water               | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-of-chloride-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-chloride/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Total Iron in water             | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-of-totaliron-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-total-iron/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of pH                              | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-of-ph-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-ph/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Biological Oxygen Demand        | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-nitk/determination-biological-oxygen-demand-nitk][Repo link]] | [[http://ee1-nitk.vlabs.ac.in/environmental-engineering-1/exp/determination-of-biological-oxygen/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     3 | Environmental engineering-2 | Determination of Chemical Oxygen Demand          | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/determination-of-chemical-oxygen-demand-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/chemical-oxygen/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Alum Coagulation                                 | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/alum-coagulation-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/alum-coagulation/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Break-Point Chloride demand     | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/determination-break-point-chloride-demand-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/chloride-demand-in-water/][Hosted link]] |
-|       |                             | in water                                         |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Sulphate in water               | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/determination-sulphate-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/sulphate-in-water/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Flouride in water               | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/determination-of-fluoride-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/flouride-in-water/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Dissolved Oxygen in water       | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/determination-of-dissolved-oxygen-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/oxygen-in-water/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Determination of Turbidity in Water              | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/environmental-engineering-2-nitk/determination-of-turbidity-nitk][Repo link]] | [[http://ee2-nitk.vlabs.ac.in/environmental-engineering-2/exp/turbidity-in-water/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     4 | Mining Geology              | Analysis of Contour Maps                         | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/analysis-of-contour-maps-nitk][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/contour-maps/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Analysis of Geological Features like Fault       | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/analysis-of-fault-and-fold-nitk][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/fault-and-fold/][Hosted link]] |
-|       |                             | and Fold                                         |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Identification of Minerals                       | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/identification-of-minerals-nitk][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/identification-of-minerals/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Identification and Study on Physical Properties  | [["http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/physical-properties-of-rocks-nitk][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/properties-of-rocks/][Hosted link]] |
-|       |                             | of Rocks                                         |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Structural Geology: Analysis of Dip and Strike   | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/analysis-of-dip-and-strike][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/dip-and-strike/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Borehole Problems                                | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/borehole-problems-nitk][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/borehole-problems/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Thickness of Strata by Graphical Method          | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/mining-geology-nitk/thickness-of-strata-by-graphical-method-nitk][Repo link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/exp/graphical-method/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     5 | Transportation Engineering  | Crushing Value of Aggregate                      | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/crushing-value-of-aggregate-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/crushing-value/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Impact Test on Aggregate                         | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/impact-test-on-aggregate-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/impact-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Los Angeles Abrasion Test on Aggregate           | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/los-angeles-abrasion-test-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/los-angeles-abrasion/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Ductility Test on Bitumen                        | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/ductility-test-on-bitumen-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/ductility-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Softening Point Test on Bitumen                  | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/softening-point-test-on-bitumen-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/softening-point-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Penetration Test on Bitumen                      | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/penetration-test-on-bitumen-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/penetration-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Specific Gravity Test on Bitumen                 | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/specific-gravity-test-on-bitumen-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/specific-gravity-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | California Bearing Ratio Test on Soil            | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/transportation-engineering-nitk/california-bearing-ratio-test-on-soil-nitk][Repo link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/exp/california-bearing-ratio-test/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     6 | Dynamics of Machine         | Dynamics analysis of Four bar mechanism          | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/four-bar-mechanism-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/four-bar-mechanism/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Dynamics analysis of slider crank mechanism      | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/slider-crank-mechanism-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/slider-crank-mechanism/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Porter Governer                                  | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/porter-governer-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/porter-governer/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Proell Governer                                  | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/proell-governor-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/proell-governet/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Hartnell Governer                                | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/hartnell-governer-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/hartnell-governer/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Balancing of multiple mass in single plane       | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/balancing-multiple-mass-single-plane-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/multiple-mass-in-single-plane/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Balancing of Multiple Mass in Multiple Plane     | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/balancing-multiple-mass-multiple-plane-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/muliple-mass-in-multiple-plane/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Disc Type Flywheel                               | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/disc-type-flywheel-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/disc-type-flywheel/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Rim Type Flywheel                                | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/dynamics-of-machine-nitk/rim-type-flywheel-nitk][Repo link]] | [[http://dom-nitk.vlabs.ac.in/dynamics-of-machine/exp/rim-type-flywheel/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     7 | Digital Electronics         | Verification and interpretation of truth table   |           |             |
-|       |                             | for AND, OR, NOT, NAND, NOR, Ex-OR, Ex-NOR gates | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verification-and-interpretation-truth-table-gates-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/truth-table-gates/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Construction of half/ full adder using XOR       | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/construction-half-full-adder-verification-of-operation-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/half-full-adder/][Hosted link]] |
-|       |                             | and NAND gates and verification of its operation |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | To Study & Verify Half/Full Subtractor           | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/half-full-subtractor-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/half-full-subtractor/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Realization of logic functions with the          | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/realization-of-logic-functions-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/realization-of-logic-functions/][Hosted link]] |
-|       |                             | help of Universal Gates (NAND, NOR)              |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Construction of a NOR gate latch and             | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/construction-of-nor-gate-latch-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/nor-gate-latch/][Hosted link]] |
-|       |                             | verification of its operation                    |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Verify the truth table of RS, JK, T and          | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verify-truth-table-of-flipflops-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/truth-tables-flip-flops/][Hosted link]] |
-|       |                             | D flip-flops using NAND & NOR gates              |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Design and Verify the 4-Bit Serial In -          | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verification-decoder-demultiplexer-encoder-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/4bit-sipo-shift-register/][Hosted link]] |
-|       |                             | Parallel Out Shift Registers                     |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Implementation and verification of decoder/      | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/implementation-of-multiplexer-demultiplexer-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/decoder-demultiplexer-encoder/][Hosted link]] |
-|       |                             | de-multiplexer and encoder using logic gates     |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Implementation of 4x1 multiplexer and 1x4        | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/implementation-of-multiplexer-demultiplexer-iit][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/multiplexer-demultiplexer/][Hosted link]] |
-|       |                             | demultiplexer using logic gates                  |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Design and verify the 4- Bit Synchronous/        | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verify-four-bit-synchronous-asynchronous-counter-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/4bit-synchronous-asynchronous-counter/][Hosted link]] |
-|       |                             | Asynchronous Counter using JK Flip Flop          |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Verify Binary to Gray and Gray to Binary         | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verify-binary-to-gray-and-gray-to-binary-conversion-iitr][Repo link]] | [[r][Hosted link]] |
-|       |                             | conversion using NAND gates only                 |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Verify the truth table of one bit and two bit    | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-electronics-iitr/verify-truth-table-of-one-bit-and-two-bit-comparator-iitr][Repo link]] | [[http://de-iitr.vlabs.ac.in/digital-electronics-iitr/exp/comparator-using-logic-gates/][Hosted link]] |
-|       |                             | comparator using logic gates                     |           |             |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|     8 | Fluid Machinery Lab         | Performance Characteristics of Centrifugal Pump  | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-centrifugal-pump-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/centrifugal-pump/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Performance Characteristics of Hydraulic Ram     | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-hydraulic-ram-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/hydraulic-ram/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Performance Characteristics of Kaplan Turbine    | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-kaplan-turbine-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/kaplan-turbine/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Double Acting Reciprocating Pump                 | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/double-acting-reciprocating-pump-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/reciprocating-pump/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Performance Characteristics of Pelton Turbine    | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-pelton-turbine-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/pelton-turbine/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Pipe Bursting                                    | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/pipe-bursting-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/pipe-bursting/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
-|       |                             | Performance Characteristics of Francis Turbine   | [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/fluid-machinery-nitk/performance-characteristics-francis-turbine-nitk.git][Repo link]] | [[http://fmc-nitk.vlabs.ac.in/fluid-machinery/exp/francis-turbine/][Hosted link]] |
-|-------+-----------------------------+--------------------------------------------------+-----------+-------------|
+|-------+-----------------------------+-----------+-------------|
+| S.No. | Lab Name                    | Repo Link | Hosted URL  |
+|-------+-----------------------------+-----------+-------------|
+|     1 | Marine Structures           | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     2 | Environmental Engineering   | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     3 | Environmental engineering-2 | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     4 | Mining Geology              | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     5 | Transportation Engineering  | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     6 | Dynamics of Machine         | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     7 | Digital Electronics         | [[https://github.com/virtual-labs/digital-electronics-iitg][Repo Link]] | [[https://de-iitg.vlabs.ac.in/][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
+|     8 | Fluid Machinery Lab         | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] |
+|-------+-----------------------------+-----------+-------------|
