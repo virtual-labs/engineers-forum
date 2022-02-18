@@ -252,9 +252,9 @@ along with link to their repo containing their sources.
 |-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
 |    10 | Basics of HTML                                                      | IIT DELHI            | [[https://github.com/virtual-labs/html-iitd/][Repo Link]]           | [[http://html-iitd.vlabs.ac.in/][Hosted link]] | No         |
 |-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
-|    11 | Core Java Programming                                               | IIT DELHI            | [[https://github.com/virtual-labs/core-java-programming-iitd][Repo Link]]           | [[ https://java-iitd.vlabs.ac.in/][Hosted link]] | No         |
+|    11 | Core Java Programming                                               | IIT DELHI            | [[https://github.com/virtual-labs/core-java-programming-iitd][Repo Link]]           | [[https://java-iitd.vlabs.ac.in/][Hosted link]] | No         |
 |-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
-|    12 | Concrete Structures                                                 | IIT DELHI            | [[https://github.com/virtual-labs/concrete-structures-iitd][Repo Link]]           | [[ https://cs-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
+|    12 | Concrete Structures                                                 | IIT DELHI            | [[https://github.com/virtual-labs/concrete-structures-iitd][Repo Link]]           | [[https://cs-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
 |-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
 |    13 | Waves and Vibration Transmission in Periodic Structures             | IIT DELHI            | [[https://github.com/virtual-labs/lab-waves-and-vibration-transmission-in-periodic-structures-iitd][Repo Link]]           | [[https://wvtps-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
 |-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
