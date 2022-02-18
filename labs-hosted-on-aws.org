@@ -228,106 +228,77 @@ along with link to their repo containing their sources.
 |-------+----------------------------------------------------+----------------------+-----------+-------------+------------|
 
 * Phase - III Labs
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-| S.No. | Lab Name                                                            | Institute Name       | Repo Link | Hosted URL  | Linked on  |
-|       |                                                                     |                      |           |             | vlab.co.in |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     1 | Data Structure lab -I                                               | IIIT HYDERABAD       | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     2 | Data Structure Lab - II                                             | IIIT HYDERABAD       | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     3 | Fluid Machinery Lab                                                 | NIT SURATHKAL        | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     4 | Marine Structures                                                   | NIT SURATHKAL        | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     5 | Environmental Engineering-1                                         | NIT SURATHKAL        | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     6 | Environmental Engineering-2                                         | NIT SURATHKAL        | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     7 | Mining Geology                                                      | NIT SURATHKAL        | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     8 | Transportation Engineering                                          | NIT SURATHKAL        | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|     9 | Dynamics of Machine                                                 | NIT SURATHKAL        | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    10 | Basics of HTML                                                      | IIT DELHI            | [[https://github.com/virtual-labs/html-iitd/][Repo Link]] | [[http://html-iitd.vlabs.ac.in/][Hosted link]] | No         |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    11 | Core Java Programming                                               | IIT DELHI            | [[https://github.com/virtual-labs/core-java-programming-iitd/][Repo Link]] | [[ https://java-iitd.vlabs.ac.in/][Hosted link]] | No         |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    12 | Concrete Structures                                                 | IIT DELHI            | [[https://github.com/virtual-labs/concrete-structures-iitd/releases/][Repo Link]] | [[ https://cs-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    13 | Waves and Vibration Transmission in Periodic Structures             | IIT DELHI            | [[https://github.com/virtual-labs/lab-waves-and-vibration-transmission-in-periodic-structures-iitd][Repo Link]] | [[https://wvtps-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    14 | Digital Electronics                                                 | IIT ROORKEE          | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]] | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    15 | Electrical Machines (Simulation)                                    | IIT ROORKEE          | [[https://github.com/virtual-labs/lab-electrical-machines-iitr/][Repo Link]] | [[http://ems-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    16 | Analog Electronics                                                  | IIT ROORKEE          | [[https://github.com/virtual-labs/analog-electronics-iitr][Repo Link]] | [[http://ae-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    17 | Digital Anthroplogy                                                 | IIT GUWAHATI         | [[https://github.com/virtual-labs/digital-anthropology-iitg][Repo Link]] | [[https://da-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    18 | Creative Design, Prototyping & Experiential Lab                     | IIT GUWAHATI         | [[https://github.com/virtual-labs/creative-design-prototyping-experiential-iitg][Repo Link]] | [[https://cpe-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    19 | Digital Electronics                                                 | IIT GUWAHATI         | [[https://github.com/virtual-labs/digital-electronics-iitg][Repo Link]] | [[https://de-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    20 | Basics of Physics                                                   | IIT KANPUR           | [[https://github.com/virtual-labs/basics-of-physics-iitk][Repo Link]] | [[http://bop-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    21 | Electron Microscopy For Beginners                                   | IIT KANPUR           | [[https://github.com/virtual-labs/electron-microscopy-iitk][Repo Link]] | [[http://emb-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    22 | Python Programming Lab                                              | IIT KANPUR           | [[https://github.com/virtual-labs/lab-python-programming-iitk/][Repo Link]] | [[https://python-iitk.vlabs.ac.in/ ][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    23 | Digital Applications                                                | IIT Bombay           | [[https://github.com/virtual-labs/digital-applications-pvgcoet-iitb][Repo Link]] | [[http://da-iitb.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    24 | Digital Logic Design ( Logic Gates & Mux-Demux )                    | IIT Bombay           | [[https://github.com/virtual-labs/digital-logic-design-iitb][Repo Link]] | [[http://dld-iitb.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    25 | 3D Printer Virtual Simulation Lab                                   | DAYALBAGH UNIVERSITY | [[ https://github.com/virtual-labs/lab-3d-printing-virtual-simulations-lab-dei][Repo List]] | [[http://3dp-dei.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    26 | Process Loop Component for Current and Pneumatic Converters         | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-current-and-pneumatic-converters-coep/][Repo Link]] | [[https://plcip-coep.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    27 | Process Loop Component for High Low Selector and Alarm Annunciators | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-high-low-selector-and-alarm-annunciator-coep/][Repo Link]] | [[https://plchla-coep.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    28 | Process Loop Component for Transmitter and Tank Applications        | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-transmitter-and-tank-applications-coep/][Repo Link]] | [[https://plctt-coep.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    29 | Process Loop Component and Control Valve for Different Applications | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-and-control-valve-for-different-applications-coep/][Repo Link]] | [[https://plccom-coep.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    30 | Basics of Pneumatic Components                                      | COE PUNE             | [[https://github.com/virtual-labs/basics-of-pneumatic-components-coep/][Repo Link]] | [[https://pc-coep.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    31 | Bioinformatics and Data Science in Biotechnology Lab repository     | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Bioinformatics-and-Data-Science-in-Biotechnology-au/][Repo Link]] | [[https://bds-au.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
-|    32 | Biosignal Processing and Analysis                                   | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Biosignal-Processing-and-Analysis-au/][Repo Link]] | [[https://bpa-au.vlabs.ac.in/][Hosted link]] | Yes        |
-|-------+---------------------------------------------------------------------+----------------------+-----------+-------------+------------|
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+| S.No. | Lab Name                                                            | Institute Name       | Repo Link           | Hosted URL  | Linked on  |
+|       |                                                                     |                      |                     |             | vlab.co.in |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     1 | Data Structure lab -I                                               | IIIT HYDERABAD       | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]]           | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     2 | Data Structure Lab - II                                             | IIIT HYDERABAD       | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]]           | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     3 | Fluid Machinery Lab                                                 | NIT SURATHKAL        | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]]           | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     4 | Marine Structures                                                   | NIT SURATHKAL        | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]]           | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     5 | Environmental Engineering-1                                         | NIT SURATHKAL        | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]]           | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     6 | Environmental Engineering-2                                         | NIT SURATHKAL        | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]]           | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     7 | Mining Geology                                                      | NIT SURATHKAL        | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]]           | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     8 | Transportation Engineering                                          | NIT SURATHKAL        | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]]           | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|     9 | Dynamics of Machine                                                 | NIT SURATHKAL        | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]]           | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    10 | Basics of HTML                                                      | IIT DELHI            | [[https://github.com/virtual-labs/html-iitd/][Repo Link]]           | [[http://html-iitd.vlabs.ac.in/][Hosted link]] | No         |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    11 | Core Java Programming                                               | IIT DELHI            | [[https://github.com/virtual-labs/core-java-programming-iitd/][Repo Link]]           | [[ https://java-iitd.vlabs.ac.in/][Hosted link]] | No         |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    12 | Concrete Structures                                                 | IIT DELHI            | [[https://github.com/virtual-labs/concrete-structures-iitd/releases/][Repo Link]]           | [[ https://cs-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    13 | Waves and Vibration Transmission in Periodic Structures             | IIT DELHI            | [[https://github.com/virtual-labs/lab-waves-and-vibration-transmission-in-periodic-structures-iitd][Repo Link]]           | [[https://wvtps-iitd.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    14 | Digital Electronics                                                 | IIT ROORKEE          | [[https://github.com/virtual-labs/digital-electronics-iitr][Repo Link]]           | [[http://de-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    15 | Electrical Machines (Simulation)                                    | IIT ROORKEE          | [[https://github.com/virtual-labs/lab-electrical-machines-iitr/][Repo Link]]           | [[http://ems-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    16 | Analog Electronics                                                  | IIT ROORKEE          | [[https://github.com/virtual-labs/analog-electronics-iitr][Repo Link]]           | [[http://ae-iitr.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    17 | Digital Anthroplogy                                                 | IIT GUWAHATI         | [[https://github.com/virtual-labs/digital-anthropology-iitg][Repo Link]]           | [[https://da-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    18 | Creative Design, Prototyping & Experiential Lab                     | IIT GUWAHATI         | [[https://github.com/virtual-labs/creative-design-prototyping-experiential-iitg][Repo Link]]           | [[https://cpe-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    19 | Digital Electronics                                                 | IIT GUWAHATI         | [[https://github.com/virtual-labs/digital-electronics-iitg][Repo Link]]           | [[https://de-iitg.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    20 | Basics of Physics                                                   | IIT KANPUR           | [[https://github.com/virtual-labs/basics-of-physics-iitk][Repo Link]]           | [[http://bop-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    21 | Electron Microscopy For Beginners                                   | IIT KANPUR           | [[https://github.com/virtual-labs/electron-microscopy-iitk][Repo Link]]           | [[http://emb-iitk.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    22 | Python Programming Lab                                              | IIT KANPUR           | [[https://github.com/virtual-labs/lab-python-programming-iitk/][Repo Link]]           | [[https://python-iitk.vlabs.ac.in/ ][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    23 | Digital Applications                                                | IIT Bombay           | Experimemts hosted  | [[http://da-iitb.vlabs.ac.in/][Hosted link]] | Yes        |
+|       |                                                                     |                      | on Institute GitLab |             |            |
+|       |                                                                     |                      | server - [[http://vlabs.iitb.ac.in/gitlab/vlabs-dev-central-hosting/digital-applications-pvg/][Ref Link]]   |             |            |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    24 | Digital Logic Design ( Logic Gates & Mux-Demux )                    | IIT Bombay           | Experimemts hosted  | [[http://dld-iitb.vlabs.ac.in/][Hosted link]] | Yes        |
+|       |                                                                     |                      | on Institute GitLab |             |            |
+|       |                                                                     |                      | server - [[https://gitlab.com/dld-lg-mux-demux-iitb][Ref Link]]   |             |            |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    25 | 3D Printer Virtual Simulation Lab                                   | DAYALBAGH UNIVERSITY | [[ https://github.com/virtual-labs/lab-3d-printing-virtual-simulations-lab-dei][Repo List]]           | [[http://3dp-dei.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    26 | Process Loop Component for Current and Pneumatic Converters         | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-current-and-pneumatic-converters-coep/][Repo Link]]           | [[https://plcip-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    27 | Process Loop Component for High Low Selector and Alarm Annunciators | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-high-low-selector-and-alarm-annunciator-coep/][Repo Link]]           | [[https://plchla-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    28 | Process Loop Component for Transmitter and Tank Applications        | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-for-transmitter-and-tank-applications-coep/][Repo Link]]           | [[https://plctt-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    29 | Process Loop Component and Control Valve for Different Applications | COE PUNE             | [[https://github.com/virtual-labs/process-loop-component-and-control-valve-for-different-applications-coep/][Repo Link]]           | [[https://plccom-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    30 | Basics of Pneumatic Components                                      | COE PUNE             | [[https://github.com/virtual-labs/basics-of-pneumatic-components-coep/][Repo Link]]           | [[https://pc-coep.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    31 | Bioinformatics and Data Science in Biotechnology Lab repository     | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Bioinformatics-and-Data-Science-in-Biotechnology-au/][Repo Link]]           | [[https://bds-au.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
+|    32 | Biosignal Processing and Analysis                                   | AMRITA UNIVERSITY    | [[https://github.com/virtual-labs/Biosignal-Processing-and-Analysis-au/][Repo Link]]           | [[https://bpa-au.vlabs.ac.in/][Hosted link]] | Yes        |
+|-------+---------------------------------------------------------------------+----------------------+---------------------+-------------+------------|
 
 
-
-
-** Phase-III-Experiment- Public
-|-------+--------------------------+-----------+-------------+
-| S.No. | Lab Name                 | Repo Link | Hosted URL  |
-|-------+--------------------------+-----------+-------------+
-|     1 | Data Structures Lab - I  | [[https://github.com/virtual-labs/data-structures-lab-I-iiith][Repo link]] | [[http://ds1-iiith.vlabs.ac.in/data-structures-1/][Hosted link]] |
-|-------+--------------------------+-----------+-------------+
-|     2 | Data Structures Lab - II | [[https://github.com/virtual-labs/data-structures-lab-II-iiith][Repo link]] | [[http://ds2-iiith.vlabs.ac.in/data-structures-2/][Hosted link]] |
-|-------+--------------------------+-----------+-------------+
-
-
-** Phase-III-Experiment- Private
-
-|-------+-----------------------------+-----------+-------------|
-| S.No. | Lab Name                    | Repo Link | Hosted URL  |
-|-------+-----------------------------+-----------+-------------|
-|     1 | Marine Structures           | [[https://github.com/virtual-labs/marine-structures-nitk][Repo Link]] | [[http://ms-nitk.vlabs.ac.in/marine-structures/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     2 | Environmental Engineering   | [[https://github.com/virtual-labs/environmental-engineering1-nitk][Repo Link]] | [[http://ee1-nitk.vlabs.ac.in/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     3 | Environmental engineering-2 | [[https://github.com/virtual-labs/environmental-engineering2-nitk][Repo Link]] | [[http://ee2-nitk.vlabs.ac.in/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     4 | Mining Geology              | [[https://github.com/virtual-labs/mining-geology-nitk][Repo Link]] | [[http://mg-nitk.vlabs.ac.in/mining-geology/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     5 | Transportation Engineering  | [[https://github.com/virtual-labs/transportation-engineering-nitk][Repo Link]] | [[http://ts-nitk.vlabs.ac.in/transportation-engineering/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     6 | Dynamics of Machine         | [[https://github.com/virtual-labs/dynamics-of-machine-nitk][Repo Link]] | [[http://dom-nitk.vlabs.ac.in/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     7 | Digital Electronics         | [[https://github.com/virtual-labs/digital-electronics-iitg][Repo Link]] | [[https://de-iitg.vlabs.ac.in/][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
-|     8 | Fluid Machinery Lab         | [[https://github.com/Virtual-Labs/fluid-machinery-nitk][Repo link]] | [[https://fmc-nitk.vlabs.ac.in][Hosted link]] |
-|-------+-----------------------------+-----------+-------------|
