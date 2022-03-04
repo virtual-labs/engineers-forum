@@ -153,7 +153,7 @@ There are certain basic technical requirements that all experiments must follow 
 1. All experiments must work on https
 2. All experiments must follow responsive design principles
 3. All experiments should be static, without any server side components (exceptions available on merits)
-4. Average load size of all page on the experiment (including the loaded 3rd party libraries) should be below 5MB with no single page with load size of more than   10MB (exceptions available on merits)
+4. Average load size of all page on the experiment (including the loaded 3rd party libraries) should be below 2MB with no single page with load size of more than   5MB (exceptions available on merits)
 5. The average load time for all pages on the experiment should be below 1.5 seconds with no single page with load time more than 3 seconds on a fast 3G  connection (exceptions available on merits)
 
 
