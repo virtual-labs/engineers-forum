@@ -157,6 +157,47 @@ There are certain basic technical requirements that all experiments must follow 
 5. The average load time for all pages on the experiment should be below 1.5 seconds with no single page with load time more than 3 seconds on a fast 3G  connection (exceptions available on merits)
 
 
+### Experiment Development Strategy
+
+Virtual Labs experiments can broadly be classified into the following 2 categories from the software architecture perspective:
+- Static experiments (developed using HTML/CSS/JS)
+- Experiments requiring backend (developed using PHP, Python etc)
+
+#### Static Experiments
+Static experiments is the architecture style supported and promoted by the Virtual Labs. Static experiments have many advantages over the ones needing backends:
+- High performance
+- High security
+- Low hosting cost
+- Low maintenance cost
+- Better cacheing
+
+The CPE team maintains a framework for building static experiments and the team continuously refines, enhances and augments it. The framework dramatically reduces the developer effort required to develop an experiment by providing the following features and tooling:
+- Uniform UI (For all pages except simulation)
+- Styling library for the simulation page
+- Experiment-level usage analytics
+- Fully integrated deployment for testing
+- Performance tool
+- Bug reporting tool (under development)
+- Rating tool (under development)
+
+The experiment development and hosting process published by the CPE team streamlines the development of static experiments.
+
+#### Experiments Requiring Backend
+
+Such experiments are generally built in a language like PHP or Python, optionally using a web framework. These frameworks serve the web pages by compiling a web page template with some data in response to a user request. The primary motivation for following this model is the ease of development which results in higher costs of hosting and maintenance while providing poorer performance and security in comparison to the static experiments.
+
+The Virtual Labs experiment development framework and process do not align with this model of experiment development. If the developers decide to follow this model, some of the things they will be responsible for are the following:
+
+- Building the UI conforming to other virtual labs
+- Instrumenting the code with analytics
+- Locally testing the experiment
+- Containerizing the build with complete set of dependencies
+Continuously updating the experiment to match the latest Virtual Labs styling
+
+There are certain cases where an experiment needs to have a back-end due to non-availability of a certain kind of functionality in JavaScript. Such cases need to be discussed with the CPE team in order to decide upon the most suitable architecture.
+
+In any case if the developer decides to go with this model, it is good to have a discussion ( initiated by posting an issue on the [engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) ) with the CPE team in order to understand what level of support can be made available by the CPE team. This will avoid late surprises.
+
 ##  Hosting
 
 ### Objectives
