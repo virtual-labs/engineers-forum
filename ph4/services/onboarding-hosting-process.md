@@ -192,7 +192,7 @@ The Virtual Labs experiment development framework and process do not align with 
 - Instrumenting the code with analytics
 - Locally testing the experiment
 - Containerizing the build with complete set of dependencies
-Continuously updating the experiment to match the latest Virtual Labs styling
+- Continuously updating the experiment to match the latest Virtual Labs styling
 
 There are certain cases where an experiment needs to have a back-end due to non-availability of a certain kind of functionality in JavaScript. Such cases need to be discussed with the CPE team in order to decide upon the most suitable architecture.
 
