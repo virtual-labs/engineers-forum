@@ -22,7 +22,7 @@ A well defined experiment on-boarding and hosting process will help maintain a c
 
 ## Audience
 
-The target audience for this document comprises all the lab developers and owners who want to avail the hosting service provided by the Central Platform Engineering Team (CPE), IIITH team.
+The target audience for this document comprises all the lab developers and owners who want to avail the hosting service provided by the Central Platform Engineering (CPE), IIITH team.
 
 ## Definitions
 
@@ -214,23 +214,23 @@ Following are **not** part of the On-Boarding or Hosting service:
 2. Testing: The deployable code is a black box for the CPE team. The CPE team is not responsible for testing the deployments. The developer/owner of the Lab/Experiment is responsible for confirming that the Lab/Experiments are deployed and functioning as intended. This confirmation is part of the hosting process.
 3. Approvals: The CPE team does not provide any approvals regarding the completeness of the Lab/Experiment. The developers are expected to have sought the necessary approvals regarding completeness of the Lab/Experiment before raising a hosting request.
 
-
 ### Pre-requisites 
 
 Once the experiment is approved, the developer merges the testing branch to the main branch of the experiment repository. The developer also creates a tag on the main branch. This tag is used in the hosting request to uniquely identify the code to be hosted. Ater the code is merged to the main branch and the tag is created, the experiment is ready for public availability.
-
-
 
 ### Process 
 
 After the development and approval of all the experiments listed in the proposal, which constitute the lab, is completed and the developer is ready to publish the experiments to their target audience, they raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=lab-experiment-s--hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) of type Lab/Experiment Hosting Request on the Engineers’ Forum repository. A hosting request is in the form of a github issue containing the following information for each experiment in the lab :
 1. Experiment Name
 2. Experiment Repository URL
-3. Tag to be hosted </br>
-Along with the above details for each experiment, the issue should contain the following information and documents about the lab as a whole: </br>
+3. Tag to be hosted 
+
+Along with the above details for each experiment, the issue should contain the following information and documents about the lab as a whole: 
+
 4. Contact Person details
-  a. Github handle of the requester
-5.Approved Review as a pdf attachment
+    - Github handle of the requester
+     
+5. Approved Review as a pdf attachment
 
 The CPE team picks up the source code from the tag in the experiment repository and builds all experiments with the common Virtual Labs UI. The CPE team also builds the lab as a container for all the experiments. The CPE team, then deploys the lab and all experiments to the centrally managed cloud. Once the deployment process is complete, the experiments are ready to be used by the target audience. On successful hosting, the CPE team will add the link of the newly hosted content to the hosting request issue. The requester will be responsible for the verification of the hosted link and convey their approval on the same issue. 
 
@@ -245,7 +245,7 @@ The hosting request will go through the following lifecycle:
 5. Once the hosting is successful, the requester will be responsible for the verification of the hosted link. If the hosting is not as expected, the requester will need to specify if they would like to revert to the previous hosted image else the request will need to convey their approval on the same issue. 
 6. Only on approval from the requester, the CPE team will share the hosted url for linking to the central vlabs site. 
 
-Responsibility of approving the hosted url rests with the requester. The CPE Team will not be sending reminders and will not be responsible for any time delays at the requester's end to convey their approval on hosting/rehosting. 
+Responsibility of approving the hosted url rests with the requester. The CPE team will not be sending reminders and will not be responsible for any time delays at the requester's end to convey their approval on hosting/rehosting. 
 
 ## FAQ
 
@@ -285,6 +285,5 @@ This document highlights the on-boarding and hosting process of the CPE team. It
 
 - **Repository** : The distributed version control system - git is used here. Every time the term repository or repo is used, it refers to a git repository. A repository is an on-disk data structure which stores metadata for a set of files and/or directory structure. The whole set of information in the repository may be duplicated on every user&#39;s system or may be maintained on a single server.
 - **Virtual Labs** : Virtual Labs is an initiative by MHRD under NMEICT. The objective of this project is to make engineering education engaging, enjoyable, immersive and online.
-- **Hosting team** : VLEAD at IIITH which provides Virtual Labs hosting service
 
 
