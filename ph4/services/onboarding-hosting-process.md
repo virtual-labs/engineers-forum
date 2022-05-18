@@ -169,7 +169,7 @@ Static experiments is the architecture style supported and promoted by the Virtu
 - High security
 - Low hosting cost
 - Low maintenance cost
-- Better cacheing
+- Better caching
 
 The CPE team maintains a framework for building static experiments and the team continuously refines, enhances and augments it. The framework dramatically reduces the developer effort required to develop an experiment by providing the following features and tooling:
 - Uniform UI (For all pages except simulation)
