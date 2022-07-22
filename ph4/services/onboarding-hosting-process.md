@@ -249,6 +249,21 @@ Responsibility of approving the hosted url rests with the requester. The CPE tea
 
 ## FAQ
 
+** After submitting the experiment repository creation request, can we change the Primary and Secondary GitHub Handle? ** 
+
+The Experiment Repository Creation Request has a couple of parameters for GitHub handles, which are:
+
+1. Primary Github Handle Details: This is the Github handle which is used to communicate all the activities in a repo and will have developer access (Write Access on Github) to the Repo.
+ 
+2. Secondary Github Handle Details: These are Github handles which will have developer access ( Write Access on Github) to the Repo.
+
+In principle, the Primary Github Handle is static. It should not be changed after repo creation. We strongly suggest that you create a separate handle for Virtual Labs development as the Primary Handle and have someone monitor it all the time. Since developers/students contributing to the development will keep coming and going, it'd be good to not use anyone's personal handle as the Primary Github Handle.
+
+Secondary Github Handles are fluid. There can be any number of developers and they can be freely updated.
+
+The process for updating both kind of handles is very simple. You can request to change the Primary or Secondary Handle by putting a comment on the same repository creation request issue. Once we receive the request, we will make corresponding changes on our configuration and update you through a comment on the same issue.
+
+
 **Why should I use the Hosting Service?**
 
 To get more for nothing. Hosting Service provides you a high-availability, high-performance deployment environment. You do not have to spend time, money, people or other resources to ensure that your website is available to your target audience. You can also take advantage of other services, like  Analytics, provided by the CPE team and monitor multiple statistics about the users and usage patterns of your Lab.
