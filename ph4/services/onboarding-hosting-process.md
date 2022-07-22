@@ -249,7 +249,7 @@ Responsibility of approving the hosted url rests with the requester. The CPE tea
 
 ## FAQ
 
-** After submitting the experiment repository creation request, can we change the Primary and Secondary GitHub Handle? ** 
+**After submitting the experiment repository creation request, can we change the Primary and Secondary GitHub Handle?** 
 
 The Experiment Repository Creation Request has a couple of parameters for GitHub handles, which are:
 
