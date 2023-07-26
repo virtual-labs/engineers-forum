@@ -1,10 +1,3 @@
----
-Title: Virtual Labs On-Boarding & Hosting Process
-Author: CPE Team
-Date: 9th Feb, 2022
-Phase: IV
-
----
 
 # Virtual Labs On-Boarding & Hosting Process
  
