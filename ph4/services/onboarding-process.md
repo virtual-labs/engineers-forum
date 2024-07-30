@@ -101,7 +101,6 @@ The initial structure and hierarchy of each default branch include:
 │   ├── storyboard
 │   │   └── README.md
 │   └── README.md
-├── LICENSE
 └── README.md
 </pre>
 
