@@ -146,7 +146,7 @@ A sample experiment codebase is available [here](https://github.com/virtual-labs
 To include or customize an experiment, follow these steps:
 
 1. **Update `experiment.json`:** Add any new items or updates to the side menu or simulation by modifying the `experiment.json` file.
-2. **Fill Out Instructions:** Ensure all instructions in the side menu are complete and properly linked.
+2. **Fill Out Instructions:** Ensure all instructions in the side menu are complete and properly linked. For more details about the side menu, please refer to [this document](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.org).
 3. **Populate Existing Files:** Once you have the repository, make sure to populate the existing files as required. Avoid adding unnecessary files.
 
 ### Basic Requirements for the Experiments
