@@ -50,6 +50,32 @@ The onboarding process requires:
 1. An approved lab proposal in PDF format.
 2. Primary Repository Owner details.
 
+## Preparation for Development
+
+### Verify Repositories
+
+1. **Check Repository Creation:** Ensure all required repositories are created and accessible.
+
+### Development Tools
+
+To start development, use the following tools:
+1. **Web VS Extension:** Utilize the web VS extension for online development.
+2. **VS Extension:** Use the VS extension for local development.
+
+The entire workflow is built into these two tools. Follow the provided links to access and install them:
+- [VS Extension](https://github.com/virtual-labs/tool-vscode-plugin)
+- [Wev VS Extension](https://github.com/virtual-labs/tool-web-ext-vscode)
+
+## Available Tools
+
+### Performance Tool
+
+A tool generates performance reports for experiment code bases, providing scores, metrics, and improvement suggestions, using the Lighthouse API.
+
+### Validation Tool
+
+This tool validates code post-experiment development by executing ESLint on JavaScript, checking HTTP links, and ensuring JSON files conform to a schema.
+
 ### Process
 
 1. The CPE team creates a Git repository for each experiment of the approved lab.
