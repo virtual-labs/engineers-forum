@@ -48,7 +48,8 @@ Provide centralized organization and uniform repository structure.
 
 The onboarding process requires:
 1. An approved lab proposal in PDF format.
-2. Primary Repository Owner details.
+2. Primary GitHub handle.
+3. Secondary GitHub handle.
 
 ## Preparation for Development
 
@@ -78,9 +79,22 @@ This tool validates code post-experiment development by executing ESLint on Java
 
 ### Process
 
-1. The CPE team creates a Git repository for each experiment of the approved lab.
-2. The lab developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) on the engineers-forum repository under the Virtual Labs organization on GitHub, attaching the PDF of the approved proposal.
-3. The CPE team creates the Git repositories and shares the URLs on the same issue.
+Onboarding Process for New Developers
+
+1. **Provide GitHub Handles:**
+   - New developer submits primary and secondary GitHub handles to the CPE team.
+
+2. **CPE Team Actions:**
+   - CPE team creates a Git repository for each approved experiment lab.
+   - Grants repository access to the developer.
+
+3. **Developer Actions:**
+   - Developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) on the engineers-forum repository under the Virtual Labs organization.
+   - Attaches the PDF of the approved proposal to the issue.
+
+4. **Repository URLs Sharing:**
+   - CPE team creates the Git repositories.
+   - Shares the repository URLs on the same issue.
 
 #### Experiment Repository Structure
 
