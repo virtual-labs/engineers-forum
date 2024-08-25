@@ -3,28 +3,16 @@
 ## Introduction
 
 This document outlines the experiment development life cycle for developers in the Virtual Labs project, aiming to ensure the creation of high-quality labs.
+
+## Purpose
+
+This document details the experiment development process for lab developers. It specifies the steps involved.
+
+## Audience
+
+The target audience for this document includes all lab developers and owners seeking to develop new experiments.
+
 # Experiment Life Cycle
-
-## Basic Requirements for the Experiments
-
-- All experiments must work on HTTPS.
-- Follow responsive design principles.
-- Experiments should be static.
-- Average page load size should be below 2MB, with no page exceeding 5MB.
-- Average page load time should be below 1.5 seconds on a fast 3G connection, with no page exceeding 3 seconds.
-
-## Experiment Development Strategy
-
-### Static Experiments
-
-- Offer high performance, security, and low cost.
-- The CPE team provides a framework for static experiments, including uniform UI, a styling library, analytics, and performance tools.
-
-### Experiments Requiring Backend
-
-- Built using JavaScript, Python, etc., with higher hosting and maintenance costs.
-- Developers are responsible for UI conformity, analytics, containerization, and updates.
-
 
 ## Preparation for Development
 
@@ -51,6 +39,28 @@ A tool that generates performance reports for experiment codebases, providing sc
 ### Validation Tool
 
 This tool validates code post-experiment development by executing ESLint on JavaScript, checking HTTP links, and ensuring JSON files conform to a schema
+
+
+## Basic Requirements for the Experiments
+
+- All experiments must work on HTTPS.
+- Follow responsive design principles.
+- Experiments should be static.
+- Average page load size should be below 2MB, with no page exceeding 5MB.
+- Average page load time should be below 1.5 seconds on a fast 3G connection, with no page exceeding 3 seconds.
+
+## Experiment Development Strategy
+
+### Static Experiments
+
+- Offer high performance, security, and low cost.
+- The CPE team provides a framework for static experiments, including uniform UI, a styling library, analytics, and performance tools.
+
+### Experiments Requiring Backend
+
+- Built using JavaScript, Python, etc., with higher hosting and maintenance costs.
+- Developers are responsible for UI conformity, analytics, containerization, and updates.
+
 
 
 ## Development Process
