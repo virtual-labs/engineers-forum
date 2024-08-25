@@ -1,4 +1,4 @@
-# Virtual Labs Onboarding Process
+ # Virtual Labs Onboarding Process
 
 ## Introduction
 
@@ -6,7 +6,7 @@ Virtual Labs is a mission-driven project under the Ministry of Education (MoE) a
 
 ## Purpose
 
-This document details the experiment onboarding process for lab developers requesting their lab's hosting on the central cloud. It specifies the roles and responsibilities of all parties involved in the onboarding process.
+This document details the experiment onboarding process for lab developers requesting their lab's hosting on the central cloud. It specifies the steps involved in the onboarding process.
 
 ## Audience
 
