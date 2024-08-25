@@ -51,3 +51,9 @@ Developers populate the dev branches of the created repositories with the source
 ## Conclusion
 
 For detailed information about the development process and the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-processmd).
+
+## FAQ
+
+**Can I change the Primary and Secondary GitHub Handle after submitting the experiment repository creation request?**
+
+The primary GitHub Handle should be static. It is recommended to create a separate handle for Virtual Labs development. Secondary Handles are fluid and can be updated freely.
