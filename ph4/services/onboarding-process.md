@@ -21,23 +21,8 @@ The target audience for this document includes all lab developers and owners see
 ### Onboarding
 Onboarding marks the start of software development for an approved lab, with the CPE team creating a Git repository for each experiment.
 
-### Hosting Unit
-A hosting unit is the codebase/repository hosted in its entirety during the hosting process. It can be a standalone experiment or a lab comprising multiple related experiments.
-
-### Hosting
-Hosting is a service provided by the CPE team to publish the developed lab/experiments on a central cloud.
-
-### Repository Owner
-The primary owner of a repository is responsible for all code within it and has final approval authority for hosting requests. They must ensure the main branch contains only the code to be hosted.
-
-### Requester
-The repository owner or developer who submits a hosting request.
-
-### Tags
-The repository owner must tag each merge to the main branch following [Semantic Versioning](https://semver.org/). All hosting requests should specify a tag.
-
-### Testing
-The repository owner is responsible for testing deployments. The CPE team provides the deployment link, and the repository owner ensures the deployed hosting unit functions as expected.
+### GitHub handle
+It is a public reference that can be traced back to all public (and sometimes private) things done on GitHub. 
 
 ## Onboarding
 
@@ -47,26 +32,26 @@ Provide centralized organization and uniform repository structure.
 ### Prerequisites
 
 The onboarding process requires:
-1. An approved lab proposal in PDF format.
-2. Primary GitHub handle.
-3. Secondary GitHub handle.
+1. An approved lab proposal in PDF format - [reference](https://drive.google.com/file/d/1yjLMM96kxYnQ4_DiDOwFhdqLG0--0Z1P/view?usp=drive_link).
+2. Primary GitHub handle - It has to be a university-based GitHub handle.
+3. Secondary GitHub handle - It has to be the primary account of the contributing Developers.
 
 ### Process
 
 Onboarding Process for New Developers
 
-1. **Provide GitHub Handles:**
+**Step 1 : Provide GitHub Handles:**
    - New developer submits primary and secondary GitHub handles to the CPE team.
 
-2. **CPE Team Actions:**
-   - CPE team creates a Git repository for each approved experiment lab.
+**Step 2 : CPE Team Actions:**
+   - The CPE team creates a Git repository for each approved experiment lab.
    - Grants repository access to the developer.
 
-3. **Developer Actions:**
+**Step 3 : Developer Actions:**
    - Developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) on the engineers-forum repository under the Virtual Labs organization.
    - Attaches the PDF of the approved proposal to the issue.
 
-4. **Repository URLs Sharing:**
+**Step 4 : Repository URLs Sharing:**
    - CPE team creates the Git repositories.
-   - Shares the repository URLs on the same issue.
+   - Shares the repository URLs on the same issue as comment.
 
