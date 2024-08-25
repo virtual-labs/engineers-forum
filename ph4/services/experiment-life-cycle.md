@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Virtual Labs is a mission mode project under the Ministry of Education (MoE) aimed at providing laboratory learning experiences.  The objective of this project is to provide laboratory learning experience to the students who do not have access to adequate laboratory infrastructure. Currently there are 150+ labs developed by various institutes in the consortium. This document outlines the hosting process for the Virtual Labs project.
+Virtual Labs is a mission-mode project under the Ministry of Education (MoE) aimed at providing laboratory learning experiences.  The objective of this project is to provide a laboratory learning experience to students who do not have access to adequate laboratory infrastructure. Currently, there are 150+ labs developed by various institutes in the consortium. This document outlines the hosting process for the Virtual Labs project.
 
 ## Purpose
 
@@ -23,9 +23,6 @@ A hosting unit is the code base/repository hosted in its entirety during the hos
 
 ### Hosting
 Hosting is a service provided by the CPE team to publish the developed lab/experiments on a central cloud.
-
-### Repository Owner
-Each repository corresponding to a hosting unit has a designated primary owner. This owner is responsible for all code in the repository and final approval authority for a hosting request. The owner should ensure that the main branch only contains the code to be hosted.
 
 ### Requester
 A repository owner or developer who raises a hosting request.
@@ -48,7 +45,7 @@ Hosting includes:
 
 ### Pre-requisites
 
-Once the experiment is approved, the developer merges the testing branch to the main branch and creates a tag on the main branch. The experiment is then ready for public availability.
+Once the experiment is approved, the developer merges the testing branch with the main branch and creates a tag on the main branch. The experiment is then ready for public availability.
 
 ### Process
 
@@ -63,17 +60,13 @@ The CPE team builds the experiments with the common Virtual Labs UI and deploys 
 
 ### Lifecycle of a Hosting Request
 
-1. Requester raises a hosting request issue or requests rehosting.
+1. The requester raises a hosting request issue or requests rehosting.
 2. Upon successful hosting, the team adds the link to the issue.
 3. On failure, the team responds to the requester, who then fixes the issue and requests rehosting.
-4. Requester verifies the hosted link and approves or requests a revert.
+4. The requester verifies the hosted link and approves or requests a revert.
 5. Approval from the requester is required for sharing the hosted URL.
 
 ## FAQ
-
-**Can I change the Primary and Secondary GitHub Handle after submitting the experiment repository creation request?**
-
-Primary GitHub Handle should be static. It is recommended to create a separate handle for Virtual Labs development. Secondary Handles are fluid and can be updated freely.
 
 **Why use the Hosting Service?**
 
@@ -90,12 +83,3 @@ The CPE team improves infrastructure but does not alter your code.
 **Does Hosting Service add UI to my webpages?**
 
 The CPE team does not add UI elements but provides a uniform UI framework for experiments. Developers should conform to this framework.
-
-**How to Tag a Release in GitHub:**
-
-1. Go to your repository on GitHub.
-2. Click on the **"Releases"** link, usually found on the right side of the repository page.
-3. Click the **"Draft a new release"** button.
-4. In the "Tag version" field, enter the new tag version (e.g., `v1.0.0`). Follow [Semantic Versioning](https://semver.org/) guidelines.
-5. Fill in the release title and description if necessary.
-6. Click the **"Publish release"** button.
