@@ -8,13 +8,9 @@ Virtual Labs is a mission-driven project under the Ministry of Education (MoE) a
 
 This document details the experiment onboarding process for lab developers requesting their lab's hosting on the central cloud. It specifies the roles and responsibilities of all parties involved in the onboarding process.
 
-## Motivation
-
-A well-defined onboarding process ensures a consistent user experience and allows experiment authors to focus on content creation. Consolidated information regarding all deployments also facilitates effective reporting.
-
 ## Audience
 
-The target audience for this document includes all lab developers and owners seeking to utilize the hosting service provided by the Central Platform Engineering (CPE) team at IIITH.
+The target audience for this document includes all lab developers and owners seeking to develop new experiments.
 
 ## Definitions
 
@@ -22,36 +18,36 @@ The target audience for this document includes all lab developers and owners see
 Onboarding marks the start of software development for an approved lab, with the CPE team creating a Git repository for each experiment.
 
 ### GitHub handle
-It is a public reference that can be traced back to all public (and sometimes private) things done on GitHub. 
+A GitHub handle is a public reference that can be traced back to all public (and sometimes private) activities done on GitHub.
 
 ## Onboarding
-
-### Objectives
-Provide centralized organization and uniform repository structure.
 
 ### Prerequisites
 
 The onboarding process requires:
+
 1. An approved lab proposal in PDF format - [reference](https://drive.google.com/file/d/1yjLMM96kxYnQ4_DiDOwFhdqLG0--0Z1P/view?usp=drive_link).
-2. Primary GitHub handle - It has to be a university-based GitHub handle.
-3. Secondary GitHub handle - It has to be the primary account of the contributing Developers.
+2. Primary GitHub handle - It must be a university-based GitHub handle.
+3. Secondary GitHub handle - It must be the primary account of the contributing Developers.
 
 ### Process
 
-Onboarding Process for New Developers
+**Step 1**
 
-**Step 1 : Provide GitHub Handles:**
-   - New developer submits primary and secondary GitHub handles to the CPE team.
+New developers raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request the creation of experiment repositories for the lab.
 
-**Step 2 : CPE Team Actions:**
-   - The CPE team creates a Git repository for each approved experiment lab.
-   - Grants repository access to the developer.
+**Step 2**
 
-**Step 3 : Developer Actions:**
-   - Developer raises an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) on the engineers-forum repository under the Virtual Labs organization.
-   - Attaches the PDF of the approved proposal to the issue.
+Developers fill in the requested information on the issue and attach the lab proposal [sample](https://github.com/virtual-labs/engineers-forum/files/5985232/Java.Proposal.pdf).
 
-**Step 4 : Repository URLs Sharing:**
-   - CPE team creates the Git repositories.
-   - Shares the repository URLs on the same issue as comment.
+**Step 3**
 
+The Central Platform Engineering (CPE), IIITH team creates experiment repositories for each experiment in the proposal on GitHub and shares the links to the created repositories on the same issue. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300)
+
+**Step 4**
+
+Developers populate the dev branches of the created repositories with the source code of the experiments and unit test the experiments locally. They do not delete the gh-pages branch, as it is required for automatically deploying the experiment along with UI on GitHub pages for testing the complete experiment. They also do not delete the `.github` directory and the `LICENSE` file.
+
+## Conclusion
+
+For detailed information about the development process and the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-processmd).
