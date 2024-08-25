@@ -50,7 +50,7 @@ Developers populate the dev branches of the created repositories with the source
 
 ## Conclusion
 
-For detailed information about the development process and the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-processmd).
+For detailed information about the development process and the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md).
 
 ## FAQ
 
