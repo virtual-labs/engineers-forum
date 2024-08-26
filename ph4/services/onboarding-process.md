@@ -36,7 +36,12 @@ Before beginning the onboarding process, the following prerequisites must be met
 Raise an [Experiment Repository Creation Request](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request the creation of experiment repositories for the lab.
 
 **Step 2:**  
-Provide the required information in the issue and attach the lab proposal [sample](https://github.com/virtual-labs/engineers-forum/files/5985232/Java.Proposal.pdf).
+Provide the following information in the issue on the Engineers’ Forum repository:
+  1. Experiment Name
+  2. Experiment Repository URL
+  3. Tag to be hosted
+  4. Contact person details
+  5. Approved review (PDF attachment)
 
 **Step 3:**  
 The CPE team at IIITH will create experiment repositories for each experiment listed in the proposal on GitHub. The links to the repositories will be shared in the same issue thread. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300). Once this process is complete, developers will be notified.
