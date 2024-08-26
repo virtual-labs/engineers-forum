@@ -1,59 +1,55 @@
- # Virtual Labs Onboarding Process
+# Virtual Labs Onboarding Process
 
 ## Introduction
 
-Virtual Labs is a mission-driven project under the Ministry of Education (MoE) aimed at providing laboratory learning experiences to students lacking adequate lab infrastructure. With over 150 labs developed by various consortium institutes, the project follows a streamlined software development life cycle to ensure high-quality labs. This document outlines the onboarding process for developers within the Virtual Labs project.
+Virtual Labs is a mission-driven project under the Ministry of Education (MoE) that aims to provide laboratory learning experiences to students who lack adequate lab infrastructure. With over 150 labs developed by various consortium institutes, the project follows a streamlined software development life cycle to ensure the delivery of high-quality labs. This document outlines the onboarding process for developers involved in the Virtual Labs project.
 
 ## Purpose
 
-This document details the experiment onboarding process for lab developers requesting their lab's hosting on the central cloud. It specifies the steps involved in the onboarding process.
+This document details the process for onboarding lab developers requesting to host their labs on the central cloud. It specifies the steps required for successful onboarding.
 
 ## Audience
 
-The target audience for this document includes all lab developers and owners seeking to develop new experiments.
+The intended audience for this document includes all lab developers and owners who are interested in developing new experiments.
 
 ## Definitions
 
 ### Onboarding
-Onboarding marks the start of software development for an approved lab, with the CPE team creating a Git repository for each experiment.
+Onboarding initiates the software development process for an approved lab, with the Central Platform Engineering (CPE) team responsible for creating a Git repository for each experiment.
 
-### GitHub handle
-A GitHub handle is a public reference that can be traced back to all public (and sometimes private) activities done on GitHub.
+### GitHub Handle
+A GitHub handle is a unique identifier associated with a user’s public (and sometimes private) activities on GitHub.
 
 ## Onboarding
 
 ### Prerequisites
 
-The onboarding process requires:
+Before beginning the onboarding process, the following prerequisites must be met:
 
 1. An approved lab proposal in PDF format - [reference](https://drive.google.com/file/d/1yjLMM96kxYnQ4_DiDOwFhdqLG0--0Z1P/view?usp=drive_link).
-2. Primary GitHub handle - It must be a university-based GitHub handle.
-3. Secondary GitHub handle - It must be the primary account of the contributing Developers.
+2. A primary GitHub handle - This can be a university-affiliated GitHub account.
+3. A secondary GitHub handle - This should be the primary account used by the contributing developers.
 
-### Process
+### Onboarding Process
 
-**Step 1**
+**Step 1:**  
+Raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request the creation of experiment repositories for the lab.
 
-New developers raise an [issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request the creation of experiment repositories for the lab.
+**Step 2:**  
+Provide the required information in the issue and attach the lab proposal [sample](https://github.com/virtual-labs/engineers-forum/files/5985232/Java.Proposal.pdf).
 
-**Step 2**
+**Step 3:**  
+The CPE team at IIITH will create experiment repositories for each experiment listed in the proposal on GitHub. The links to the repositories will be shared in the same issue thread. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300). Once this process is complete, developers will be notified.
 
-Developers fill in the requested information on the issue and attach the lab proposal [sample](https://github.com/virtual-labs/engineers-forum/files/5985232/Java.Proposal.pdf).
-
-**Step 3**
-
-The Central Platform Engineering (CPE), IIITH team creates experiment repositories for each experiment in the proposal on GitHub and shares the links to the created repositories on the same issue. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300)
-
-**Step 4**
-
-Developers populate the dev branches of the created repositories with the source code of the experiments and unit test the experiments locally. They do not delete the gh-pages branch, as it is required for automatically deploying the experiment along with UI on GitHub pages for testing the complete experiment. They also do not delete the `.github` directory and the `LICENSE` file.
+**Step 4:**  
+Developers are responsible for populating the development branches of these repositories with the source code for the experiments.
 
 ## Conclusion
 
-For detailed information about the development process and the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md).
+This document provides a comprehensive guide to the onboarding process. Upon completing these four steps, developers can proceed to the development phase. For detailed guidance on the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md).
 
 ## FAQ
 
 **Can I change the Primary and Secondary GitHub Handle after submitting the experiment repository creation request?**
 
-The primary GitHub Handle should be static. It is recommended to create a separate handle for Virtual Labs development. Secondary Handles are fluid and can be updated freely.
+Yes, the primary GitHub handle can be changed. However, it is recommended to maintain a consistent university-specific handle for Virtual Labs development. Secondary handles are flexible and can be updated as needed.
