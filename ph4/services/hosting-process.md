@@ -61,19 +61,26 @@ The CPE team builds the experiments with the common Virtual Labs UI and deploys 
 ### Lifecycle of a Hosting Request
 
 **Step 1:**  
-The requester raises a hosting request issue or requests rehosting.
+The requester initiates a hosting or rehosting request by raising an issue.
 
-**Step 2:**
-Upon successful hosting, the team adds the link to the issue.
+**Step 2:**  
+Once hosting is successful, the team updates the issue with the hosted link.
 
-**Step 3:**
-On failure, the team responds to the requester, who then fixes the issue and requests rehosting.
+**Step 3:**  
+If hosting fails, the CPE team notifies the requester, who then addresses the issue and submits a rehosting request.
 
-**Step 4:**
-The requester verifies the hosted link and approves or requests a revert.
+**Step 4:**  
+The CPE team rehosts the experiment and requests the requester to test the hosted link.
 
-**Step 5:**
-Approval from the requester is required for sharing the hosted URL.
+**Step 5:**  
+The requester tests the hosted link, and then either approves it or requests changes.
+
+**Step 6:**  
+Upon approval from the requester, the hosted URL is shared with IITD for final hosting on the Virtual Labs website.
+
+**Step 7:**  
+After receiving confirmation from IITD, the experiment is made accessible to users on the Virtual Labs website.
+
 
 ## FAQ
 
