@@ -31,10 +31,10 @@ A repository owner or developer who raises a hosting request.
 The repository owner is responsible for tagging each merge to the main branch, following [Semantic Versioning](https://semver.org/). All Virtual Labs hosting requests should specify a tag.
 
 ### Testing
-The responsibility of testing the deployments lies with the repository owner. The CPE team provides the deployment link, while the repository owner ensures the deployed hosting unit works as expected.
+The responsibility for testing the deployments lies with the repository owner. The CPE team provides the deployment link, while the repository owner ensures the deployed hosting unit works as expected.
 
 
-## Hosting
+## Hosting Process
 
 ### Objectives
 
@@ -52,7 +52,7 @@ Once the experiment is approved, the developer merges the testing branch with th
 After completing all experiments listed in the proposal, the developer raises a [Lab/Experiment Hosting Request issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=lab-experiment-s--hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) on the Engineers’ Forum repository with:
 1. Experiment Name
 2. Experiment Repository URL
-3. [Tag](https://github.com/virtual-labs/engineers-forum/edit/master/ph4/services/hosting-process.md?plain=94#L101) to be hosted
+3. [Tag](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md#step-5-tagging-the-release) to be hosted
 4. Contact Person details
 5. Approved Review (PDF attachment)
 
@@ -60,11 +60,20 @@ The CPE team builds the experiments with the common Virtual Labs UI and deploys 
 
 ### Lifecycle of a Hosting Request
 
-1. The requester raises a hosting request issue or requests rehosting.
-2. Upon successful hosting, the team adds the link to the issue.
-3. On failure, the team responds to the requester, who then fixes the issue and requests rehosting.
-4. The requester verifies the hosted link and approves or requests a revert.
-5. Approval from the requester is required for sharing the hosted URL.
+**Step 1:**  
+The requester raises a hosting request issue or requests rehosting.
+
+**Step 2:**
+Upon successful hosting, the team adds the link to the issue.
+
+**Step 3:**
+On failure, the team responds to the requester, who then fixes the issue and requests rehosting.
+
+**Step 4:**
+The requester verifies the hosted link and approves or requests a revert.
+
+**Step 5:**
+Approval from the requester is required for sharing the hosted URL.
 
 ## FAQ
 
