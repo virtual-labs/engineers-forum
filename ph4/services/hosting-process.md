@@ -49,7 +49,7 @@ Once the experiment is approved, the developer merges the testing branch with th
 
 ### Process
 
-After completing all experiments listed in the proposal, the developer raises a [Lab/Experiment Hosting Request issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&template=lab-experiment-s--hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) on the Engineers’ Forum repository with:
+After completing all experiments listed in the proposal, the developer raises a [Lab/Experiment Hosting Request issue](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&projects=&template=lab-experiments-hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) on the Engineers’ Forum repository with:
 1. Experiment Name
 2. Experiment Repository URL
 3. [Tag](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md#step-5-tagging-the-release) to be hosted
