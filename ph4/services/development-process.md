@@ -14,24 +14,11 @@ The intended audience for this document includes all lab developers and owners w
 
 ## Development Process
 
-### Step 1: Verifying the Repositories
+***Step 1: Verifying the Repositories***
 
-**Check Repository Creation:** Ensure that all required repositories are created and accessible.
+Ensure that all required repositories are created and accessible.
 
-### Step 2: Understanding Development Workflow tools
-
-To begin development, use the following workflow tools:
-
-1. **[VS Extension](https://github.com/virtual-labs/tool-vscode-plugin):** Use the VS extension for a local development workflow.
-2. **[Web VS Extension](https://github.com/virtual-labs/tool-web-ext-vscode):** Utilize the Web VS extension for an online development workflow.
-
-#### Using Available Tools
-
-1. **Performance Tool:** A [tool](https://github.com/virtual-labs/tool-performance) that generates performance reports for experiment codebases, providing scores, metrics, and improvement suggestions using the Lighthouse API.
-
-2. **Validation Tool:** This [tool](https://github.com/virtual-labs/tool-validation) validates code post-experiment development by executing ESLint on JavaScript, checking HTTP links, and ensuring JSON files conform to a schema.
-
-### Step 3: Understanding Repository Structure
+***Step 2: Understanding Repository Structure***
 
 Each experiment repository contains four default branches:
 
@@ -81,56 +68,72 @@ The initial structure and hierarchy of each default branch include:
 
 Developers should consult with the Central Platform Engineering (CPE) team to determine if a backend is necessary.
 
-### Step 4: Beginning the Development Process
+***Step 3: Leveraging Development Workflow Tools***
 
-*Note: This section is for completeness and does not fall under the CPE team's responsibilities.*
+To assist developers in the experiment development process, the CPE Team has created the following Virtual Labs workflow tools. These tools integrate the development workflow, enabling testing both locally and on GitHub Pages:
 
-1. After onboarding, developers fill in the existing files within the dev branches of the created repositories with the source code of the experiments and conduct unit testing locally, ensuring no additional files are added.
-2. Developers should not delete the `gh-pages` branch, as it is required for automatically deploying the experiment along with the UI on GitHub pages for testing. The `.github` directory and the `LICENSE` file should also remain intact.
-3. Developers will merge the fully tested `dev` branch into the `testing` branch, which will automatically deploy the experiment along with the UI on GitHub pages for testing.
-4. Developers will receive an email about the success or failure of the deployment at the email address associated with the primary GitHub handle provided in the issue.
-5. Developers then merge from a fully tested `testing` branch to the `main`
+1. **[VS Code Extension](https://github.com/virtual-labs/tool-vscode-plugin):** Use this VS Code extension to streamline your local development workflow.
+2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode):** Opt for this Web VS Code extension to support an online development workflow.
 
-A sample experiment codebase is available [here](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment), and the deployed testing URL can be found [here](https://virtual-labs.github.io/ph3-exp-dev-process/). Developers will receive an email regarding the deployment's status.
+***Step 4: Initiating the Development Process***
 
-### Step 5: Tagging the Release
+*Note: This section is included for completeness and is outside the scope of the CPE team's responsibilities.*
 
-1. Go to your repository on GitHub.
-2. Click on the "Releases" link, usually found on the right side of the repository page.
-3. Click the "Draft a new release" button.
-4. In the "Tag version" field, enter the new tag version (e.g., v1.0.0). Follow Semantic Versioning guidelines.
-5. Fill in the release title and description if necessary.
-6. Click the "Publish release" button.
+1. After onboarding, developers should populate the existing files within the `dev` branches of the created repositories with the experiment’s source code. They should conduct local unit testing, ensuring no additional files are added to the repository.
+2. Do not delete the `gh-pages` branch, as it is essential for automatic deployment of the experiment and UI to GitHub Pages for testing. The `.github` directory and the `LICENSE` file must also remain unchanged.
+3. Once the `dev` branch is fully tested, developers should merge it into the `testing` branch. This action will automatically deploy the experiment and UI to GitHub Pages for testing.
+4. Developers will receive an email notification regarding the success or failure of the deployment, sent to the email address linked to their primary GitHub handle (provided in the issue).
+5. If deployment fails, developers should refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) to debug the issue.
+6. After successful testing, developers should merge the fully tested `testing` branch into the `main` branch.
 
-### Step 6: Additional Tips
+A sample experiment codebase is available [here](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment), and the corresponding deployed test URL can be accessed [here](https://virtual-labs.github.io/exp-bubble-sort-iiith/). Developers will be notified of the deployment status via email.
 
-#### Meeting Basic Requirements for the Experiments
+***Step 5: Additional Development Tips***
 
-- All experiments must work on HTTPS.
-- Follow responsive design principles.
-- Experiments should be static.
-- The average page load size should be below 2MB, with no page exceeding 5MB.
-- The average page load time should be below 1.5 seconds on a fast 3G connection, with no page exceeding 3 seconds.
+**Meeting Basic Requirements for Experiments**
 
-#### Implementing Experiment Development Strategy
+- All experiments must be accessible over HTTPS.
+- Ensure responsive design principles are followed for optimal display across devices.
+- Experiments should remain static for improved performance and easier maintenance.
+- The average page load size should be under 2MB, with no individual page exceeding 5MB.
+- Aim for an average page load time of under 1.5 seconds on a fast 3G connection, with no page taking longer than 3 seconds to load.
 
-##### Developing Static Experiments
+**Developing Static Experiments**
 
-- Offer high performance, security, and low cost.
-- The CPE team provides a framework for static experiments, including uniform UI, a styling library, analytics, and performance tools.
+- Focus on high performance, security, and cost-efficiency.
+- The CPE team offers a framework for developing static experiments, which includes a consistent UI, a styling library, and tools for analytics and performance optimization.
 
-##### Developing Experiments Requiring Backend
+**Developing Experiments Requiring a Backend**
 
-- Built using JavaScript, Python, etc., with higher hosting and maintenance costs.
-- Developers are responsible for UI conformity, analytics, containerization, and updates.
+- Experiments with backend components (e.g., built with JavaScript, Python, etc.) involve higher hosting and maintenance costs.
+- Developers are responsible for ensuring UI consistency, integrating analytics, managing containerization, and handling updates.
 
-##### Customizing and Including Experiments
+**Customizing and Including Experiments**
 
-To include or customize an experiment, follow these steps:
+To customize or include an experiment, follow these steps:
 
-1. **Update `experiment.json`:** Add any new items or updates to the side menu or simulation by modifying the `experiment.json` file.
-2. **Fill Out Instructions:** Ensure all instructions in the side menu are complete and properly linked. For more details about the side menu, please refer to the documentation.
-3. **Populate Existing Files:** Once you have the repository, make sure to populate the existing files as required. Avoid adding unnecessary files.
+1. **Update `experiment.json`:** Modify the `experiment.json` file to include new items or updates to the side menu or simulation.
+2. **Complete Instructions:** Ensure all instructions in the side menu are fully populated and correctly linked. Refer to the [documentation](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.org) for further details on managing the side menu.
+3. **Populate Existing Files:** Populate the provided files in the repository as needed, without adding extra files.
+
+***Step 6: Utilizing Developer Tools***
+
+Once the experiment has been deployed on GitHub Pages for testing, developers can leverage the following tools to enhance their experiments:
+
+1. **Performance Tool**: This [tool](https://github.com/virtual-labs/tool-performance) generates performance reports for the experiment's codebase, offering scores, metrics, and actionable improvement suggestions by utilizing the Lighthouse API.
+
+2. **Validation Tool**: This [tool](https://github.com/virtual-labs/tool-validation) ensures code quality post-experiment development by running ESLint on JavaScript, verifying HTTP links, and ensuring that JSON files adhere to the appropriate schema.
+
+***Step 7: Tagging the Release***
+
+Once the developer has tested and merged the branch into `main`, the next step before hosting is to tag the experiment. To tag an experiment, follow these steps:
+
+1. Navigate to your repository on GitHub.
+2. On the repository page, locate and click the "Releases" link, typically found on the right-hand side.
+3. Select the "Draft a new release" button.
+4. In the "Tag version" field, enter the new tag (e.g., `v1.0.0`), following the Semantic Versioning guidelines.
+5. Optionally, provide a title and description for the release.
+6. Finally, click the "Publish release" button.
 
 ## Conclusion
 
