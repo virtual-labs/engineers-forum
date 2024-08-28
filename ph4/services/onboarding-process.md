@@ -37,9 +37,9 @@ Raise an [Experiment Repository Creation Request](https://github.com/virtual-lab
 
 **Step 2:**  
 Provide the following information in the above created issue on the Engineers’ Forum repository:
- 1. Coordinating Institute: <!--Your institute name -->
- 2. Approver’s Name: <!--Name of the approver-->
- 3. Approved Proposal: <!--Upload the PDF of the approved proposal--> 
+ 1. Coordinating Institute: Your institute name
+ 2. Approver’s Name: Name of the approver
+ 3. Approved Proposal: Upload the PDF of the approved proposal
  4. Primary GitHub Handle Details: Provide the Primary GitHub handle details to which write permissions need to be given and notifications need to be sent. This should be a university affliated handle. 
     
      a. Name: Provide the Name that the Primary GitHub Handle is associated with
