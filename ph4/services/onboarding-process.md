@@ -36,18 +36,29 @@ Before beginning the onboarding process, the following prerequisites must be met
 Raise an [Experiment Repository Creation Request](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3%2C+create+experiment+repos&template=experiment-repository-creation-request.md&title=Experiment+Repository+Creation+Request+for+%3Cfill+the+lab+name+here%3E) to request the creation of experiment repositories for the lab.
 
 **Step 2:**  
-Provide the following information in the issue on the Engineers’ Forum repository:
-  1. Experiment Name
-  2. Experiment Repository URL
-  3. Tag to be hosted
-  4. Contact person details
-  5. Approved review (PDF attachment)
+Provide the following information in the above created issue on the Engineers’ Forum repository:
+ 1. Coordinating Institute: <!--Your institute name -->
+
+ 2. Approver’s Name: <!--Name of the approver-->
+
+ 3. Approved Proposal: <!--Upload the PDF of the approved proposal--> 
+
+ 4. Primary GitHub Handle Details: <!--Provide the Primary GitHub handle details to which write permissions need to be given and notifications need to be sent. This should be a university affliated handle-->
+     Name: <!--Provide the Name that the Primary GitHub Handle is associated with-->
+     GitHub Handle: <!--Provide the email id that the Primary GitHub Handle is associated with-->
+     Email id: <!--Provide the email id that the Primary GitHub Handle is associated with-->
+
+ 5. Secondary GitHub Handle Details: <!--Provide the additional GitHub handle(s) to which write permissions need to be given-->
+     Name: <!--Provide the Name that the Secondary GitHub Handle is associated with-->
+     GitHub Handle: <!--Provide the email id that the Secondary GitHub Handle is associated with-->
+     Email id: <!--Provide the email id that the Secondary GitHub Handle is associated with-->
+
 
 **Step 3:**  
-The CPE team at IIITH will create experiment repositories for each experiment listed in the proposal on GitHub. The links to the repositories will be shared in the same issue thread. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300). Once this process is complete, developers will be notified.
+The CPE team at IIITH will create experiment repositories for each experiment listed in the proposal on GitHub. The links to the repositories will be shared in the same issue thread. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300). Once this process is complete, developers will be notified in form of a comment in the above created issue. 
 
 **Step 4:**  
-Developers are responsible for populating the development branches of these repositories with the source code for the experiments.
+Developers can now begin populating the development branches of these repositories with the source code for the experiments.
 
 ## Conclusion
 
