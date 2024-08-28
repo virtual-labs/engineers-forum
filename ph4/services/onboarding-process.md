@@ -26,9 +26,9 @@ A GitHub handle is a unique identifier associated with a user’s public (and so
 
 Before beginning the onboarding process, the following prerequisites must be met:
 
-1. An approved lab proposal in PDF format - [reference](https://drive.google.com/file/d/1yjLMM96kxYnQ4_DiDOwFhdqLG0--0Z1P/view?usp=drive_link).
-2. A primary GitHub handle - This can be a university-affiliated GitHub account.
-3. A secondary GitHub handle - This should be the primary account used by the contributing developers.
+1. An Approved lab proposal in PDF format - [reference](https://drive.google.com/file/d/1yjLMM96kxYnQ4_DiDOwFhdqLG0--0Z1P/view?usp=drive_link).
+2. One Primary GitHub handle - This should be a university-affiliated GitHub account.
+3. Secondary GitHub handles - This should be the GitHub accounts used by the contributing developers.
 
 ### Onboarding Process
 
@@ -55,7 +55,6 @@ Provide the following information in the above created issue on the Engineers’
      b. GitHub Handle: Provide the email id that the Secondary GitHub Handle is associated with
     
      c. Email id: Provide the email id that the Secondary GitHub Handle is associated with
-
 
 **Step 3:**  
 The CPE team at IIITH will create experiment repositories for each experiment listed in the proposal on GitHub. The links to the repositories will be shared in the same issue thread. [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300). Once this process is complete, developers will be notified in form of a comment in the above created issue. 
