@@ -65,18 +65,10 @@ Developers can now begin populating the development branches of these repositori
 
 #### Requesting Access to Existing Repositories for New Developers
 **Step 1:**  
-Navigate to the [GitHub repository](https://github.com/virtual-labs/engineers-forum/issues). Use the search bar to locate the experiment name, and then click on the corresponding issue.
+Navigate to the [GitHub repository](https://github.com/virtual-labs/engineers-forum/issues). Use the search bar to locate the lab name, and then click on the corresponding issue.
 
 **Step 2:**  
 Provide the following information in the issue as comments:
- 1. Primary GitHub Handle Details: Provide the Primary GitHub handle details to which write permissions need to be given and notifications need to be sent. This should be a university-affiliated handle. 
-    
-     a. Name: Provide the Name that the Primary GitHub Handle is associated with
-
-     b. GitHub Handle: Provide the email id that the Primary GitHub Handle is associated with
-
-     c. Email id: Provide the email id that the Primary GitHub Handle is associated with
-    
  2. Secondary GitHub Handle Details: Provide the additional GitHub handle(s) to which write permissions need to be given
  
      a. Name: Provide the Name that the Secondary GitHub Handle is associated with
@@ -86,15 +78,10 @@ Provide the following information in the issue as comments:
      c. Email id: Provide the email id that the Secondary GitHub Handle is associated with
 
 **Step 3:**  
-The CPE team at IIITH will share the links to the experiment repositories as comments in the same GitHub issue thread for each experiment listed in the proposal. You can refer to this [sample](https://github.com/virtual-labs/engineers-forum/issues/673#issuecomment-779564300). 
+The CPE team at IIITH will provide access to all the experiment repositories of the lab and comment in the same GitHub issue thread. You can refer to this [sample](https://github.com/virtual-labs/engineers-forum/issues/801#issuecomment-2345236852). 
 
 **Step 4:**  
-Once the access for the repositories are shared, the developers can now begin populating the development branches of these repositories with the source code for the experiments.
-
-
-## Conclusion
-
-This document provides a comprehensive guide to the onboarding process. Upon completing these four steps, developers can proceed to the development phase. For detailed guidance on the next steps, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md).
+Once the invites for the repositories are sent to the developer, the developer can begin adding the content to the the development branch of these repositories with the source code for the experiments.
 
 ## Conclusion
 
