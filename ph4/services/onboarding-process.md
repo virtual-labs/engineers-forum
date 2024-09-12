@@ -65,11 +65,11 @@ Developers can now begin populating the development branches of these repositori
 
 #### Requesting Access to Existing Repositories for New Developers
 **Step 1:**  
-Navigate to the [GitHub repository](https://github.com/virtual-labs/engineers-forum/issues). Use the search bar to locate the lab name, and then click on the corresponding issue.
+Navigate to the [GitHub repository](https://github.com/virtual-labs/engineers-forum/issues). Use the search bar to locate the Experiment Repository Creation Request for the lab name, and then click on the corresponding issue.
 
 **Step 2:**  
-Provide the following information in the issue as comments:
- 2. Secondary GitHub Handle Details: Provide the additional GitHub handle(s) to which write permissions need to be given
+Provide the following information in the issue as a comment:
+1. Developer GitHub Handle Details: Provide the additional GitHub handle(s) to which write permissions need to be given
  
      a. Name: Provide the Name that the Secondary GitHub Handle is associated with
    
