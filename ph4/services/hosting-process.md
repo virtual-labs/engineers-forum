@@ -68,13 +68,13 @@ The requester is then responsible for verifying the deployment and confirming th
 ### Lifecycle of a Hosting Request
 
 **Step 1: Request Initiation**  
-The requester initiates a hosting or rehosting request by raising an issue. For rehosting, the institution requesting rehosting should visit [this link](https://github.com/virtual-labs/engineers-forum/issues), locate the issue corresponding to the lab they wish to rehost, and comment with details of the experiment(s) requiring rehosting.
+The requester initiates a hosting or rehosting request by raising an issue. For rehosting, the institution requesting rehosting should visit [this link](https://github.com/virtual-labs/engineers-forum/issues), locate the hosting issue corresponding to the lab they wish to rehost, and comment with details of the experiment(s) requiring rehosting.
 
 **Step 2: Hosting Success Update**  
-If hosting is successful, the team updates the issue with the hosted link.
+If hosting is successful, the CPE team updates the issue with the hosted link.
 
 **Step 3: Hosting Failure Notification**  
-If hosting fails, the CPE team notifies the requester of the issue. The requester then addresses the issue and submits a rehosting request.
+If hosting fails, the CPE team notifies the requester of the issue. The requester then addresses the issue and submits a rehosting request as part of the same issue.
 
 **Step 4: Rehosting and Testing Request**  
 The CPE team rehosts the experiment and requests the requester to test the new hosted link.
