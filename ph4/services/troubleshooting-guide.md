@@ -26,38 +26,9 @@ The reason for this may be one of the following
 - Click on the workflow run to view the details.
 - Expand the relevant job or step to inspect the error logs for any issues.
 
-#### 1) "Warning: Could not find remote branch v1.0.0 to clone." "fatal: Remote branch v1.0.0 not found in upstream origin" How to troubleshoot this?
+### Here are sample github issues.
 
-- **Problem**:  
-  During the lab deployment, several experiments failed to build. Out of 10 experiments, only 5 were successfully built, and the remaining experiments were skipped. This issue needs to be fixed to ensure all experiments are properly processed.
-
-- **Error Description**:  
-  While checking the GitHub Actions workflow logs, the following error messages appeared:  
-  **"warning: Could not find remote branch v1.0.0 to clone."**  
-  **"fatal: Remote branch v1.0.0 not found in upstream origin."**  
-  These warnings didn’t stop the entire deployment, but they caused some experiments to fail to build, resulting in only a few experiments being processed while the rest were skipped.
-
-- **Root Cause**:  
-  The main cause of this issue is **incorrect or missing tags** in the experiment repositories. Either the experiment was not tagged, or the tag in the `descriptor.json` file does not match the actual tag in the GitHub repository. Additionally, tags must follow a specific format:  
-  - No uppercase letters.
-  - Tags should follow the format `v1.0.0`, with a total length of 6 characters.
-
-- **Solution/Fix**:
-  1. **Verify tags**: Check that the tags in the `descriptor.json` file and the experiment’s GitHub repository are the same.
-  2. **Correct the tags**: If the tags don’t match, contact the developer to correct and update the tags in the GitHub repository to match the format `v1.0.0`. Ensure that the tags contain no uppercase letters and adhere to the 6-character length.
-  3. **Update the lab descriptor**: Once the correct tag is confirmed, update the `descriptor.json` file with the proper tag information.
-  4. **Redeploy the lab**: After updating the tag, redeploy the lab to verify that all experiments now build successfully.
-
-- **Post-Fix Verification**:  
-  After applying the fix, re-run the deployment process in GitHub Actions and verify that all experiments are built without errors. Ensure that the warning and fatal error regarding missing branches no longer appear in the logs.
-
-- **Lessons Learned**:  
-  1. Ensure that tags are properly defined and formatted before deployment to prevent build failures.
-  2. Consistently check and verify that `descriptor.json` files are up to date with the correct tag information from the repositories.
-  3. Avoid using uppercase letters or incorrect tag formats to minimize deployment issues.
-
-
-#### 2) Why is GitHub Pages site not loading or displaying properly?
+#### 1) Why is GitHub Pages site not loading or displaying properly?
 
 - **Problem**:  
   GitHub Pages for an experiment repository are not working or the site is not accessible.
@@ -89,7 +60,7 @@ The reason for this may be one of the following
   After configuring GitHub Pages, visit the published URL to confirm that the site is working as expected.
 
 
-#### 3) Why does the build process exit with code 128?
+#### 2) Why does the build process exit with code 128?
 
 - **Problem**:  
   The build process for the experiment exits unexpectedly with an error code 128.
@@ -115,7 +86,7 @@ The reason for this may be one of the following
   2. Maintain a clean repository by regularly checking for and organizing files to prevent build issues.
   3. Establish clear guidelines for file organization within the experiment to avoid similar errors in the future.
   
-## 4) Why do I get a "404" error when trying to access a Virtual Labs experiment after pushing a code change?
+## 3) Why do I get a "404" error when trying to access a Virtual Labs experiment after pushing a code change?
 
 - **Problem**:  
   After pushing a code change, attempting to access a Virtual Labs experiment results in a "404" error.
@@ -159,7 +130,7 @@ The reason for this may be one of the following
   2. Validate JSON files before pushing code to minimize issues related to malformed files.
   3. Do not rename the `index.html` file.
 
-#### 5) Pipeline worked in the last iteration but not working in this iteration. Why? (JSON)
+#### 4) Pipeline worked in the last iteration but not working in this iteration. Why? (JSON)
   - Verify that your workflow file ([`.github/workflows/deployment-script.yml`](https://github.com/virtual-labs/exp-bubble-sort-iiith/blob/main/.github/workflows/deployment-script.yml) or a similar name) is correctly set up and has no syntax errors. Ensure the file structure, event triggers, job steps, and actions are adequately defined.
   - Go to the Actions tab in your GitHub repository to check the status of your GitHub Actions. Look for failed or errored workflows, and select the specific run to view more details. 
   - GitHub Actions provides logs for each workflow run. These logs contain detailed information about the execution of each step in your workflow. Examine the logs to identify any errors or warnings, which can help you pinpoint the cause of the issue.
@@ -167,7 +138,7 @@ The reason for this may be one of the following
   - Identify the JSON file and report to the developer to fix the syntax. 
     
 
-#### 6) Why do I get the error "uncaughtException: Cannot find module '.../experiment-descriptor.json'" during the build process?
+#### 5) Why do I get the error "uncaughtException: Cannot find module '.../experiment-descriptor.json'" during the build process?
 
 - **Problem**:  
   During the build process, an uncaught exception error is encountered, stating that the `experiment-descriptor.json` file cannot be found.
@@ -198,7 +169,7 @@ Once the tag and file path are corrected, re-run the build process. If the build
 2. Ensure all necessary files, including `experiment-descriptor.json`, are properly referenced in the build process.
 
   
-## 11) Why does the lab build stop at one experiment with the error "MaxListenersExceededWarning: Possible EventEmitter memory leak detected"?
+## 6) Why does the lab build stop at one experiment with the error "MaxListenersExceededWarning: Possible EventEmitter memory leak detected"?
 
 - **Problem**:  
   When triggering the lab build process, it stops at one experiment, and the following error is displayed:
