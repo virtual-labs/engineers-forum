@@ -1,23 +1,22 @@
 # Virtual Labs Engineers' Forum  
 
-This is the central repository for addressing queries regarding any lab, integration process, problems faced, general questions etc.  
+This is the central repository for addressing queries related to lab onboarding, integration, hosting requests, and general issues.
 
-## Logging an Issue  
-- Click the `Issues` button on the right or use [this link](https://github.com/Virtual-Labs/engineers-forum/issues).  
+## Onboarding Process
+
+- Follow [this link](https://vlead.vlabs.ac.in/development/#onboarding-process) to understand the on-boarding process.
+
+## Development Process
+- Follow [this link](https://vlead.vlabs.ac.in/development/#development-process) to understand the development process.
 
 ## Hosting Requests  
-- Follow [this link](https://vlead.vlabs.ac.in/) to understand the hosting process and submit a request.  
+- Follow [this link](https://vlead.vlabs.ac.in/) to understand the hosting process and submit a request.
+  
+## Logging an Issue  
+- Click the `Issues` button on the right or use [this link](https://github.com/Virtual-Labs/engineers-forum/issues). For onboarding follow this process
 
 ## Sharing Solutions  
-- Help the community by sharing answers or solutions to issues you've resolved.
-  
-## **Before Posting**  
-1. **Check Existing Discussions**:  
-   - Review the [FAQ](https://github.com/Virtual-Labs/engineers-forum/issues?utf8=%E2%9C%93&q=label%3AFAQ) and the [issue list](https://github.com/Virtual-Labs/engineers-forum/issues?utf8=✓&q=is%3Aissue+-label%3A"request+for+hosting"+-label%3A"request+to+create+repo").  
-   - If your issue exists, comment on it.  
-
-2. **Create a New Issue Only if Needed**:  
-   - Post a new issue only if you don’t find a relevant one.  
+- Help the community by sharing answers or solutions to issues you've resolved. Also, refer to [best practices](https://vlead.vlabs.ac.in/development/#best-practices)
 
 ## **Posting Guidelines**  
 - **Title**: Use a clear, descriptive title.  
