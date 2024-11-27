@@ -49,13 +49,13 @@ For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual
 
 ### Email Template for asking the question/clarification from the user -
 
-> Subject: Follow-Up on [BUG REPORT] <experiment-name> #<bug-number>
+> Subject: Follow-Up on [BUG REPORT] `<experiment-name>` #`<bug-number>`
 > 
 > Dear `<user-name>`,
 >  
 > Thank you for taking the time to report the bug in the virtual labs experiment - `<experiment-name>`. Your feedback  is invaluable in helping us improve and provide a better experience for all users.
 > 
-> We wanted to let you know that we are actively working on addressing the issue you reported. Here is the link to the issue you created: https://github.com/virtual-labs/bugs-virtual-labs/issues/<bug-number>
+> We wanted to let you know that we are actively working on addressing the issue you reported. Here is the link to the issue you created: https://github.com/virtual-labs/bugs-virtual-labs/issues/bug-number
 > 
 > However, we’re currently facing some challenges in reproducing the problem. The attached image and additional details lack the context needed to fully understand the situation.
 > 
@@ -70,13 +70,13 @@ For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual
 
 ### Email Template for notifying the user about the resolved bug-
 
-> Subject: Follow-Up on [BUG REPORT] <experiment-name> #<bug-number>
+> Subject: Follow-Up on [BUG REPORT] `<experiment-name>` #`<bug-number>`
 >
 > Dear `<user-name>`,
 >
 > Thank you for taking the time to report the bug in the Virtual Labs. Your feedback has been invaluable in helping us improve and provide a better experience for all users.
 >
-> We’re pleased to inform you that the issue you reported has been resolved. Here is the link to the issue you created: https://github.com/virtual-labs/bugs-virtual-labs/issues/<bug-number>
+> We’re pleased to inform you that the issue you reported has been resolved. Here is the link to the issue you created: https://github.com/virtual-labs/bugs-virtual-labs/issues/bug-number
 >
 > We deeply appreciate your participation and effort in bringing this to our attention. If you encounter any further issues or have additional suggestions, please don’t hesitate to reach out to us.
 >
