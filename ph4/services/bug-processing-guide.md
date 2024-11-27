@@ -2,7 +2,7 @@
 ## 1. Bug Creation
 - A user reports a bug using the bug reporting tool.
 - The bug is logged at [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/).
-- The bug is labeled with an *Institute Label* corresponding to the lab’s developing institute.
+- The bug is labeled with an **Institute Label** corresponding to the lab’s developing institute.
 
 ## 2. Bug Details
 Each bug includes the following information:
@@ -36,8 +36,8 @@ Certain bug types should be closed with a comment explaining the reason:
 For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual-labs/issues/220) and [Issue #278](https://github.com/virtual-labs/bugs-virtual-labs/issues/278).
 
 ## 5. Status Updates
-- If you’re working on a bug, label it as In Progress.
-- Once a bug is fixed, label it as Resolved before closing it.
+- If you’re working on a bug, label it as **In Progress**.
+- Once a bug is fixed, label it as **Resolved** before closing it.
 
 ## 6. Commenting Guidelines
 - Clearly comment on the bug when assigning a label.
@@ -64,17 +64,25 @@ For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual
 > Thank you again for your valuable contribution. We appreciate your patience and look forward to your reply.
 > 
 > Best regards,
+>
 > `<developer-name>`
 
 
 ### Email Template for notifying the user about the resolved bug-
 
 > Subject: Follow-Up on [BUG REPORT] <experiment-name> #<bug-number>
+>
 > Dear `<user-name>`,
+>
 > Thank you for taking the time to report the bug in the Virtual Labs. Your feedback has been invaluable in helping us improve and provide a better experience for all users.
+>
 > We’re pleased to inform you that the issue you reported has been resolved. Here is the link to the issue you created: https://github.com/virtual-labs/bugs-virtual-labs/issues/`<bug-number>`
+>
 > We deeply appreciate your participation and effort in bringing this to our attention. If you encounter any further issues or have additional suggestions, please don’t hesitate to reach out to us.
+>
 > Thank you once again for your contribution to enhancing our system.
+>
 > Best regards,
+>
 > `<developer-name>`
 
