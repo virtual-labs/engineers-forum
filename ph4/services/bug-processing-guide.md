@@ -1,10 +1,25 @@
-# Lifecycle of the Bug
-## 1. Bug Creation
-- A user reports a bug using the bug reporting tool.
+# Virtual Labs Bug Processing
+
+## Introduction
+
+This document explains the bug processing workflow for developers in the Virtual Labs project. It aims to ensure the timely maintenance of high-quality labs by standardizing the bug documentation and fixing process.
+
+## Purpose
+
+The purpose of this document is to detail the steps involved in documenting and fixing bugs reported for experiments. It serves as a guide for lab developers to address issues efficiently.
+
+## Audience
+
+This document is intended for all lab developers and owners working to fix experiment bugs within the Virtual Labs ecosystem.
+
+## Lifecycle of the Bug
+
+***1. Bug Creation***
+- A user reports a bug using the **bug reporting tool**.
 - The bug is logged at [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/).
 - The bug is labeled with an **Institute Label** corresponding to the lab’s developing institute.
 
-## 2. Bug Details
+***2. Bug Details***
 Each bug includes the following information:
 - Lab Name
 - Experiment Name
@@ -14,7 +29,7 @@ Each bug includes the following information:
 - Experiment Link
 - Screenshot (Optional)
 
-## 3. Bug Categorization
+***3. Bug Categorization***
 The developer analyzes the bug based on the provided details and labels it as one of the following:
 - **Duplicate** : The issue duplicates an existing one.
 - **Resolved** : The issue has been fixed and necessary actions are completed.
@@ -27,7 +42,7 @@ The developer analyzes the bug based on the provided details and labels it as on
 - **Documentation** : The issue is related to documentation.
 - **Enhancement** : The issue requests new features beyond the current implementation.
 
-## 4. Closing Bugs
+***4. Closing Bugs***
 Certain bug types should be closed with a comment explaining the reason:
 - Invalid
 - Inappropriate
@@ -35,15 +50,15 @@ Certain bug types should be closed with a comment explaining the reason:
 - Not Reproducible
 For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual-labs/issues/220) and [Issue #278](https://github.com/virtual-labs/bugs-virtual-labs/issues/278).
 
-## 5. Status Updates
+***5. Status Updates***
 - If you’re working on a bug, label it as **In Progress**.
 - Once a bug is fixed, label it as **Resolved** before closing it.
 
-## 6. Commenting Guidelines
+***6. Commenting Guidelines***
 - Clearly comment on the bug when assigning a label.
 - Never close a bug without adding a comment explaining the reason.
 
-## 7. Contacting the User
+***7. Contacting the User***
 - If the bug report lacks clarity and includes the user’s email address, contact them for further details.
 - Notify the user when the bug has been fixed. Use the email templates provided for user communication.
 
@@ -86,3 +101,6 @@ For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual
 >
 > `<developer-name>`
 
+## Conclusion
+
+This document outlines the bug processing workflow, including documentation, categorization, resolution, and communication steps, ensuring a structured and efficient approach to maintaining high-quality labs.
