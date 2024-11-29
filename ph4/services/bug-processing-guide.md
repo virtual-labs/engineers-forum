@@ -14,12 +14,13 @@ This document is intended for all lab developers and owners working to fix exper
 
 ## Lifecycle of the Bug
 
-***1. Bug Creation***
-- A user reports a bug using the **bug reporting tool**.
-- The bug is logged at [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/).
+### Step 1. Looking for a Bug
+- A Virtual Lab User reports a bug using the **bug reporting tool**.
+- The bug is logged at [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues).
 - The bug is labeled with an **Institute Label** corresponding to the lab’s developing institute.
+- Developers can filter the bugs by their institute to view relevant issues.
 
-***2. Bug Details***
+### Step 2. Understanding Bug details
 Each bug includes the following information:
 - Lab Name
 - Experiment Name
@@ -27,10 +28,12 @@ Each bug includes the following information:
 - Additional Info (Optional)
 - User Agent/Environment
 - Experiment Link
+- Email (Optional)
 - Screenshot (Optional)
 
-***3. Bug Categorization***
-The developer analyzes the bug based on the provided details and labels it as one of the following:
+### Step 3. Categorizing the Bug
+The developer analyzes the bug and assigns one of the following labels:
+- **Bug** : The issue that provides a valid problem with the experiment/the lab.
 - **Duplicate** : The issue duplicates an existing one.
 - **Resolved** : The issue has been fixed and necessary actions are completed.
 - **Invalid** : The issue is irrelevant due to reporting errors, insufficient data, or misunderstanding of the scope.
@@ -38,31 +41,42 @@ The developer analyzes the bug based on the provided details and labels it as on
 - **Inappropriate** : The issue contains offensive, irrelevant, or non-compliant comments.
 - **In Progress** : The issue is currently being worked on.
 - **Not Reproducible** : The issue cannot be replicated based on the provided information.
-- **Question** : More clarification is needed from the user.
+- **Question** : More clarification is needed from the virtual lab user. (refer to step 4 - f)
 - **Documentation** : The issue is related to documentation.
 - **Enhancement** : The issue requests new features beyond the current implementation.
+Note: Assign the bug as **Bug** before proceeding for fixing the bug.
 
-***4. Closing Bugs***
-Certain bug types should be closed with a comment explaining the reason:
-- Invalid
-- Inappropriate
-- Duplicate
-- Not Reproducible
-For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual-labs/issues/220) and [Issue #278](https://github.com/virtual-labs/bugs-virtual-labs/issues/278).
+### Step 4. Fixing the Bug
+    a. Label the bug as **In Progress** and assign it to yourself.
+    b. Identify the corresponding experiment and lab from the bug details.
+    c. If you lack access to the lab, find the lab creation request on [virtual-labs/engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) and request access by commenting.
+    d. Follow the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md) to fix the bug.
+    e. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for mroe details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
+    f. Label the bug as **Question** if clarification is requested.
+    g. Close certain bug types with comments explaining the reason:
+        - Invalid [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/1419)
+        - Inappropriate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/3329)
+        - Duplicate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/220)
+        - Not Reproducible [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/626)
+    h. Add comments explaining your findings, coding decisions, or resolutions to maintain clarity.
 
-***5. Status Updates***
-- If you’re working on a bug, label it as **In Progress**.
-- Once a bug is fixed, label it as **Resolved** before closing it.
+### Step 5. Closing the Bug
+    a. Ensure compliance with the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md). 
+    b. Once testing is complete in the **testing branch**, request hosting for the corresponding experiment.
+    c. After verifying the bug fix on the hosted link, mark the bug as **Resolved**.
+    d. Once the experiment is in production and verified, close the bug.
+    e. Notify the user if their email is provided, using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
+    g. For duplicate bugs, notify the users using the [same email template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
 
-***6. Commenting Guidelines***
-- Clearly comment on the bug when assigning a label.
-- Never close a bug without adding a comment explaining the reason.
+### Do's and Don'ts
+    Do’s
+        - Assign the bug to yourself while working on it.
+        - Comment clearly when assigning labels, especially for Invalid, Duplicate, Inappropriate, or Not Reproducible.
+        - Notify users when a bug is fixed using the provided email templates.
+    Don’ts
+        - Never close a bug without commenting on the reason.
 
-***7. Contacting the User***
-- If the bug report lacks clarity and includes the user’s email address, contact them for further details.
-- Notify the user when the bug has been fixed. Use the email templates provided for user communication.
-
-### Email Template for asking the question/clarification from the user -
+#### Email Template for asking the question/clarification from the user -
 
 > Subject: Follow-Up on [BUG REPORT] `<experiment-name>` #`<bug-number>`
 > 
@@ -83,7 +97,7 @@ For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual
 > `<developer-name>`
 
 
-### Email Template for notifying the user about the resolved bug-
+#### Email Template for notifying the user about the resolved bug-
 
 > Subject: Follow-Up on [BUG REPORT] `<experiment-name>` #`<bug-number>`
 >
@@ -103,4 +117,4 @@ For examples, refer to [Issue #220](https://github.com/virtual-labs/bugs-virtual
 
 ## Conclusion
 
-This document outlines the bug processing workflow, including documentation, categorization, resolution, and communication steps, ensuring a structured and efficient approach to maintaining high-quality labs.
+This document provides a structured workflow for handling bug reports, ensuring clear communication, efficient resolution, and maintaining high-quality labs in the Virtual Labs ecosystem.
