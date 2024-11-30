@@ -41,40 +41,42 @@ The developer analyzes the bug and assigns one of the following labels:
 - **Inappropriate** : The issue contains offensive, irrelevant, or non-compliant comments.
 - **In Progress** : The issue is currently being worked on.
 - **Not Reproducible** : The issue cannot be replicated based on the provided information.
-- **Question** : More clarification is needed from the virtual lab user. (refer to step 4 - f)
+- **Question** : More clarification is needed from the virtual lab user. (refer to step 4.6)
 - **Documentation** : The issue is related to documentation.
 - **Enhancement** : The issue requests new features beyond the current implementation.
 Note: Assign the bug as **Bug** before proceeding for fixing the bug.
 
 ### Step 4. Fixing the Bug
-    a. Label the bug as **In Progress** and assign it to yourself.
-    b. Identify the corresponding experiment and lab from the bug details.
-    c. If you lack access to the lab, find the lab creation request on [virtual-labs/engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) and request access by commenting.
-    d. Follow the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md) to fix the bug.
-    e. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for mroe details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
-    f. Label the bug as **Question** if clarification is requested.
-    g. Close certain bug types with comments explaining the reason:
-        - Invalid [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/1419)
-        - Inappropriate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/3329)
-        - Duplicate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/220)
-        - Not Reproducible [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/626)
-    h. Add comments explaining your findings, coding decisions, or resolutions to maintain clarity.
+1. Label the bug as **In Progress** and assign it to yourself.
+2. Identify the corresponding experiment and lab from the bug details.
+3. If you lack access to the lab, find the lab creation request on [virtual-labs/engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) and request access by commenting.
+4. Follow the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md) to fix the bug.
+5. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for mroe details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
+6. Label the bug as **Question** if clarification is requested.
+7. Close certain bug types with comments explaining the reason:
+    - Invalid [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/1419)
+    - Inappropriate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/3329)
+    - Duplicate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/220)
+    - Not Reproducible [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/626)
+8. Add comments explaining your findings, coding decisions, or resolutions to maintain clarity.
 
 ### Step 5. Closing the Bug
-    a. Ensure compliance with the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md). 
-    b. Once testing is complete in the **testing branch**, request hosting for the corresponding experiment.
-    c. After verifying the bug fix on the hosted link, mark the bug as **Resolved**.
-    d. Once the experiment is in production and verified, close the bug.
-    e. Notify the user if their email is provided, using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
-    g. For duplicate bugs, notify the users using the [same email template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
+1. Ensure compliance with the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md). 
+2. Once testing is complete in the **testing branch**, request hosting for the corresponding experiment.
+3. After verifying the bug fix on the hosted link, mark the bug as **Resolved**.
+4. Once the experiment is in production and verified, close the bug.
+5. Notify the user if their email is provided, using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
+6. For duplicate bugs, notify the users using the [same email template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
 
 ### Do's and Don'ts
-    Do’s
-        - Assign the bug to yourself while working on it.
-        - Comment clearly when assigning labels, especially for Invalid, Duplicate, Inappropriate, or Not Reproducible.
-        - Notify users when a bug is fixed using the provided email templates.
-    Don’ts
-        - Never close a bug without commenting on the reason.
+***Do’s***
+- Assign the bug to yourself while working on it.
+- Comment clearly when assigning labels, especially for *Invalid*, *Duplicate*, *Inappropriate*, or *Not Reproducible*.
+- Notify the virtual lab users who filed the bug, after a bug is fixed using the provided email templates.
+
+***Don’ts***
+- Never label a bug *Resolved* without testing the fix on the latest hosted link.
+- Never close a bug without providing the reason in comment.
 
 #### Email Template for asking the question/clarification from the user -
 
