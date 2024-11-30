@@ -22,7 +22,7 @@ Developers should follow these steps to view, analyze, and resolve the bugs for 
 
 - Filter the bugs by their institute to view relevant issues.
 
-### Step 2. Understand Bug Details
+### Step 2. Understand the Bug 
 
 - Analyze a reported bug by viewing the following key details:
   - Lab Name: The name of the lab where the issue occurred.
