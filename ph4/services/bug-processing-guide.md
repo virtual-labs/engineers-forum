@@ -1,18 +1,18 @@
-# Virtual Labs Bug Processing
+# Virtual Labs Bug Management Process
 
 ## Introduction
 
-This document explains the bug processing workflow for developers in the Virtual Labs project. It aims to ensure the timely maintenance of high-quality labs by standardizing the bug documentation and fixing process.
+The **Virtual Labs Bug Management Process** outlines the systematic approach for handling, tracking, and resolving bugs within the Virtual Labs project. This process is designed to ensure that all bugs are efficiently documented, prioritized, and addressed, maintaining the quality and reliability of the labs. By following this standardized workflow, developers can effectively collaborate to fix issues, implement improvements, and ensure that Virtual Labs provides a seamless and high-quality experience for users. 
 
 ## Purpose
 
-The purpose of this document is to detail the steps involved in documenting and fixing bugs reported for experiments. It serves as a guide for lab developers to address issues efficiently.
+This document serves as a guide for developers to follow during the bug resolution lifecycle, from identification to closure. It details the steps involved in documenting and fixing bugs reported for experiments.
 
 ## Audience
 
 This document is intended for all lab developers and owners working to fix experiment bugs within the Virtual Labs ecosystem.
 
-## Lifecycle of the Bug
+## Virtual Labs Bug Management Workflow
 
 When a Virtual Lab user reports a bug using the bug reporting tool, it is automatically logged in the [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues). The tool assigns each bug an Institute Label corresponding to the lab’s developing institute. 
 
