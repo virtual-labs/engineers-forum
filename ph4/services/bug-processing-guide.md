@@ -14,44 +14,49 @@ This document is intended for all lab developers and owners working to fix exper
 
 ## Lifecycle of the Bug
 
-### Step 1. Looking for a Bug
-- A Virtual Lab User reports a bug using the **bug reporting tool**.
-- The bug is logged at [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues).
-- The bug is labeled with an **Institute Label** corresponding to the lab’s developing institute.
-- Developers can filter the bugs by their institute to view relevant issues.
+When a Virtual Lab user reports a bug using the bug reporting tool, it is automatically logged in the [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues). The tool assigns each bug an Institute Label corresponding to the lab’s developing institute. 
 
-### Step 2. Understanding Bug details
-Each bug includes the following information:
-- Lab Name
-- Experiment Name
-- Type(s) of Issue(s)
-- Additional Info (Optional)
-- User Agent/Environment
-- Experiment Link
-- Email (Optional)
-- Screenshot (Optional)
+Developers should follow these steps to view, analyze, and resolve the bugs for their respective institutes, ensuring the availability of high-quality labs.
 
-### Step 3. Categorizing the Bug
-The developer analyzes the bug and assigns one of the following labels:
-- **Bug** : The issue that provides a valid problem with the experiment/the lab.
-- **Duplicate** : The issue duplicates an existing one.
-- **Resolved** : The issue has been fixed and necessary actions are completed.
-- **Invalid** : The issue is irrelevant due to reporting errors, insufficient data, or misunderstanding of the scope.
-- **Test** : The issue was created solely for testing or experimentation.
-- **Inappropriate** : The issue contains offensive, irrelevant, or non-compliant comments.
-- **In Progress** : The issue is currently being worked on.
-- **Not Reproducible** : The issue cannot be replicated based on the provided information.
-- **Question** : More clarification is needed from the virtual lab user. (refer to step 4.6)
-- **Documentation** : The issue is related to documentation.
-- **Enhancement** : The issue requests new features beyond the current implementation.
-Note: Assign the bug as **Bug** before proceeding for fixing the bug.
+### Step 1. Monitor Logged Bugs
 
-### Step 4. Fixing the Bug
+- Filter the bugs by their institute to view relevant issues.
+
+### Step 2. Understand Bug Details
+
+- Analyze a reported bug by viewing the following key details:
+  - Lab Name: The name of the lab where the issue occurred.
+  - Experiment Name: The specific experiment within the lab associated with the bug.
+  - Type(s) of Issue(s): Categorization of the issue.
+  - Additional Information (Optional): Any extra details provided by the user to help understand the issue.
+  - User Agent/Environment: Information about the user's browser, operating system, or device.
+  - Experiment Link: A direct link to the affected experiment.
+  - Virtual Lab User Email (Optional): The user’s email address for follow-up, if provided.
+  - Screenshot (Optional): Visual evidence of the issue, if attached.
+
+### Step 3: Categorize the Bug  
+
+- Assign one of the following labels to categorize the reported bug accurately:
+  - **Bug**: A valid issue with the experiment or lab that needs resolution.
+  - **Duplicate**: The issue is already reported and duplicates an existing entry.
+  - **Resolved**: The issue has been fixed, and all necessary actions are completed.
+  - **Invalid**: The issue is irrelevant due to reporting errors, insufficient data, or a misunderstanding of the scope.
+  - **Test**: The issue was created for testing or experimentation purposes only.
+  - **Inappropriate**: The issue contains offensive, irrelevant, or non-compliant content.
+  - **In Progress**: The issue is currently being addressed.
+  - **Not Reproducible**: The issue cannot be replicated based on the provided information.
+  - **Question**: Additional clarification is needed from the Virtual Lab user (refer to Step 4.6).
+  - **Documentation**: The issue pertains to documentation-related concerns.
+  - **Enhancement**: The issue suggests new features or improvements beyond the current implementation.  
+
+- **Note:** Always assign the label **Bug** to an issue before proceeding with its resolution.  
+
+### Step 4. Fix the Bug
 1. Label the bug as **In Progress** and assign it to yourself.
 2. Identify the corresponding experiment and lab from the bug details.
 3. If you lack access to the lab, find the lab creation request on [virtual-labs/engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) and request access by commenting.
 4. Follow the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md) to fix the bug.
-5. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for mroe details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
+5. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for additional details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
 6. Label the bug as **Question** if clarification is requested.
 7. Close certain bug types with comments explaining the reason:
     - Invalid [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/1419)
@@ -60,19 +65,20 @@ Note: Assign the bug as **Bug** before proceeding for fixing the bug.
     - Not Reproducible [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/626)
 8. Add comments explaining your findings, coding decisions, or resolutions to maintain clarity.
 
-### Step 5. Closing the Bug
-1. Ensure compliance with the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md). 
-2. Once testing is complete in the **testing branch**, request hosting for the corresponding experiment.
-3. After verifying the bug fix on the hosted link, mark the bug as **Resolved**.
-4. Once the experiment is in production and verified, close the bug.
-5. Notify the user if their email is provided, using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
+### Step 5. Close the Bug
+
+1. Ensure compliance with the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md).  
+2. After completing testing in the **testing branch** and verifying it on the GitHub Pages hosted link, merge the changes into the main branch.
+3. Tag the commit, and raise a rehosting request following the [Virtual Labs hosting process](https://vlead.vlabs.ac.in/development/#hosting-process).
+4. Once the experiment is live in production and has been verified, mark the bug as **Resolved** and close the bug.
+5. Notify the user via email if their email address is provided, using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
 6. For duplicate bugs, notify the users using the [same email template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-notifying-the-user-about-the-resolved-bug-).
 
 ### Do's and Don'ts
 ***Do’s***
 - Assign the bug to yourself while working on it.
 - Comment clearly when assigning labels, especially for *Invalid*, *Duplicate*, *Inappropriate*, or *Not Reproducible*.
-- Notify the virtual lab users who filed the bug, after a bug is fixed using the provided email templates.
+- Notify the Virtual Lab user who filed the bug, after a bug is fixed using the provided email templates.
 
 ***Don’ts***
 - Never label a bug *Resolved* without testing the fix on the latest hosted link.
