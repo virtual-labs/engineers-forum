@@ -1,7 +1,7 @@
 # Virtual Labs GitHub Deployment: Troubleshooting and Best Practices
 
 ## Introduction
-Errors during code pushes to GitHub repositories for Virtual Labs experiments can disrupt the deployment process. This document outlines common issues, troubleshooting steps, and best practices to resolve them efficiently.
+Errors during code pushes to GitHub repositories from the dev branch to testing branch for Virtual Labs experiments can disrupt the deployment process. This document outlines common issues, troubleshooting steps, and best practices to resolve them efficiently.
 
 ## Motivation
 Leveraging CI/CD pipelines to deploy experiments to GitHub Pages enhances developers' productivity and instills confidence in releases by automating testing and deployment processes.
@@ -9,7 +9,7 @@ Leveraging CI/CD pipelines to deploy experiments to GitHub Pages enhances develo
 ## Prerequisites
 Before proceeding, ensure you have:
 - A GitHub account with access to the [Virtual Labs GitHub Organisation](https://github.com/virtual-labs).
-- Familiarity with the [GitHub CI/CD pipeline](https://resources.github.com/ci-cd/).
+- Familiarity with the Virtual Labs deployment process.
 - Basic knowledge of JSON syntax for troubleshooting configuration files.
 
 ## Target Audience
