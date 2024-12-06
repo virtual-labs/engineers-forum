@@ -42,7 +42,7 @@ Developers should follow these steps to view, analyze, and resolve the bugs for 
   - **Resolved**: The issue has been fixed, and all necessary actions are completed.
   - **Invalid**: The issue is irrelevant due to reporting errors, insufficient data, or a misunderstanding of the scope.
   - **Test**: The issue was created for testing or experimentation purposes only.
-  - **Inappropriate**: The issue contains offensive, irrelevant, or non-compliant content.
+  - **Inappropriate**: The issue contains offensive, vulgar, or demeaning content.
   - **In Progress**: The issue is currently being addressed.
   - **Not Reproducible**: The issue cannot be replicated based on the provided information.
   - **Question**: Additional clarification is needed from the Virtual Lab user (refer to Step 4.6).
