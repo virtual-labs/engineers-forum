@@ -20,20 +20,22 @@ This guide is intended for Developers, Systems Engineers, DevOps Engineers, and 
 ## Troubleshooting Experiment Deployment Scripts
 This section discusses common issues, solutions, and best practices for managing GitHub Actions used to deploy experiments to GitHub Pages.
 
-### Why are hosted virtual lab experiments not working as expected?
+### Why are github virtual lab experiment link not working as expected?
 Potential reasons include:
-
-- **Tag Consistency**: Ensure that the tags in the lab descriptor file match the actual tags in your codebase. Inconsistencies can cause deployment issues.
-- **Code Merge Status**: Verify that the relevant code changes are merged from the testing branch into the main branch. Unmerged changes won't reflect in the hosted lab.
+- **Json file**: The JSON files of the experiment may contain errors or be invalid. Validate the JSON files using jsonlint.com or a similar tool to ensure correctness.
+- **Renaming/adding of files**: In GitHub, if a file is added or renamed in the repository, the experiment repository on the gh-pages branch may create a new directory within it and move all the files there. This behavior can lead to issues with file paths and experiment link. Ensure proper handling of file additions or renaming to maintain the repository structure. 
+- **Github setup**: Navigate to GitHub Settings → Build and Deployment → Ensure that the Branch is set to gh-pages. If the setting is different then the experiment link will not work. 
 - **Error Logs**: Check the GitHub Actions logs for detailed error messages. These logs can provide insights into issues during the build or deployment process.
 
 ---
 
-### How to Check Error Logs in GitHub
-1. Navigate to the **Actions** tab in the GitHub repository.
-2. Identify the workflow associated with the recent deployment or changes.
-3. Click on the workflow run to view its details.
-4. Expand the relevant job or step to inspect error logs.
+### How to Check Error Logs in GitHub while pushing the code from dev branch to testing branch?
+1. Open your GitHub repository's main page
+2. In the top navigation bar, click on the "Actions" tab.
+3. This will take you to the GitHub Actions page, where you can view workflows, logs, and any running or completed actions.
+4. Identify the workflow associated with the recent deployment or changes.
+5. Click on the workflow run to view its details.
+6. Expand the relevant job or step to inspect error logs.
 
 ---
 
