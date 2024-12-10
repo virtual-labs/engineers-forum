@@ -54,16 +54,17 @@ Developers should follow these steps to view, analyze, and resolve the bugs for 
 ### Step 4. Fix the Bug
 1. Label the bug as **In Progress** and assign it to yourself.
 2. Identify the corresponding experiment and lab from the bug details.
-3. If you lack access to the lab, find the lab creation request on [virtual-labs/engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) and request access by commenting.
-4. Follow the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md) to fix the bug.
-5. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for additional details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
-6. Label the bug as **Question** if clarification is requested.
-7. Close certain bug types with comments explaining the reason:
+3. If you lack access to the lab, search for the corresponding lab issue [here](https://github.com/virtual-labs/engineers-forum/issues) 
+4. Look for an issue titled **Experiment Repository Creation Request** for the corresponding lab. Open the issue and comment at the end, requesting access. Clearly include your GitHub ID and ask for access to the repository. For detailed guidance, refer to the **Requesting Access to Existing Repositories for New Developers** section [here](https://vlead.vlabs.ac.in/development/#onboarding-process)
+5. Follow the [Virtual Lab Development process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md) to fix the bug.
+6. If the bug details lacks clarity and includes the virtual lab user’s email address, contact them for additional details using [this template](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/bug-processing-guide.md#email-template-for-asking-the-questionclarification-from-the-user--).
+7. Label the bug as **Question** if clarification is requested.
+8. Close certain bug types with comments explaining the reason:
     - Invalid [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/1419)
     - Inappropriate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/3329)
     - Duplicate [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/220)
     - Not Reproducible [Example](https://github.com/virtual-labs/bugs-virtual-labs/issues/626)
-8. Add comments explaining your findings, coding decisions, or resolutions to maintain clarity.
+9. Add comments explaining your findings, coding decisions, or resolutions to maintain clarity.
 
 ### Step 5. Close the Bug
 
