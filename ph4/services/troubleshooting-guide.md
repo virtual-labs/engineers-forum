@@ -81,15 +81,18 @@ Potential reasons include:
 #### 3) "404" error when accessing a Virtual Labs experiment.
 
 - **Problem**:  
-  Experiment URL returns a "404" error after a code push.
+  The experiment URL returns a "404" error after a code push.
 
 - **Root Cause**:  
-  Misconfiguration of the deploy branch or build errors.
+  * Misconfiguration of the deploy branch or build errors.
+  * A common build error involves an invalid JSON file. While GitHub Actions might show the process as completed, JSON compatibility errors won't halt the build. As a result, the repository may create a subfolder and push all files into it, leading to a broken experiment link.
 
 - **Solution**:  
   1. Verify the deploy branch is set to `gh-pages`.
   2. Check the `gh-pages` branch for the experiment folder.
-  3. Resolve any build errors in GitHub Actions.
+  3. Resolve any build errors in GitHub Actions. For json file validity :
+        - Validate JSON files using [jsonlint.com](http://jsonlint.com/).
+        - Fix JSON syntax errors using guidance from [this documentation](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/quiz.md).
 
 - **Post-Fix Verification**:  
   Access the experiment URL to confirm the issue is resolved.
