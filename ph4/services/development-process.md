@@ -2,28 +2,28 @@
 
 ## Introduction
 
-This document outlines the experiment development process for developers in the Virtual Labs project, aiming to ensure the creation of high-quality labs.
+This document provides a structured approach to creating high-quality experiments within the Virtual Labs initiative, ensuring consistency and ease of maintenance.
 
 ## Purpose
 
-This document details the experiment development process for lab developers, specifying the steps involved in creating the experiments.
+This document details the steps and best practices for lab developers to create, test, and deploy experiments effectively.
 
 ## Audience
 
-The intended audience for this document includes all lab developers and owners who are seeking to develop new experiments.
+This document is intended for lab developers and owners seeking to develop new experiments within the Virtual Labs ecosystem.
 
 ## Development Process
 
-***Step 1: Verifying the Repositories***
+#### ***Step 1: Verifying the Repositories***
 
 Ensure that all required repositories are created and accessible.
 
-***Step 2: Understanding Repository Structure***
+#### ***Step 2: Understanding Repository Structure***
 
 Each experiment repository contains four default branches:
 
 1. **dev:** For development and unit testing.
-2. **testing:** For end-to-end testing, deployed automatically via CI/CD.
+2. **testing:** For end-to-end testing, with automatic deployment to GitHub Pages.
 3. **gh-pages:** Automatically created during the testing branch deployment; should not be tampered with.
 4. **main:** Contains production artifacts; only code and documents merged from the testing branch are added.
 
@@ -66,76 +66,90 @@ The initial structure and hierarchy of each default branch include:
 └── README.md
 </pre>
 
-Developers should consult with the Central Platform Engineering (CPE) team to determine if a backend is necessary.
+Developers should verify the repository structure and consult the CPE team for backend requirements.
 
-***Step 3: Leveraging Development Workflow Tools***
+#### ***Step 3: Leveraging Development Workflow Tools***
 
-To assist developers in the experiment development process, the CPE Team has created the following Virtual Labs workflow tools. These tools integrate the development workflow, enabling testing both locally and on GitHub Pages:
+The CPE Team has developed tools to streamline the experiment development process. These tools enable seamless integration of the development workflow, including local and GitHub Pages testing:
 
-1. **[VS Code Extension](https://github.com/virtual-labs/tool-vscode-plugin):** Use this VS Code extension to streamline your local development workflow.
-2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode):** Opt for this Web VS Code extension to support an online development workflow.
+1. **[VS Code Extension](https://github.com/virtual-labs/tool-vscode-plugin):** A Visual Studio Code extension designed to simplify and enhance the local development workflow.
+2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode):** A web-based extension for Visual Studio Code, offering support for online development workflows.
 
-***Step 4: Initiating the Development Process***
+#### ***Step 4: Initiating the Development Process***
 
-*Note: This section is included for completeness and is outside the scope of the CPE team's responsibilities.*
+*Note: This section is for completeness and falls outside the direct responsibilities of the CPE team.*
 
-1. After onboarding, developers should populate the existing files within the `dev` branches of the created repositories with the experiment’s source code. They should conduct local unit testing, ensuring no additional files are added to the repository.
-2. Do not delete the `gh-pages` branch, as it is essential for automatic deployment of the experiment and UI to GitHub Pages for testing. The `.github` directory and the `LICENSE` file must also remain unchanged.
-3. Once the `dev` branch is fully tested, developers should merge it into the `testing` branch. This action will automatically deploy the experiment and UI to GitHub Pages for testing.
-4. Developers will receive an email notification regarding the success or failure of the deployment, sent to the email address linked to their primary GitHub handle (provided in the issue).
-5. If deployment fails, developers should refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) to debug the issue.
-6. After successful testing, developers should merge the fully tested `testing` branch into the `main` branch.
+1. **Populate the `dev` Branch:**
+Add the experiment's source code to the `dev` branch and perform local unit testing. Avoid including unnecessary files in the repository.
+2. **Retain Essential Files and Branches:**
+Ensure the `gh-pages` branch, `.github` directory, and `LICENSE` file are kept intact, as they are essential for deployment.
+3. **Merge to testing Branch:**
+Once local testing is complete, merge the `dev` branch into the `testing` branch. This triggers automatic deployment to GitHub Pages.
+4. **Verify Build Logs:**
+Ensure there are no errors in the build logs of your experiment. Refer to the [Steps to Create an Experiment](https://github.com/virtual-labs/ph3-exp-template/blob/main/experiment/README.md) for detailed instructions.
+5. **Deployment Notifications:**
+Developers will receive an email notification about the deployment status (success or failure). Notifications will be sent to the primary email address associated with their GitHub account (as provided in the issue).
+6. **Handle Deployment Failures:**
+If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
+7. **Merge to main Branch:**
+After successful testing, merge the fully tested `testing` branch into the `main` branch to prepare for production.
 
-A sample experiment codebase is available [here](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment), and the corresponding deployed test URL can be accessed [here](https://virtual-labs.github.io/exp-bubble-sort-iiith/). Developers will be notified of the deployment status via email.
+**Sample Resources:**
 
-***Step 5: Additional Development Tips***
+* Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
+* Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
-**Meeting Basic Requirements for Experiments**
+Developers will continue to receive email updates on the deployment status throughout this process.
 
-- All experiments must be accessible over HTTPS.
-- Ensure responsive design principles are followed for optimal display across devices.
-- Experiments should remain static for improved performance and easier maintenance.
-- The average page load size should be under 2MB, with no individual page exceeding 5MB.
-- Aim for an average page load time of under 1.5 seconds on a fast 3G connection, with no page taking longer than 3 seconds to load.
+#### ***Step 5: Additional Development Tips***
 
-**Developing Static Experiments**
+1. **Meeting Basic Requirements for Experiments**
 
-- Focus on high performance, security, and cost-efficiency.
-- The CPE team offers a framework for developing static experiments, which includes a consistent UI, a styling library, and tools for analytics and performance optimization.
+    - Ensure all experiments are HTTPS-enabled.
+    - Follow responsive design principles.
+    - Keep the average page load size below 2MB.
+    - Aim for load times under 1.5 seconds on a fast 3G connection.
 
-**Developing Experiments Requiring a Backend**
+2. **Developing Static Experiments**
 
-- Experiments with backend components (e.g., built with JavaScript, Python, etc.) involve higher hosting and maintenance costs.
-- Developers are responsible for ensuring UI consistency, integrating analytics, managing containerization, and handling updates.
+    - Focus on high performance, security, and cost-efficiency.
+    - Leverage the CPE team’s framework for UI consistency and analytics.
 
-**Customizing and Including Experiments**
+3. **Developing Backend-Dependent Experiments**
 
-To customize or include an experiment, follow these steps:
+    - Ensure UI consistency and analytics integration.
+    - Manage backend hosting, updates, and maintenance effectively.
 
-1. **Update `experiment.json`:** Modify the `experiment.json` file to include new items or updates to the side menu or simulation.
-2. **Complete Instructions:** Ensure all instructions in the side menu are fully populated and correctly linked. Refer to the [documentation](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.org) for further details on managing the side menu.
-3. **Populate Existing Files:** Populate the provided files in the repository as needed, without adding extra files.
+4. **Customizing the Sidemenu**
 
-***Step 6: Utilizing Developer Tools***
+    To customize or include an experiment, follow these steps:
+    - Modify the `experiment.json` file for updates to the side menu or simulation.
+    - Follow the [Side Menu Documentation](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.org).
 
-Once the experiment has been deployed on GitHub Pages for testing, developers can leverage the following tools to enhance their experiments:
+#### ***Step 6: Utilizing Developer Tools***
 
-1. **Performance Tool**: This [tool](https://github.com/virtual-labs/tool-performance) generates performance reports for the experiment's codebase, offering scores, metrics, and actionable improvement suggestions by utilizing the Lighthouse API.
+1. **Performance Tool**
+    Use the [Performance Tool](https://github.com/virtual-labs/tool-performance) for metrics and improvement suggestions using Lighthouse.
+     
+2. **Validation Tool**
+    Validate code quality using the [Validation Tool](https://github.com/virtual-labs/tool-validation), which checks for:
+    - ESLint compliance.
+    - HTTP link verification.
+    - JSON schema validation.
 
-2. **Validation Tool**: This [tool](https://github.com/virtual-labs/tool-validation) ensures code quality post-experiment development by running ESLint on JavaScript, verifying HTTP links, and ensuring that JSON files adhere to the appropriate schema.
+#### ***Step 7: Tagging the Release***
 
-***Step 7: Tagging the Release***
-
-Once the developer has tested and merged the branch into `main`, the next step before hosting is to tag the experiment. To tag an experiment, follow these steps:
+Once the branch has been tested and merged into `main`, the next step before hosting is tagging the experiment. Follow these steps to tag the release:
 
 1. Navigate to your repository on GitHub.
-2. On the repository page, locate and click the "Releases" link, typically found on the right-hand side.
-3. Select the "Draft a new release" button.
-4. In the "Tag version" field, enter the new tag (e.g., `v1.0.0`), following the Semantic Versioning guidelines.
-5. Optionally, provide a title and description for the release.
-6. Finally, click the "Publish release" button.
+2. Locate and click the "**Releases**" link, typically on the right-hand side of the repository page.
+3. Click the "**Draft a new release**" button.
+4. Enter the new tag (e.g., v1.0.0) in the "**Tag version**" field, following the [Semantic Versioning](https://semver.org/) guidelines.
+5. Optionally, add a title and description summarizing the release.
+6. Click the "**Publish release**" button to complete the process.
 
 ## Conclusion
 
-This document provides detailed information about the development process. For best practices, please refer to this [document](https://virtual-labs.github.io/app-vlead-web/development/#best-practices). Once development is complete, to understand the process of hosting the developed experiments, please refer to this [document](https://github.com/virtual-labs/engineers-forum/blob/master/hosting-process.md).
-
+This document provides a comprehensive guide to developing Virtual Labs experiments. For additional guidance:
+- Refer to the [Best Practices](https://virtual-labs.github.io/app-vlead-web/development/#best-practices).
+- Learn about hosting processes in the [Hosting Process Guide](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/hosting-process.md).
