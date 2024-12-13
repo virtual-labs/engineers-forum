@@ -14,7 +14,12 @@ This document is intended for all lab developers and owners working to fix exper
 
 ## Virtual Labs Bug Management Workflow
 
-When a Virtual Lab user reports a bug using the bug reporting tool, it is automatically logged in the [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues). The tool assigns each bug an Institute Label corresponding to the lab’s developing institute. 
+When a Virtual Lab user reports a bug through the bug reporting tool, it is automatically logged as an issue in the [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues). Each bug is assigned an Institute Label corresponding to the lab’s developing institute.
+
+Please note that once a bug is filed and logged, it is treated as a GitHub issue. Assigning the issue to a developer's GitHub ID is recommended, as the `bugs-virtual-labs` repository is public. Familiarity with [GitHub issue management](https://docs.github.com/en/issues) is essential. For guidance, refer to the following GitHub documentation:
+  - [Assigning Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users)
+  - [Managing Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
+  - [Commenting on Issues](https://docs.github.com/en/actions/use-cases-and-examples/project-management/commenting-on-an-issue-when-a-label-is-added)
 
 Developers should follow these steps to view, analyze, and resolve the bugs for their respective institutes, ensuring the availability of high-quality labs.
 
