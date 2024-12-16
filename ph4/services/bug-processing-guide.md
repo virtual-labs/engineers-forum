@@ -25,7 +25,9 @@ Developers should follow these steps to view, analyze, and resolve the bugs for 
 
 ### Step 1. Monitor Logged Bugs
 
-- Filter the bugs by their institute to view relevant issues.
+- Access requests for bug repositories for each institute can be found [here](https://github.com/virtual-labs/engineers-forum/issues?q=is%3Aissue+is%3Aopen+%22Bug+Repository+Access+Request+for%22). If you need access, request the triage access by commenting your GitHub Details on the corresponding access request issue. For instance, refer to the [bug repository access request for IITH](https://github.com/virtual-labs/engineers-forum/issues/984)
+- Once your request is approved, you will receive triage permissions, enabling you to label, assign, and comment on issues.
+- Filter bugs by your institute to view relevant issues.
 
 ### Step 2. Understand the Bug 
 

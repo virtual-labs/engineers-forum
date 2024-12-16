@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This document provides a structured approach to creating high-quality experiments within the Virtual Labs initiative, ensuring consistency and ease of maintenance.
+This document outlines a structured approach to creating high-quality experiments for the Virtual Labs initiative, ensuring consistency, maintainability, and scalability.
 
 ## Purpose
 
-This document details the steps and best practices for lab developers to create, test, and deploy experiments effectively.
+The purpose of this document is to guide lab developers through the processes of creating, testing, and deploying experiments effectively..
 
 ## Audience
 
@@ -16,7 +16,7 @@ This document is intended for lab developers and owners seeking to develop new e
 
 #### ***Step 1: Verifying the Repositories***
 
-Ensure that all required repositories are created and accessible.
+Ensure all required repositories for the experiment are created and accessible. Collaborate with the CPE team if repository setup assistance is needed.
 
 #### ***Step 2: Understanding Repository Structure***
 
@@ -24,8 +24,8 @@ Each experiment repository contains four default branches:
 
 1. **dev:** For development and unit testing.
 2. **testing:** For end-to-end testing, with automatic deployment to GitHub Pages.
-3. **gh-pages:** Automatically created during the testing branch deployment; should not be tampered with.
-4. **main:** Contains production artifacts; only code and documents merged from the testing branch are added.
+3. **gh-pages:** Automatically created during the `testing` branch deployment; should not be tampered with.
+4. **main:** Contains production artifacts; only code and documents merged from the `testing` branch are added.
 
 The initial structure and hierarchy of each default branch include:
 
@@ -66,14 +66,14 @@ The initial structure and hierarchy of each default branch include:
 └── README.md
 </pre>
 
-Developers should verify the repository structure and consult the CPE team for backend requirements.
+**Note**: This structure may vary slightly depending on the specific requirements of the experiment. Any additional files should be documented and approved.
 
 #### ***Step 3: Leveraging Development Workflow Tools***
 
-The CPE Team has developed tools to streamline the experiment development process. These tools enable seamless integration of the development workflow, including local and GitHub Pages testing:
+The CPE Team has created tools to streamline the experiment development process, ensuring smooth integration of development workflows with local and GitHub Pages testing:
 
-1. **[VS Code Extension](https://github.com/virtual-labs/tool-vscode-plugin):** A Visual Studio Code extension designed to simplify and enhance the local development workflow.
-2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode):** A web-based extension for Visual Studio Code, offering support for online development workflows.
+1. **[VS Code Extension](https://vlead.vlabs.ac.in/development/#authoring-environment):** A Visual Studio Code extension that simplifies and enhances the local development workflow for creating experiments.
+2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode/blob/main/README.md):** A web-based Visual Studio Code extension that supports online experiment development workflows.
 
 #### ***Step 4: Initiating the Development Process***
 
@@ -101,43 +101,33 @@ After successful testing, merge the fully tested `testing` branch into the `main
 
 Developers will continue to receive email updates on the deployment status throughout this process.
 
-#### ***Step 5: Additional Development Tips***
+#### ***Step 5: Additional Features***
 
-1. **Meeting Basic Requirements for Experiments**
+1. **Experiment UI Side Menu Customization**
+Explains the customizable [side menu](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.md) that aids navigation, highlights the current page, and organizes nested units via experiment-descriptor.json.
 
-    - Ensure all experiments are HTTPS-enabled.
-    - Follow responsive design principles.
-    - Keep the average page load size below 2MB.
-    - Aim for load times under 1.5 seconds on a fast 3G connection.
+2. **Quiz Implementation in Virtual Labs**
+Details the JSON-based [quiz structure](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/quiz.md) with features like difficulty levels, explanations, images, and version 2.0 enhancements for pretests, posttests, and learning units.
 
-2. **Developing Static Experiments**
+3. **Experiment Build Process Framework**
+Describes the Virtual Labs experiment structure, detailing learning units, tasks, content types, and descriptor-based webpage generation while addressing current limitations. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-build-process.md).
 
-    - Focus on high performance, security, and cost-efficiency.
-    - Leverage the CPE team’s framework for UI consistency and analytics.
+4. **Math Rendering with KaTeX Integration**
+Introduces [KaTeX support](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/latex.md) in Markdown and Assessment (JSON) files, enabling seamless mathematical expression rendering via the "LaTeXinMD": true descriptor flag.
 
-3. **Developing Backend-Dependent Experiments**
+5. **Validation Tools for Experiment Development**
+Provides [validation tools](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/content-validation.md) for error detection and debugging, covering code consistency, descriptor and JSON validation, HTTP link checks, and a user-friendly UI.
 
-    - Ensure UI consistency and analytics integration.
-    - Manage backend hosting, updates, and maintenance effectively.
+6. **CSS and JS Module Integration in Experiments**
+Enables enhanced functionality and personalized rendering by [integrating custom CSS/JS files or CDN links](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/custom-modules.md) through the `experiment-descriptor.json`.
 
-4. **Customizing the Sidemenu**
+7. **Plugin Architecture for Virtual Labs**
+Separates core functions from features like analytics, feedback, and content rendering, ensuring modularity, independent development, and extensibility. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/plugins.org).
 
-    To customize or include an experiment, follow these steps:
-    - Modify the `experiment.json` file for updates to the side menu or simulation.
-    - Follow the [Side Menu Documentation](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.org).
+8. **Experiment Model Classes and Enum Validations**
+Details the experiment model’s classes and enums, covering unit and content types, build environments, and validation for modular and extensible system design.
 
-#### ***Step 6: Utilizing Developer Tools***
-
-1. **Performance Tool**
-    Use the [Performance Tool](https://github.com/virtual-labs/tool-performance) for metrics and improvement suggestions using Lighthouse.
-     
-2. **Validation Tool**
-    Validate code quality using the [Validation Tool](https://github.com/virtual-labs/tool-validation), which checks for:
-    - ESLint compliance.
-    - HTTP link verification.
-    - JSON schema validation.
-
-#### ***Step 7: Tagging the Release***
+#### ***Step 6: Tagging the Release***
 
 Once the branch has been tested and merged into `main`, the next step before hosting is tagging the experiment. Follow these steps to tag the release:
 
@@ -147,6 +137,20 @@ Once the branch has been tested and merged into `main`, the next step before hos
 4. Enter the new tag (e.g., v1.0.0) in the "**Tag version**" field, following the [Semantic Versioning](https://semver.org/) guidelines.
 5. Optionally, add a title and description summarizing the release.
 6. Click the "**Publish release**" button to complete the process.
+
+#### Do's:
+
+    - Ensure all experiments are HTTPS-enabled.
+    - Follow responsive design principles.
+    - Focus on high performance, security, and cost-efficiency.
+    - Leverage the CPE team’s framework for UI consistency and analytics.
+    - Maintain UI consistency and integrate analytics effectively.
+
+#### Don'ts:
+    - Avoid creating experiments with page sizes exceeding 2MB or slow load times that degrade user experience.
+    - Refrain from allowing load times to exceed 1.5 seconds on a fast 3G connection.
+    - Do not neglect backend maintenance and updates, as this can lead to inefficiencies or system downtime.
+
 
 ## Conclusion
 
