@@ -25,24 +25,25 @@ Developers should follow these steps to view, analyze, and resolve the bugs for 
 
 ### Step 1. Monitor Logged Bugs
 
-- Access requests for bug repositories for each institute can be found [here](https://github.com/virtual-labs/engineers-forum/issues?q=is%3Aissue+is%3Aopen+%22Bug+Repository+Access+Request+for%22). If you need access, request the triage access by commenting your GitHub Details on the corresponding access request issue. For instance, refer to the [bug repository access request for IITH](https://github.com/virtual-labs/engineers-forum/issues/984)
+- Access requests for bug repositories for each institute can be found [here](https://github.com/virtual-labs/engineers-forum/issues?q=is%3Aissue+is%3Aopen+%22Bug+Repository+Access+Request+for%22). If you need access, request the triage access by commenting your GitHub Details on the corresponding institute's access request issue. For instance, refer to the [bug repository access request for IITH](https://github.com/virtual-labs/engineers-forum/issues/984)
 - Once your request is approved, you will receive triage permissions, enabling you to label, assign, and comment on issues.
 - Filter bugs by your institute to view relevant issues.
 
 ### Step 2. Understand the Bug 
 
 - Analyze a reported bug by viewing the following key details:
-  - Lab Name: The name of the lab where the issue occurred.
-  - Experiment Name: The specific experiment within the lab associated with the bug.
-  - Type(s) of Issue(s): Categorization of the issue.
-  - Additional Information (Optional): Any extra details provided by the user to help understand the issue.
-  - User Agent/Environment: Information about the user's browser, operating system, or device.
-  - Experiment Link: A direct link to the affected experiment.
-  - Virtual Lab User Email (Optional): The user’s email address for follow-up, if provided.
-  - Screenshot (Optional): Visual evidence of the issue, if attached.
+  - **Lab Name**: The name of the lab where the issue occurred.
+  - **Experiment Name**: The specific experiment within the lab associated with the bug.
+  - **Type(s) of Issue(s)**: Categorization of the issue.
+  - **Additional Information** (Optional): Any extra details provided by the user to help understand the issue.
+  - **User Agent/Environment**: Information about the user's browser, operating system, or device.
+  - **Experiment Link**: A direct link to the affected experiment.
+  - **Virtual Lab User Email** (Optional): The user’s email address for follow-up, if provided.
+  - **Screenshot** (Optional): Visual evidence of the issue, if attached.
 
-### Step 3: Categorize the Bug  
+### Step 3: Triage and Categorize the Bug  
 
+- Examine and quickly test the bug in the User Agent/ Environment (i.e. browser and operating system) mentioned in the bug report and then proceed with categorizing the bug.
 - Assign one of the following labels to categorize the reported bug accurately:
   - **Bug**: A valid issue with the experiment or lab that needs resolution.
   - **Duplicate**: The issue is already reported and duplicates an existing entry.
