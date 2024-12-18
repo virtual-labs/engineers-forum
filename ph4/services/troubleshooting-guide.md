@@ -144,20 +144,22 @@ Potential reasons include:
 
 ---
 
-#### 7) Build process exits with error code 1.
+#### 7) Merging of the code from dev to testing branch failed with error code 1.
 
 - **Problem**:  
-  While merging code from dev to testing the build process failed with error code 1.
+  While merging code from dev to testing the build process failed with error exit code 1.
 
 - **Root Cause**:  
- The error occurred because the repository is using an outdated version of the deployment script, which does not properly reference or include the     required module (exp.js). This outdated script is incompatible with the current deployment environment or standards, leading to the MODULE_NOT_FOUND error.
+ The repository might be using an outdated deployment script if it was created several years ago. This outdated script may not properly reference or include the required module (exp.js) and is likely incompatible with the current deployment environment or standards, leading to the MODULE_NOT_FOUND error.
+
+<img src="https://drive.google.com/file/d/12CNqO73MO8r7pMmkQAQ15yUBqbhgJ4Nc/view?usp=drive_link" alt="module not found" width="600" height="600">
 
 - **Solution**:  
-  1. Latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
-  2. Update the deployment script in the repo and try again.
+  1. Pelase replace the deployment script in the repository with latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
+  2. Update the deployment script in the repo and try to merge code again.
 
 - **Post-Fix Verification**:  
-  Ensure the build completes without errors.
+  Ensure the merge completes without errors.
 
 ## Lessons Learned
 - Maintain consistency in tags and file structures.
