@@ -152,7 +152,7 @@ Potential reasons include:
 - **Root Cause**:  
  The repository might be using an outdated deployment script if it was created several years ago. This outdated script may not properly reference or include the required module (exp.js) and is likely incompatible with the current deployment environment or standards, leading to the MODULE_NOT_FOUND error.
 
-<img src="https://drive.google.com/file/d/12CNqO73MO8r7pMmkQAQ15yUBqbhgJ4Nc/view?usp=drive_link" alt="module not found" width="600" height="600">
+<img src="./module-not-found.png" alt="module not found" width="1243" height="572">
 
 - **Solution**:  
   1. Pelase replace the deployment script in the repository with latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
