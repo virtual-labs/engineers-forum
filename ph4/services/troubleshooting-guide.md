@@ -144,6 +144,21 @@ Potential reasons include:
 
 ---
 
+#### 7) Build process exits with error code 1.
+
+- **Problem**:  
+  While merging code from dev to testing the build process failed with error code 1.
+
+- **Root Cause**:  
+ The error occurred because the repository is using an outdated version of the deployment script, which does not properly reference or include the     required module (exp.js). This outdated script is incompatible with the current deployment environment or standards, leading to the MODULE_NOT_FOUND error.
+
+- **Solution**:  
+  1. Latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
+  2. Update the deployment script in the repo and try again.
+
+- **Post-Fix Verification**:  
+  Ensure the build completes without errors.
+
 ## Lessons Learned
 - Maintain consistency in tags and file structures.
 - Validate JSON files before pushing code.
