@@ -155,7 +155,7 @@ Potential reasons include:
 <img src="./module-not-found.png" alt="module not found" width="1243" height="572">
 
 - **Solution**:  
-  1. Pelase replace the deployment script in the repository with latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
+  1. Please replace the deployment script in the repository with latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
   2. Update the deployment script in the repo and try to merge code again.
 
 - **Post-Fix Verification**:  
