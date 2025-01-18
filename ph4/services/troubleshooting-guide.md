@@ -66,12 +66,20 @@ Potential reasons include:
   Unexpected exit during the build process.
 
 - **Root Cause**:  
-  Extra files outside the designated simulation folder.
+  Extra files outside the designated simulation folder. While building the experiment some of the files may be added in the repository.
 
 - **Solution**:  
   1. Inspect the repository for unnecessary files.
   2. Move required files to the simulation folder or remove unneeded files.
-  3. Re-run the build process.
+  3. add the following in the .gitignore file.
+```
+     node_modules/
+     package.json
+     package-lock.json
+     build/
+     DS_Store
+```
+  5. Re-run the build process.
 
 - **Post-Fix Verification**:  
   Ensure the build completes without errors.
