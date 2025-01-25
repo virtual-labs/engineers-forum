@@ -22,6 +22,7 @@ Please provide item 1 for all the experiments of the lab
 7. **Objective**:<!--Please state the objective to the lab -->
 8. **Course Alignment**:<!--Please mention the course alignment for the lab -->
 9. **Target Audience**:<!--Please state the target audience of the lab -->
+    <!--[Sample Issue Link](https://github.com/virtual-labs/engineers-forum/issues/1008)-->
 
 
 
