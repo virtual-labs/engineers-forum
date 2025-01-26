@@ -159,3 +159,4 @@ Once the branch has been tested and merged into `main`, the next step before hos
 This document provides a comprehensive guide to developing Virtual Labs experiments. For additional guidance:
 - Refer to the [Best Practices](https://virtual-labs.github.io/app-vlead-web/development/#best-practices).
 - Learn about hosting processes in the [Hosting Process Guide](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/hosting-process.md).
+- Refer to the [Troubleshooting Guide](https://vlead.vlabs.ac.in/development/#troubleshooting-guide) which lists common errors and their resolutions that developers frequently encounter while building. 
