@@ -14,11 +14,11 @@ This document is intended for lab developers and owners seeking to develop new e
 
 ## Development Process
 
-#### ***Step 1: Verifying the Repositories***
+#### Step 1: Verifying the Repositories
 
 Ensure all required repositories for the experiment are created and accessible. Collaborate with the CPE team if repository setup assistance is needed.
 
-#### ***Step 2: Understanding Repository Structure***
+#### **Step 2: Understanding Repository Structure**
 
 Each experiment repository contains four default branches:
 
@@ -93,6 +93,9 @@ Developers will receive an email notification about the deployment status (succe
 If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
 7. **Merge to main Branch:**
 After successful testing, merge the fully tested `testing` branch into the `main` branch to prepare for production.
+8. **Sample Resources:**
+* Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
+* Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
 #### ***Step 5: Additional Features***
 
@@ -148,9 +151,6 @@ Once the branch has been tested and merged into `main`, the next step before hos
     - Refrain from allowing load times to exceed 1.5 seconds on a fast 3G connection.
     - Do not neglect backend maintenance and updates, as this can lead to inefficiencies or system downtime.
 
-**Sample Resources:**
-* Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
-* Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
 
 ## Conclusion
