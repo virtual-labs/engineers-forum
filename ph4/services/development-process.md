@@ -94,8 +94,6 @@ If deployment fails, refer to the [Troubleshooting tips](https://github.com/virt
 7. **Merge to main Branch:**
 After successful testing, merge the fully tested `testing` branch into the `main` branch to prepare for production.
 
-#### ***Step 4: Initiating the Development Process***
-
 #### ***Step 5: Additional Features***
 
 1. **Experiment UI Side Menu Customization**
