@@ -73,7 +73,7 @@ The initial structure and hierarchy of each default branch include:
 The CPE Team has created tools to streamline the experiment development process, ensuring smooth integration of development workflows with local and GitHub Pages testing:
 
 1. **[VS Code Extension](https://vlead.vlabs.ac.in/development/#authoring-environment):** A Visual Studio Code extension that simplifies and enhances the local development workflow for creating experiments.
-2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode/blob/main/README.md):** A web-based Visual Studio Code extension that supports online experiment development workflows.
+2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode/blob/main/README.md):** A web-based Visual Studio Code extension that supports online experiment development workflows. 
 
 #### ***Step 4: Initiating the Development Process***
 
@@ -99,8 +99,6 @@ After successful testing, merge the fully tested `testing` branch into the `main
 * Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
 * Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
-Developers will continue to receive email updates on the deployment status throughout this process.
-
 #### ***Step 5: Additional Features***
 
 1. **Experiment UI Side Menu Customization**
@@ -121,11 +119,15 @@ Provides [validation tools](https://github.com/virtual-labs/ph3-lab-mgmt/blob/ma
 6. **CSS and JS Module Integration in Experiments**
 Enables enhanced functionality and personalized rendering by [integrating custom CSS/JS files or CDN links](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/custom-modules.md) through the `experiment-descriptor.json`.
 
-7. **Plugin Architecture for Virtual Labs**
+7. **Performance Tool for Experiment Developers**
+ Helps developers better enhance the pages they are building by giving them comprehensive insights into the various aspects of their pages. It allows developers to improve the overall user experience. It generates [performance reports](https://github.com/virtual-labs/tool-performance) which include various scores and metrics as well as suggestions for improvement.
+
+8. **Plugin Architecture for Virtual Labs**
 Separates core functions from features like analytics, feedback, and content rendering, ensuring modularity, independent development, and extensibility. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/plugins.org).
 
-8. **Experiment Model Classes and Enum Validations**
+9. **Experiment Model Classes and Enum Validations**
 Details the experiment model’s classes and enums, covering unit and content types, build environments, and validation for modular and extensible system design.
+
 
 #### ***Step 6: Tagging the Release***
 
