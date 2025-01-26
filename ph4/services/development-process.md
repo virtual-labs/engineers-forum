@@ -93,9 +93,6 @@ Developers will receive an email notification about the deployment status (succe
 If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
 7. **Merge to main Branch:**
 After successful testing, merge the fully tested `testing` branch into the `main` branch to prepare for production.
-8. **Sample Resources:**
-* Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
-* Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
 #### ***Step 5: Additional Features***
 
@@ -150,6 +147,10 @@ Once the branch has been tested and merged into `main`, the next step before hos
     - Avoid creating experiments with page sizes exceeding 2MB or slow load times that degrade user experience.
     - Refrain from allowing load times to exceed 1.5 seconds on a fast 3G connection.
     - Do not neglect backend maintenance and updates, as this can lead to inefficiencies or system downtime.
+
+**Sample Resources:**
+* Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
+* Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
 
 ## Conclusion
