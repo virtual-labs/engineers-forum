@@ -93,9 +93,7 @@ Developers will receive an email notification about the deployment status (succe
 If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
 7. **Merge to main Branch:**
 After successful testing, merge the fully tested `testing` branch into the `main` branch to prepare for production.
-
-**Sample Resources:**
-
+8. **Sample Resources:**
 * Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
 * Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
