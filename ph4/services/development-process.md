@@ -18,7 +18,7 @@ This document is intended for lab developers and owners seeking to develop new e
 
 Ensure all required repositories for the experiment are created and accessible. Collaborate with the CPE team if repository setup assistance is needed.
 
-#### **Step 2: Understanding Repository Structure**
+#### Step 2: Understanding Repository Structure
 
 Each experiment repository contains four default branches:
 
@@ -68,14 +68,14 @@ The initial structure and hierarchy of each default branch include:
 
 **Note**: This structure may vary slightly depending on the specific requirements of the experiment. Any additional files should be documented and approved.
 
-#### ***Step 3: Leveraging Development Workflow Tools***
+#### Step 3: Leveraging Development Workflow Tools
 
 The CPE Team has created tools to streamline the experiment development process, ensuring smooth integration of development workflows with local and GitHub Pages testing:
 
 1. **[VS Code Extension](https://vlead.vlabs.ac.in/development/#authoring-environment):** A Visual Studio Code extension that simplifies and enhances the local development workflow for creating experiments.
 2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode/blob/main/README.md):** A web-based Visual Studio Code extension that supports online experiment development workflows. 
 
-#### ***Step 4: Initiating the Development Process***
+#### Step 4: Initiating the Development Process
 
 *Note: This section is for completeness and falls outside the direct responsibilities of the CPE team.*
 
@@ -97,7 +97,7 @@ After successful testing, merge the fully tested `testing` branch into the `main
 * Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
 * Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
-#### ***Step 5: Additional Features***
+#### Step 5: Additional Features
 
 1. **Experiment UI Side Menu Customization**
 Explains the customizable [side menu](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.md) that aids navigation, highlights the current page, and organizes nested units via experiment-descriptor.json.
@@ -127,7 +127,7 @@ Separates core functions from features like analytics, feedback, and content ren
 Details the experiment model’s classes and enums, covering unit and content types, build environments, and validation for modular and extensible system design.
 
 
-#### ***Step 6: Tagging the Release***
+#### Step 6: Tagging the Release
 
 Once the branch has been tested and merged into `main`, the next step before hosting is tagging the experiment. Follow these steps to tag the release:
 
