@@ -91,9 +91,11 @@ Ensure there are no errors in the build logs of your experiment. Refer to the [S
 Developers will receive an email notification about the deployment status (success or failure). Notifications will be sent to the primary email address associated with their GitHub account (as provided in the issue).
 6. **Handle Deployment Failures:**
 If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
-7. **Merge to main Branch:**
-After successful testing, merge the fully tested `testing` branch into the `main` branch to prepare for production.
-8. **Sample Resources:**
+7: **Submit for Review:**
+Submit the GitHub-hosted pages testing link for internal and external reviews. Incorporate the feedback from these reviews, thoroughly test the updates, and ensure approval for hosting is obtained from external reviewers. Once approved, IITD will provide hosting approval to initiate the hosting process.
+8: **Merge to Main Branch:**
+After receiving IITD’s approval to host the labs, merge the fully tested testing branch into the main branch to prepare it for production.
+9. **Sample Resources:**
 * Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
 * Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
