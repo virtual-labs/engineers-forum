@@ -72,15 +72,14 @@ The initial structure and hierarchy of each default branch include:
 
 The CPE Team has created tools to streamline the experiment development process, ensuring smooth integration of development workflows with local and GitHub Pages testing:
 
-1. **[VS Code Extension](https://vlead.vlabs.ac.in/development/#authoring-environment):** A Visual Studio Code extension that simplifies and enhances the local development workflow for creating experiments.
-2. **[Web VS Code Extension](https://github.com/virtual-labs/tool-web-ext-vscode/blob/main/README.md):** A web-based Visual Studio Code extension that supports online experiment development workflows. 
+**[VS Code Extension](https://vlead.vlabs.ac.in/development/#authoring-environment):** A Visual Studio Code extension that simplifies and enhances the local development workflow for creating experiments.
 
 #### Step 4: Initiating the Development Process
 
 *Note: This section is for completeness and falls outside the direct responsibilities of the CPE team.*
 
 1. **Populate the `dev` Branch:**
-Add the experiment's source code to the `dev` branch and perform local unit testing. Avoid including unnecessary files in the repository.
+Add the experiment's source code to the `dev` branch and perform local unit testing. Avoid including unnecessary files in the repository. For building and testing the experiment code locally through command-line, click [here](#target-text)
 2. **Retain Essential Files and Branches:**
 Ensure the `gh-pages` branch, `.github` directory, and `LICENSE` file are kept intact, as they are essential for deployment.
 3. **Merge to testing Branch:**
@@ -153,6 +152,68 @@ Once the branch has been tested and merged into `main`, the next step before hos
     - Refrain from allowing load times to exceed 1.5 seconds on a fast 3G connection.
     - Do not neglect backend maintenance and updates, as this can lead to inefficiencies or system downtime.
 
+<a name="target-text"></a>
+#### Local Testing:
+1. **Create a Folder for Testing:**
+    Clone the **dev** branch of your experiment repository using the following command:
+    ```
+        git clone -b dev your-experiment-repository-link
+    ```
+2. **Make Changes:**
+Modify the required .md files and simulation files in your experiment's code.
+
+3. **Set Up for Further Commands:**
+    Clone the ph3-lab-mgmt repository and navigate to its folder:
+
+    ```
+        git clone https://github.com/virtual-labs/ph3-lab-mgmt.git
+        cd ph3-lab-mgmt
+    ```
+4. **Use the Command that Fits Your Requirement:**
+    <u>Build with Validation:</u>
+    ```
+        node main.js build --validateEslint --validateExpdesc --src=../your-experiment-folder
+    ```
+    <u>Clean Build with Validation:</u>
+    ```
+        node main.js build --clean --validateEslint --validateExpdesc --src=../your-experiment-folder
+    ```
+    <u>Build and Deploy Locally:</u>
+    ```
+        node main.js build --validateEslint --validateExpdesc --deploy --src=../your-experiment-folder
+    ```
+    <u>Build without Plugin:</u>
+    ```
+        node main.js build --validateEslint --validateExpdesc --disablePlugin --src=../your-experiment-folder
+    ```
+    <u>Build without Validation:</u>
+    ```
+        node main.js build  --src=../your-experiment-folder
+    ```
+    <u>Validation Only:</u>
+    ```
+        node main.js validate --eslint --expdesc --src=../your-experiment-folder
+    ```
+    <u>Clean Build:</u>
+    ```
+        node main.js clean --src=../your-experiment-folder
+    ```
+    <u>Deploy:</u>
+    ```
+        node main.js deploy --src=../your-experiment-folder
+    ```
+5. **Start the Local HTTP Server:**
+    Run the following command to start a local server:
+    ```
+        npx live-server .
+    ```
+6. **View Your Pages in the Browser:**
+    The default browser will open with the live server link to your experiment.
+    
+7. **Troubleshooting Changes Not Reflecting:**
+    If changes made to the code do not appear on the updated page after rebuilding:
+    - Clear the browser cache to view recent changes.
+    - Alternatively, test the experiment in the browser's incognito mode.
 
 
 ## Conclusion
