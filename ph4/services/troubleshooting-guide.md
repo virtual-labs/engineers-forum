@@ -69,7 +69,10 @@ Potential reasons include:
 The issue arises due to extra files outside the designated simulation folder. During the experiment build process, some files may inadvertently be added to the repository. Specifically, the problem occurs when the plugin directory and the build directory are checked into the repository. 
 
 - **Solution**:
-Make sure to delete the build directory using the clean command on the VS Code extension before you push the code to the repo using the deploy to testing or submit for review commands. Inspect the repository for unnecessary files and Please remove of them from version control. Add the following in the .gitignore file so in future they are not accidentally checked-in.
+  - If you are using the VS Code extension, make sure to delete the build directory using the clean button from the extension, before pushing your code to the repo using the next buttons.
+  - If you are building through command-line, make sure to delete the build directory and other unnecessary files, before committing the entire code into the GitHub repository.
+  - Inspect the repository for unnecessary files and if found, please remove of them from version control.
+Add the following in the .gitignore file so in future they are not accidentally checked-in.
      
 ```
      node_modules/
