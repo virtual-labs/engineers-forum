@@ -63,15 +63,16 @@ Potential reasons include:
 #### 2) Build process exits with error code 128.
 
 - **Problem**:  
-  Unexpected exit during the build process.
+  Unexpected exit during the build process with exit code 128.
 
 - **Root Cause**:  
-  Extra files outside the designated simulation folder. While building the experiment some of the files may be added in the repository.
+The issue arises due to extra files outside the designated simulation folder. During the experiment build process, some files may inadvertently be added to the repository. Specifically, the problem occurs when the plugin directory and the build directory are checked into the repository. 
 
 - **Solution**:  
-  1. Inspect the repository for unnecessary files.
-  2. Move required files to the simulation folder or remove unneeded files.
-  3. add the following in the .gitignore file.
+  1.Make sure to delete the build directory using the clean command on the VS Code extension before you push the code to the repo using the deploy to testing or submit for review commands.
+  2. Inspect the repository for unnecessary files and Please remove of them from version control
+  3. Add the following in the .gitignore file so in future they are not accidentally checked-in.
+     
 ```
      node_modules/
      package.json
