@@ -76,57 +76,57 @@ The CPE Team has created tools to streamline the experiment development process,
 
 #### Step 4: Initiating the Development Process
 
-*Note: This section is for completeness and falls outside the direct responsibilities of the CPE team.*
+_Note: This section is for completeness and falls outside the direct responsibilities of the CPE team._
 
 1. **Populate the `dev` Branch:**
-Add the experiment's source code to the `dev` branch and perform local unit testing. Avoid including unnecessary files in the repository. For building and testing the experiment code locally through command-line, click [here](#target-text)
+   Add the experiment's source code to the `dev` branch and perform local unit testing. Avoid including unnecessary files in the repository. For building and testing the experiment code locally through command-line, click [here](#target-text)
 2. **Retain Essential Files and Branches:**
-Ensure the `gh-pages` branch, `.github` directory, and `LICENSE` file are kept intact, as they are essential for deployment.
+   Ensure the `gh-pages` branch, `.github` directory, and `LICENSE` file are kept intact, as they are essential for deployment.
 3. **Merge to testing Branch:**
-Once local testing is complete, merge the `dev` branch into the `testing` branch. This triggers automatic deployment to GitHub Pages.
+   Once local testing is complete, merge the `dev` branch into the `testing` branch. This triggers automatic deployment to GitHub Pages.
 4. **Verify Build Logs:**
-Ensure there are no errors in the build logs of your experiment. Refer to the [Steps to Create an Experiment](https://github.com/virtual-labs/ph3-exp-template/blob/main/experiment/README.md) for detailed instructions.
+   Ensure there are no errors in the build logs of your experiment. Refer to the [Steps to Create an Experiment](https://github.com/virtual-labs/ph3-exp-template/blob/main/experiment/README.md) for detailed instructions.
 5. **Deployment Notifications:**
-Developers will receive an email notification about the deployment status (success or failure). Notifications will be sent to the primary email address associated with their GitHub account (as provided in the issue).
+   Developers will receive an email notification about the deployment status (success or failure). Notifications will be sent to the primary email address associated with their GitHub account (as provided in the issue).
 6. **Handle Deployment Failures:**
-If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
+   If deployment fails, refer to the [Troubleshooting tips](https://github.com/virtual-labs/vlabs-systems/blob/main/src/systems-engineer-role/ci-cd-pipeline.md#troubleshooting-experiment-deployment-script) for debugging and resolving issues.
 7. **Submit for Review:**
-Submit the GitHub-hosted pages testing link for internal and external reviews. Incorporate the feedback from these reviews, thoroughly test the updates, and ensure approval for hosting is obtained from external reviewers. Once approved, IITD will provide hosting approval to initiate the [hosting process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/hosting-process.md).
+   Submit the GitHub-hosted pages testing link for internal and external reviews. Incorporate the feedback from these reviews, thoroughly test the updates, and ensure approval for hosting is obtained from external reviewers. Once approved, IITD will provide hosting approval to initiate the [hosting process](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/hosting-process.md).
 8. **Merge to Main Branch:**
-After receiving IITD’s approval to host the labs, merge the fully tested testing branch into the main branch to prepare it for production.
+   After receiving IITD’s approval to host the labs, merge the fully tested testing branch into the main branch to prepare it for production.
 9. **Sample Resources:**
-* Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
-* Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
+
+- Explore a [Sample Experiment Codebase](https://github.com/virtual-labs/ph3-exp-dev-process/tree/main/sample/experiment).
+- Access the corresponding [Deployed Test URL](https://virtual-labs.github.io/exp-bubble-sort-iiith/).
 
 #### Step 5: Additional Features
 
 1. **Experiment UI Side Menu Customization**
-Explains the customizable [side menu](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.md) that aids navigation, highlights the current page, and organizes nested units via experiment-descriptor.json.
+   Explains the customizable [side menu](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-side-menu.md) that aids navigation, highlights the current page, and organizes nested units via experiment-descriptor.json.
 
 2. **Quiz Implementation in Virtual Labs**
-Details the JSON-based [quiz structure](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/quiz.md) with features like difficulty levels, explanations, images, and version 2.0 enhancements for pretests, posttests, and learning units.
+   Details the JSON-based [quiz structure](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/quiz.md) with features like difficulty levels, explanations, images, and version 2.0 enhancements for pretests, posttests, and learning units.
 
 3. **Experiment Build Process Framework**
-Describes the Virtual Labs experiment structure, detailing learning units, tasks, content types, and descriptor-based webpage generation while addressing current limitations. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-build-process.md).
+   Describes the Virtual Labs experiment structure, detailing learning units, tasks, content types, and descriptor-based webpage generation while addressing current limitations. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/exp-build-process.md).
 
 4. **Math Rendering with KaTeX Integration**
-Introduces [KaTeX support](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/latex.md) in Markdown and Assessment (JSON) files, enabling seamless mathematical expression rendering via the "LaTeXinMD": true descriptor flag.
+   Introduces [KaTeX support](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/latex.md) in Markdown and Assessment (JSON) files, enabling seamless mathematical expression rendering via the "LaTeXinMD": true descriptor flag. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/latex.md)
 
 5. **Validation Tools for Experiment Development**
-Provides [validation tools](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/content-validation.md) for error detection and debugging, covering code consistency, descriptor and JSON validation, HTTP link checks, and a user-friendly UI.
+   Provides [validation tools](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/content-validation.md) for error detection and debugging, covering code consistency, descriptor and JSON validation, HTTP link checks, and a user-friendly UI.
 
 6. **CSS and JS Module Integration in Experiments**
-Enables enhanced functionality and personalized rendering by [integrating custom CSS/JS files or CDN links](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/custom-modules.md) through the `experiment-descriptor.json`.
+   Enables enhanced functionality and personalized rendering by [integrating custom CSS/JS files or CDN links](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/custom-modules.md) through the `experiment-descriptor.json`.
 
 7. **Performance Tool for Experiment Developers**
- Helps developers better enhance the pages they are building by giving them comprehensive insights into the various aspects of their pages. It allows developers to improve the overall user experience. It generates [performance reports](https://github.com/virtual-labs/tool-performance) which include various scores and metrics as well as suggestions for improvement.
+   Helps developers better enhance the pages they are building by giving them comprehensive insights into the various aspects of their pages. It allows developers to improve the overall user experience. It generates [performance reports](https://github.com/virtual-labs/tool-performance) which include various scores and metrics as well as suggestions for improvement.
 
 8. **Plugin Architecture for Virtual Labs**
-Separates core functions from features like analytics, feedback, and content rendering, ensuring modularity, independent development, and extensibility. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/plugins.org).
+   Separates core functions from features like analytics, feedback, and content rendering, ensuring modularity, independent development, and extensibility. More details [here](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/plugins.org).
 
 9. **Experiment Model Classes and Enum Validations**
-Details the experiment model’s classes and enums, covering unit and content types, build environments, and validation for modular and extensible system design.
-
+   Details the experiment model’s classes and enums, covering unit and content types, build environments, and validation for modular and extensible system design.
 
 #### Step 6: Tagging the Release
 
@@ -148,77 +148,80 @@ Once the branch has been tested and merged into `main`, the next step before hos
     - Maintain UI consistency and integrate analytics effectively.
 
 #### Don'ts:
+
     - Avoid creating experiments with page sizes exceeding 2MB or slow load times that degrade user experience.
     - Refrain from allowing load times to exceed 1.5 seconds on a fast 3G connection.
     - Do not neglect backend maintenance and updates, as this can lead to inefficiencies or system downtime.
 
 <a name="target-text"></a>
+
 #### Local Testing:
+
 1. **Create a Folder for Testing:**
-    Clone the **dev** branch of your experiment repository using the following command:
-    ```
-        git clone -b dev your-experiment-repository-link
-    ```
+   Clone the **dev** branch of your experiment repository using the following command:
+   ```
+       git clone -b dev your-experiment-repository-link
+   ```
 2. **Make Changes:**
-Modify the required .md files and simulation files in your experiment's code.
+   Modify the required .md files and simulation files in your experiment's code.
 
 3. **Set Up for Further Commands:**
-    Clone the ph3-lab-mgmt repository and navigate to its folder:
+   Clone the ph3-lab-mgmt repository and navigate to its folder:
 
-    ```
-        git clone https://github.com/virtual-labs/ph3-lab-mgmt.git
-        cd ph3-lab-mgmt
-    ```
+   ```
+       git clone https://github.com/virtual-labs/ph3-lab-mgmt.git
+       cd ph3-lab-mgmt
+   ```
+
 4. **Use the Command that Fits Your Requirement:**
-    <u>Build with Validation:</u>
-    ```
-        node main.js build --validateEslint --validateExpdesc --src=../your-experiment-folder
-    ```
-    <u>Clean Build with Validation:</u>
-    ```
-        node main.js build --clean --validateEslint --validateExpdesc --src=../your-experiment-folder
-    ```
-    <u>Build and Deploy Locally:</u>
-    ```
-        node main.js build --validateEslint --validateExpdesc --deploy --src=../your-experiment-folder
-    ```
-    <u>Build without Plugin:</u>
-    ```
-        node main.js build --validateEslint --validateExpdesc --disablePlugin --src=../your-experiment-folder
-    ```
-    <u>Build without Validation:</u>
-    ```
-        node main.js build  --src=../your-experiment-folder
-    ```
-    <u>Validation Only:</u>
-    ```
-        node main.js validate --eslint --expdesc --src=../your-experiment-folder
-    ```
-    <u>Clean Build:</u>
-    ```
-        node main.js clean --src=../your-experiment-folder
-    ```
-    <u>Deploy:</u>
-    ```
-        node main.js deploy --src=../your-experiment-folder
-    ```
+   <u>Build with Validation:</u>
+   ```
+       node main.js build --validateEslint --validateExpdesc --src=../your-experiment-folder
+   ```
+   <u>Clean Build with Validation:</u>
+   ```
+       node main.js build --clean --validateEslint --validateExpdesc --src=../your-experiment-folder
+   ```
+   <u>Build and Deploy Locally:</u>
+   ```
+       node main.js build --validateEslint --validateExpdesc --deploy --src=../your-experiment-folder
+   ```
+   <u>Build without Plugin:</u>
+   ```
+       node main.js build --validateEslint --validateExpdesc --disablePlugin --src=../your-experiment-folder
+   ```
+   <u>Build without Validation:</u>
+   ```
+       node main.js build  --src=../your-experiment-folder
+   ```
+   <u>Validation Only:</u>
+   ```
+       node main.js validate --eslint --expdesc --src=../your-experiment-folder
+   ```
+   <u>Clean Build:</u>
+   ```
+       node main.js clean --src=../your-experiment-folder
+   ```
+   <u>Deploy:</u>
+   ```
+       node main.js deploy --src=../your-experiment-folder
+   ```
 5. **Start the Local HTTP Server:**
-    Run the following command to start a local server:
-    ```
-        npx live-server .
-    ```
+   Run the following command to start a local server:
+   ```
+       npx live-server .
+   ```
 6. **View Your Pages in the Browser:**
-    The default browser will open with the live server link to your experiment.
-    
+   The default browser will open with the live server link to your experiment.
 7. **Troubleshooting Changes Not Reflecting:**
-    If changes made to the code do not appear on the updated page after rebuilding:
-    - Clear the browser cache to view recent changes.
-    - Alternatively, test the experiment in the browser's incognito mode.
-
+   If changes made to the code do not appear on the updated page after rebuilding:
+   - Clear the browser cache to view recent changes.
+   - Alternatively, test the experiment in the browser's incognito mode.
 
 ## Conclusion
 
 This document provides a comprehensive guide to developing Virtual Labs experiments. For additional guidance:
+
 - Refer to the [Best Practices](https://virtual-labs.github.io/app-vlead-web/development/#best-practices).
 - Learn about hosting processes in the [Hosting Process Guide](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/hosting-process.md).
 - Refer to the [Troubleshooting Guide](https://vlead.vlabs.ac.in/development/#troubleshooting-guide) which lists common errors and their resolutions that developers frequently encounter while building their experiments
