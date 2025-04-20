@@ -26,20 +26,20 @@ This guide is intended for Developers, Systems Engineers, DevOps Engineers, and 
 
 This section discusses common issues, solutions, and best practices for managing GitHub Actions used to deploy experiments to GitHub Pages.
 
-### Why are github virtual lab experiment link not working as expected?
+### Why isn't the experiment link working as expected?
 
 Potential reasons include:
 
-- **Json file**: The JSON files of the experiment may contain errors or be invalid. Validate the JSON files using jsonlint.com or a similar tool to ensure correctness.
-- **Renaming/adding of files**: In GitHub, if a file is added or renamed in the repository, the experiment repository on the gh-pages branch may create a new directory within it and move all the files there. This behavior can lead to issues with file paths and experiment link. Ensure proper handling of file additions or renaming to maintain the repository structure.
-- **Github setup**: Navigate to GitHub Settings → Build and Deployment → Ensure that the Branch is set to gh-pages. If the setting is different then the experiment link will not work.
-- **Error Logs**: Check the GitHub Actions logs for detailed error messages. These logs can provide insights into issues during the build or deployment process.
+- **Invalid JSON Files**: Errors in experiment JSON files can disrupt deployment. Use tools like [jsonlint.com](http://jsonlint.com/) to validate and correct them.
+- **File Renaming/Addition**: Adding or renaming files in the repository may trigger GitHub to nest files in a subdirectory on the `gh-pages` branch, breaking links. Ensure consistent naming and structure.
+- **Incorrect GitHub Pages Setup**: Navigate to GitHub Settings → Build and Deployment → Ensure that the Branch is set to gh-pages. If the setting is different then the experiment link will not work.
+- **GitHub Actions Logs**: Check the GitHub Actions logs for detailed error messages. These logs can provide insights into issues during the build or deployment process.
 
 ---
 
 ### How to Check Error Logs in GitHub while pushing the code from dev branch to testing branch?
 
-1. Open your GitHub repository's main page
+1. Open your repository on GitHub.
 2. In the top navigation bar, click on the "Actions" tab.
 3. This will take you to the GitHub Actions page, where you can view workflows, logs, and any running or completed actions.
 4. Identify the workflow associated with the recent deployment or changes.
@@ -92,7 +92,7 @@ Potential reasons include:
      DS_Store
 ```
 
-5. Re-run the build process.
+- Re-run the build process.
 
 - **Post-Fix Verification**:  
   Ensure the build completes without errors.
@@ -178,13 +178,13 @@ Potential reasons include:
   While merging code from dev to testing the build process failed with error exit code 1.
 
 - **Root Cause**:  
-  The repository might be using an outdated deployment script if it was created several years ago. This outdated script may not properly reference or include the required module (exp.js) and is likely incompatible with the current deployment environment or standards, leading to the MODULE_NOT_FOUND error.
+  The repository might be using an outdated deployment script, especially if the repository was created several years ago. This outdated script may not properly reference or include the required module (exp.js) and is likely incompatible with the current deployment environment or standards, leading to the `MODULE_NOT_FOUND error`.
 
 <img src="https://raw.githubusercontent.com/virtual-labs/engineers-forum/refs/heads/master/ph4/services/module-not-found.png" alt="module not found" width="1243" height="572">
 
 - **Solution**:
 
-  1. Please replace the deployment script in the repository with latest deployment script is avaiable [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
+  1. Please replace the deployment script in your experiment repository (placed at the path - `your-experiment-repository/.github/workflows/deployment-script.yml`) with latest deployment script is available [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
   2. Update the deployment script in the repo and try to merge code again.
 
 - **Post-Fix Verification**:  
@@ -193,8 +193,9 @@ Potential reasons include:
 ## Lessons Learned
 
 - Maintain consistency in tags and file structures.
-- Validate JSON files before pushing code.
-- Regularly monitor GitHub Actions logs to identify and resolve issues early.
+- Always validate JSON files before committing.
+- Regularly check GitHub Actions logs to catch issues early.
 - Avoid renaming critical files like `index.html`.
+- Keep deployment scripts up to date with the latest template.
 
-By following these steps, you can streamline the deployment of Virtual Labs experiments and minimize disruptions during the build and deployment process.
+By following these steps, you can streamline the deployment of Virtual Labs experiments and minimize distruptions during the build and deployment process.
