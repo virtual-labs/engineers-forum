@@ -185,7 +185,7 @@ Potential reasons include:
 - **Solution**:
 
   1. Please replace the deployment script in your experiment repository (placed at the path - `your-experiment-repository/.github/workflows/deployment-script.yml`) with latest deployment script is available [here](https://github.com/virtual-labs/ph3-exp-template/blob/main/.github/workflows/deployment-script.yml).
-  2. Update the deployment script in the repo and try to merge code again.
+  2. Push this udpated deployment script to the repo. This will update the deployment script in the repo. Now try to merge code again.
 
 - **Post-Fix Verification**:  
   Ensure the merge completes without errors.
