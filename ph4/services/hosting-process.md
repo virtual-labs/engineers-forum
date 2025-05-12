@@ -48,10 +48,11 @@ Before submitting a hosting request:
 1. The developer must ensure that the experiment has been approved.
 2. Merge the **testing** branch with the **main** branch.
 3. Create a **tag** on the main branch, indicating readiness for public availability.
+4. Ensure all changes are pushed to the repository before creating or updating the relevant tags, and use these tags for deployment to include the latest changes
 
 ### Process
 
-Once all experiments listed in the proposal are complete, the developer should raise a Lab/Experiment Hosting Request issue on the Engineers’ Forum repository. This can be done by filling out [this form](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&projects=&template=lab-experiments-hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) with the following details:
+Once all experiments listed in the proposal are complete, the developer should raise a Lab/Experiment Hosting Request issue on the [engineers-forum](https://github.com/virtual-labs/engineers-forum/issues) repository. This can be done by filling out [this form](https://github.com/virtual-labs/engineers-forum/issues/new?assignees=&labels=Phase-3&projects=&template=lab-experiments-hosting-request.md&title=Lab%2FExperiment+Hosting+Request+for++) with the following details:
 1. **Experiment Name**
 2. **Experiment Repository URL**
 3. **Tag** to be hosted (following [tagging guidelines](https://github.com/virtual-labs/engineers-forum/blob/master/ph4/services/development-process.md#step-5-tagging-the-release) )
@@ -65,7 +66,7 @@ Upon receiving the request, the CPE team will:
 
 The requester is then responsible for verifying the deployment and confirming that it functions as expected.
 
-### Lifecycle of a Hosting Request
+### Lifecycle of a Hosting/Rehosting Request
 
 **Step 1: Request Initiation**  
 The requester initiates a hosting or rehosting request by raising an issue. For rehosting, the institution requesting rehosting should visit [this link](https://github.com/virtual-labs/engineers-forum/issues), locate the hosting issue corresponding to the lab they wish to rehost, and comment with details of the experiment(s) requiring rehosting.
