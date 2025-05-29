@@ -107,8 +107,8 @@ Potential reasons include:
 - **Root Cause**:
 
   - Misconfiguration of the deploy branch or build errors.
-  - A common build error involves an invalid JSON file. While GitHub Actions might show the process as completed, JSON compatibility errors won't halt the build. As a result, the repository may create a subfolder and push all files into it, leading to a broken experiment link.
-
+  - A common build error involves an invalid JSON file or an invalid or unrecognized Unicode character. While GitHub Actions might show the process as completed, these compatibility errors won’t halt the build. As a result, the repository may create a subfolder and push all files into it, leading to a broken experiment link.
+    
 - **Solution**:
 
   1. Verify the deploy branch is set to `gh-pages`.
