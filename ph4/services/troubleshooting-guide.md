@@ -118,7 +118,7 @@ Potential reasons include:
   5. Navigate to the "**Actions**" tab on GitHub.
   6. Locate the the latest workflow, titled **Merge pull request #(some number) from virtual-labs/dev** and click it to open.
   7. It will redirect to the **Summary** of the workflow. Click on **build** under **Jobs**. This will open steps of the build.
-  8. Expand the Step titled **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt** and inspect the build logs. You will see the following error ```error: uncaughtException: /home/runner/work/exp-repo-name/exp-repo-name/build/exp-repo-name/filename.json: Unexpected token 	 in JSON at position 203 .```
+  8. Expand the Step titled **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt** and inspect the build logs. You will see the following error ```error: uncaughtException: /home/runner/work/exp-repo-name/exp-repo-name/build/exp-repo-name/filename.json: Unexpected token 	 in JSON at position 203 ```
   9. Open the error json file which as mentioned log.
   10. Make changes to the above file in the dev branch and merge it to the testing branch.
   11. Check if your build was successful in https://virtual-labs.github.io/**_your-repo-name_**/
