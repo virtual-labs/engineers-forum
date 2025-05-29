@@ -101,8 +101,8 @@ Potential reasons include:
 
 #### 3) "404" error when accessing a Virtual Labs experiment.
  
-- **Problem 1**:  
-  The experiment URL returns a "404" error after a code push.
+- **Reason 1**:  
+    The experiment build fails because of invalid json file.
 
 - **Root Cause**:
 
@@ -122,25 +122,28 @@ Potential reasons include:
   - Access the experiment URL to confirm the issue is resolved.
   - Commit and push the corrected file to the repository.
 
-- **Problem 2**:
+- **Reason 2**:
   
-  - The experiment build fails with the following error during LaTeX generation:
+  - The experiment build fails because of unrecognized Unicode character
 
 - **Root Cause**:
   
-  - The error occurs when one of the files in the experiment contains an invalid or unrecognized Unicode character (typically represented as "�").
-  - Since LaTeX strict mode is enabled, such characters are flagged as incompatible, leading to a build failure.
+  - Common build error involves an invalid or unrecognized Unicode character. While GitHub Actions might show the process as completed, these compatibility errors won’t halt the build. As a result, the repository may create a subfolder and push all files into it, leading to a broken experiment link.
 
 - **Solution**:
-  
   1. Open the experiment repository where the error occurred.
   2. Navigate to the "Actions" tab on GitHub.
-  3. Locate the failed workflow, usually titled Merge pull request from virtual-labs/dev.
-  4. Click on the failed run and expand the steps.
-  5. In Step 4: Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt, inspect the build logs.
-  6. Identify the specific file where the unrecognized character error is reported.
-  7. Open that file and Remove or replace the invalid character(s).
-  8. Ensure the file is saved using UTF-8 encoding.
+  3. Locate the the latest workflow, usually titled **Merge pull request #8 from virtual-labs/dev** click to open.
+  4. It will redirect to the **Summary** of the workslow. Click on **build** under Jobs. This will open steps of the build. 
+  5. In Step 4: **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt, inspect the build logs**.
+  6.  To identify the file containing an unrecognized Unicode character: Open your browser and go to:
+       https://virtual-labs.github.io/<your-repo-name>/<your-repo-name>/
+   7. Use the side menu to navigate through each page.
+   8. Look for any page that appears blank—this indicates that the build likely failed just before rendering that page.
+   9. Identify the corresponding .md file for the blank page  or the page before that and inspect it for any unrecognized Unicode characters that may be causing the issue.
+   10. Identify the specific file where the unrecognized character error is reported.
+   11. Make changes to the above file in the dev branch and merge it to the testing branch.
+   12. Check if your build was successful in https://virtual-labs.github.io/<your-repo-name>/
 
 - **Post-Fix Verification**:
   
