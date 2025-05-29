@@ -111,11 +111,19 @@ Potential reasons include:
     
 - **Solution**:
 
-  1. Verify the deploy branch is set to `gh-pages`.
-  2. Check the `gh-pages` branch for the experiment folder.
-  3. Resolve any build errors in GitHub Actions. For json file validity :
-     - Validate JSON files using [jsonlint.com](http://jsonlint.com/).
-     - Fix JSON syntax errors using guidance from [this documentation](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/docs/quiz.md).
+  1. Verify the deploy branch is set to **gh-pages**.
+  2. To set deploy branch to **gh-pages** open the setting of experiment repository. Navigate to **Pages** under **code and automation**. Click to open.
+  3. Locate the **Branch** under the **Build and deployment** head.If the deploy branch is incorrectly configured, update it to **gh-pages** and save the settings.
+  4. Open the experiment repository where the error occurred.
+  5. Navigate to the "**Actions**" tab on GitHub.
+  6. Locate the the latest workflow, titled **Merge pull request #(some number) from virtual-labs/dev** and click it to open.
+  7. It will redirect to the **Summary** of the workflow. Click on **build** under **Jobs**. This will open steps of the build.
+  8. Expand the Step titled **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt** and inspect the build logs. You will see the following error ```error: uncaughtException: /home/runner/work/_**exp-repo-name**_/_**exp-repo-name**_/build/_**exp-repo-name**_/_**filename**_.json: Unexpected token 	 in JSON at position 203
+SyntaxError: /home/runner/work/_**exp-repo-name**_/_**exp-repo-name**_/build/_**exp-repo-name**_/_**filename**_.json: Unexpected token 	 in JSON at position 203
+```
+  9. Open the error json file which as mentioned above.
+  10. Make changes to the above file in the dev branch and merge it to the testing branch.
+  11. Check if your build was successful in https://virtual-labs.github.io/**_your-repo-name_**/
 
 - **Post-Fix Verification**:
   
@@ -135,7 +143,7 @@ Potential reasons include:
   2. Navigate to the "**Actions**" tab on GitHub.
   3. Locate the the latest workflow, titled **Merge pull request #(some number) from virtual-labs/dev** and click it to open.
   4. It will redirect to the **Summary** of the workflow. Click on **build** under **Jobs**. This will open steps of the build. 
-  5. expand the Step titled **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt** and inspect the build logs. You will see the following error ```error: uncaughtException: Font metrics not found for font: .
+  5. Expand the Step titled **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt** and inspect the build logs. You will see the following error ```error: uncaughtException: Font metrics not found for font: .
 Error: Font metrics not found for font: .```
   6.  To identify the file containing an unrecognized Unicode character: Open your browser and go to:
        https://virtual-labs.github.io/**_your-repo-name_/_your-repo-name_**/
@@ -144,7 +152,7 @@ Error: Font metrics not found for font: .```
    9. Identify the corresponding .md file for the blank page  or the page before that and inspect it for any unrecognized Unicode characters that may be causing the issue.
    10. Identify the specific file where the unrecognized character error is reported.
    11. Make changes to the above file in the dev branch and merge it to the testing branch.
-   12. Check if your build was successful in https://virtual-labs.github.io/<your-repo-name>/
+   12. Check if your build was successful in https://virtual-labs.github.io/**_your-repo-name_**/
 
 - **Post-Fix Verification**:
   
