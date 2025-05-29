@@ -107,7 +107,7 @@ Potential reasons include:
 - **Root Cause**:
 
   - Misconfiguration of the deploy branch or build errors.
-  - A common build error involves an invalid JSON file or an invalid or unrecognized Unicode character. While GitHub Actions might show the process as completed, these compatibility errors won’t halt the build. As a result, the repository may create a subfolder and push all files into it, leading to a broken experiment link.
+  - A common build error involves an invalid JSON file or an invalid. While GitHub Actions might show the process as completed, these compatibility errors won’t halt the build. As a result, the repository may create a subfolder and push all files into it, leading to a broken experiment link.
     
 - **Solution**:
 
@@ -132,12 +132,13 @@ Potential reasons include:
 
 - **Solution**:
   1. Open the experiment repository where the error occurred.
-  2. Navigate to the "Actions" tab on GitHub.
-  3. Locate the the latest workflow, usually titled **Merge pull request #8 from virtual-labs/dev** click to open.
-  4. It will redirect to the **Summary** of the workslow. Click on **build** under Jobs. This will open steps of the build. 
-  5. In Step 4: **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt, inspect the build logs**.
+  2. Navigate to the "**Actions**" tab on GitHub.
+  3. Locate the the latest workflow, titled **Merge pull request #(some number) from virtual-labs/dev** and click it to open.
+  4. It will redirect to the **Summary** of the workflow. Click on **build** under **Jobs**. This will open steps of the build. 
+  5. expand the Step titled **Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt** and inspect the build logs. You will see the following error ```error: uncaughtException: Font metrics not found for font: .
+Error: Font metrics not found for font: .```
   6.  To identify the file containing an unrecognized Unicode character: Open your browser and go to:
-       https://virtual-labs.github.io/<your-repo-name>/<your-repo-name>/
+       https://virtual-labs.github.io/**_your-repo-name_/_your-repo-name_**/
    7. Use the side menu to navigate through each page.
    8. Look for any page that appears blank—this indicates that the build likely failed just before rendering that page.
    9. Identify the corresponding .md file for the blank page  or the page before that and inspect it for any unrecognized Unicode characters that may be causing the issue.
