@@ -100,8 +100,8 @@ Potential reasons include:
 ---
 
 #### 3) "404" error when accessing a Virtual Labs experiment.
-
-- **Problem**:  
+ 
+- **Problem 1**:  
   The experiment URL returns a "404" error after a code push.
 
 - **Root Cause**:
@@ -119,7 +119,27 @@ Potential reasons include:
 
 - **Post-Fix Verification**:  
   Access the experiment URL to confirm the issue is resolved.
+  Commit and push the corrected file to the repository.
+---
+- **Problem 2**
+The experiment build fails with the following error during LaTeX generation:
 
+- **Root Cause**:
+The error occurs when one of the files in the experiment contains an invalid or unrecognized Unicode character (typically represented as "�").
+Since LaTeX strict mode is enabled, such characters are flagged as incompatible, leading to a build failure.
+
+- **Solution**:
+1. Open the experiment repository where the error occurred.
+2. Navigate to the "Actions" tab on GitHub.
+3. Locate the failed workflow, usually titled Merge pull request from virtual-labs/dev.
+4. Click on the failed run and expand the steps.
+5. In Step 4: Run git clone --depth=1 https://github.com/virtual-labs/ph3-lab-mgmt, inspect the build logs.
+6. Identify the specific file where the unrecognized character error is reported.
+7. Open that file and Remove or replace the invalid character(s).
+8. Ensure the file is saved using UTF-8 encoding.
+- **Post-Fix Verification**:  
+  Access the experiment URL to confirm the issue is resolved.
+  Commit and push the corrected file to the repository.
 ---
 
 #### 4) Pipeline worked in the last iteration but fails in the current one.
