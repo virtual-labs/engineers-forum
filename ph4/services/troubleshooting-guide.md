@@ -226,6 +226,22 @@ Error: Font metrics not found for font: .```
 - **Post-Fix Verification**:  
   Ensure the merge completes without errors.
 
+---
+
+#### 8) LaTeX formulas not rendering correctly on GitHub Pages**
+
+- **Problem:**
+During the preview of `.md` files, both `$...$` (inline math) and `$$...$$` (block math) formulas were displayed correctly. However, after deploying the `dev` branch to the `testing` branch on GitHub, only the `$$...$$` formulas rendered properly, while the `$...$` formulas failed to display as expected . 
+- **Root Cause:**
+The `experiment-descriptor.json` file was missing from the experiment repository. This file is required for enabling LaTeX rendering in `.md` files during build process.
+
+- **Solution:**
+
+1. Add the `experiment-descriptor.json` [file](https://github.com/virtual-labs/ph3-lab-mgmt/blob/master/default-experiment-descriptor.json) to the experiment repository.
+2. In this file, ensure the `LaTeXInMD` flag is set to **true**.
+3. Commit and push the changes to dev branch, then merge it to testing branch to redeploy the experiment.
+4. Test the site on GitHub Pages to confirm inline and block LaTeX formulas render correctly.
+
 ## Lessons Learned
 
 - Maintain consistency in tags and file structures.
@@ -233,5 +249,6 @@ Error: Font metrics not found for font: .```
 - Regularly check GitHub Actions logs to catch issues early.
 - Avoid renaming critical files like `index.html`.
 - Keep deployment scripts up to date with the latest template.
+- Ensure the `LaTeXInMD` flag is set to **true** in experiment-descriptor.json for the LaTeX formulas to render correctly on GitHub Pages
 
 By following these steps, you can streamline the deployment of Virtual Labs experiments and minimize distruptions during the build and deployment process.
