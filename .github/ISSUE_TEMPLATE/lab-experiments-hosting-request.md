@@ -13,7 +13,9 @@ Use this issue to get your lab and experiment repositories hosted on Virtual Lab
 Please provide item 1 for all the experiments of the lab
 
 1. **Hosting Unit**: <!-- repositories must be public -->
-| No.| Experiment Name | Experiment repository URL | Branch/Tag |
+
+| No. | Experiment Name                                   | Experiment Repository URL                                               | Branch/Tag |
+| --- | ------------------------------------------------- | ------------------------------------------------------------------------ | ---------- |
 2. **GitHub Handle**:<!--GitHub handle of the developer -->
 3. **Virtual Lab Phase**:<!--Please type 2 if the lab was developed during Virtual Labs Phase 2 OR type 3/Ext 3 if the lab was developed during Virtual Labs Phase 3 / Extended Phase 3 -->
 4. **Existing Hosted URL**:<!--Please provide the hosted URL link if it is an existing hosted Phase 2 Lab -->
@@ -23,4 +25,5 @@ Please provide item 1 for all the experiments of the lab
 8. **Course Alignment**:<!--Please mention the course alignment for the lab -->
 9. **Target Audience**:<!--Please state the target audience of the lab -->
 10. **Discipline**:<!--Please state the domain/discipline of the lab -->
+11. **Name of the Lab**:<!--Please state the display name of the lab -->
     <!--[Sample Issue Link](https://github.com/virtual-labs/engineers-forum/issues/1008)-->
