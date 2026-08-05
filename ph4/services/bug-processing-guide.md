@@ -30,7 +30,7 @@ Follow the steps below to obtain access, monitor reported bugs, and manage their
 
 - Repository access requests for each institute are available [here](https://github.com/virtual-labs/engineers-forum/issues?q=is%3Aissue+is%3Aopen+%22Bug+Repository+Access+Request+for%22). If you do not already have access, comment with your GitHub details on your institute's corresponding access request issue. For example, see the [Bug Repository Access Request for IITH](https://github.com/virtual-labs/engineers-forum/issues/984).
 
-- The **Institute Developer Lead** is responsible for managing developer access to the bug repository. Whenever a new developer joins the institute's Virtual Labs team, the Institute Developer Lead should request repository access for them. Similarly, if a developer leaves the team, the Institute Developer Lead should submit a request to remove their access from the bug repository.
+- The **Institute Developer Lead** is responsible for managing developer access to the bug repository. Whenever a new developer joins the institute’s Virtual Labs team, the Institute Developer Lead should request repository access by commenting on the corresponding institute’s access request issue. This ensures that the complete history of access requests and approvals is maintained in a single place. Similarly, when a developer leaves the team, the Institute Developer Lead should submit a request by commenting on the same issue to have the developer’s access removed from the bug repository.
 
 - Once your request is approved, you will receive **triage** permissions for the `bugs-virtual-labs` repository. These permissions allow you to assign issues, apply labels, and comment on them.
 
