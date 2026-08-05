@@ -14,21 +14,27 @@ This document is intended for all lab developers and owners working to fix exper
 
 ## Virtual Labs Bug Management Workflow
 
-When a Virtual Lab user reports a bug through the bug reporting tool, it is automatically logged as an issue in the [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues). Each bug is assigned an Institute Label corresponding to the lab’s developing institute.
+When a Virtual Lab user reports a bug through the bug reporting tool, it is automatically logged as an issue in the [GitHub Bug Tracker](https://github.com/virtual-labs/bugs-virtual-labs/issues). Each bug is assigned an **Institute Label** corresponding to the institute responsible for developing the lab.
 
-Please note that once a bug is filed and logged, it is treated as a GitHub issue. Assigning the issue to a developer's GitHub ID is recommended, as the `bugs-virtual-labs` repository is public. Familiarity with [GitHub issue management](https://docs.github.com/en/issues) is essential. For guidance, refer to the following GitHub documentation:
+Since all reported bugs are managed as GitHub issues, developers require **triage access** to the `bugs-virtual-labs` repository before they can assign issues, apply labels, or add comments. If you are setting up bug management for the first time, begin by requesting repository access as described in **Step 1** below.
+
+Once you have the required permissions, you can monitor, analyze, assign, and resolve bugs for your institute using GitHub's issue management features. If you are unfamiliar with GitHub Issues, the following documentation will help you understand the basic workflows before proceeding:
 
 - [Assigning Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users)
 - [Managing Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 - [Commenting on Issues](https://docs.github.com/en/actions/use-cases-and-examples/project-management/commenting-on-an-issue-when-a-label-is-added)
 
-Developers should follow these steps to view, analyze, and resolve the bugs for their respective institutes, ensuring the availability of high-quality labs.
+Follow the steps below to obtain access, monitor reported bugs, and manage their resolution for your institute, ensuring the availability of high-quality Virtual Labs.
 
-### Step 1. Monitor Logged Bugs
+### Step 1. Obtain Access and Monitor Logged Bugs
 
-- Access requests for bug repositories for each institute can be found [here](https://github.com/virtual-labs/engineers-forum/issues?q=is%3Aissue+is%3Aopen+%22Bug+Repository+Access+Request+for%22). If you need access, request the triage access by commenting your GitHub Details on the corresponding institute's access request issue. For instance, refer to the [bug repository access request for IITH](https://github.com/virtual-labs/engineers-forum/issues/984)
-- Once your request is approved, you will receive triage permissions, enabling you to label, assign, and comment on issues.
-- Filter bugs by your institute to view relevant issues.
+- Repository access requests for each institute are available [here](https://github.com/virtual-labs/engineers-forum/issues?q=is%3Aissue+is%3Aopen+%22Bug+Repository+Access+Request+for%22). If you do not already have access, comment with your GitHub details on your institute's corresponding access request issue. For example, see the [Bug Repository Access Request for IITH](https://github.com/virtual-labs/engineers-forum/issues/984).
+
+- The **Institute Developer Lead** is responsible for managing developer access to the bug repository. Whenever a new developer joins the institute's Virtual Labs team, the Institute Developer Lead should request repository access for them. Similarly, if a developer leaves the team, the Institute Developer Lead should submit a request to remove their access from the bug repository.
+
+- Once your request is approved, you will receive **triage** permissions for the `bugs-virtual-labs` repository. These permissions allow you to assign issues, apply labels, and comment on them.
+
+- After obtaining access, filter issues using your institute's label to view and monitor bugs reported for the Virtual Labs developed by your institute.
 
 #### Bug Analytics Dashboard
 
